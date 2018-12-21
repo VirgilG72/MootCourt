@@ -47,8 +47,8 @@ dependencies {
 }
 
 MobSDK {
-    //appKey "2968bac5959b8"
-    //appSecret "cd00f3416991565e2c97900d198153a5"
+    appKey "2968bac5959b8"
+    appSecret "cd00f3416991565e2c97900d198153a5"
 
     ShareSDK {
         //平台配置信息
@@ -81,7 +81,7 @@ MobSDK {
         }
     }
     SMSSDK {
-        gui true
+//        gui true
     }
 
 }

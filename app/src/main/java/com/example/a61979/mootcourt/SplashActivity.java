@@ -58,6 +58,7 @@ public class SplashActivity extends AppCompatActivity {
                     String country = (String) phoneMap.get("country"); // 国家代码，如“86”
                     String phone = (String) phoneMap.get("phone"); // 手机号码，如“13800138000”
                     // TODO 利用国家代码和手机号码进行后续的操作
+                    gohome();
                 } else{
                     // TODO 处理错误的结果
                 }

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+             >
+
+    <com.example.a61979.mootcourt.view.NoScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_tab_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/rb_home_drawable_selector"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@drawable/bottom_textcolor_drawable_selector"
+            android:textSize="14sp"/>
+
+        <RadioButton
+            android:id="@+id/rb_discover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:button="@null"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/rb_discover_drawable_selector"
+            android:gravity="center"
+            android:text="发现"
+            android:textColor="@drawable/bottom_textcolor_drawable_selector"
+            android:textSize="14sp"/>
+        <RadioButton
+            android:id="@+id/rb_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:button="@null"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/rb_signup_drawable_selector"
+            android:gravity="center"
+            android:text="报名"
+            android:textColor="@drawable/bottom_textcolor_drawable_selector"
+            android:textSize="14sp"/>
+        <RadioButton
+            android:id="@+id/rb_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:button="@null"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/rb_view_drawable_selector"
+            android:gravity="center"
+            android:text="视界"
+            android:textColor="@drawable/bottom_textcolor_drawable_selector"
+            android:textSize="14sp"/>
+        <RadioButton
+            android:id="@+id/rb_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:button="@null"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/rb_user_drawable_selector"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@drawable/bottom_textcolor_drawable_selector"
+            android:textSize="14sp"/>
+
+
+    </RadioGroup>
+</LinearLayout>

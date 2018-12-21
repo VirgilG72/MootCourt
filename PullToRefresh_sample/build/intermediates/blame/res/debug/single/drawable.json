@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\project\\MootCourt\\PullToRefresh_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\project\\MootCourt\\PullToRefresh_sample_library\\build\\intermediates\\bundles\\default\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\PullToRefresh_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "D:\\project\\MootCourt\\PullToRefresh_sample\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\PullToRefresh_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\project\\MootCourt\\PullToRefresh_sample_library\\build\\intermediates\\bundles\\default\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]

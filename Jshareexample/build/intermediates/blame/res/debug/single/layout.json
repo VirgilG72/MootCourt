@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\project\\MootCourt\\Jshareexample\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sharetype.xml",
+        "source": "D:\\project\\MootCourt\\Jshareexample\\res\\layout\\activity_sharetype.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select.xml",
+        "source": "D:\\project\\MootCourt\\Jshareexample\\res\\layout\\activity_select.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\res\\merged\\debug\\layout\\socialize_share_menu_item.xml",
+        "source": "D:\\project\\MootCourt\\Jshareexample\\res\\layout\\socialize_share_menu_item.xml"
+    }
+]

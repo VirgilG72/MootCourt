@@ -1,0 +1,7 @@
+#Wed Dec 19 20:34:11 CST 2018
+base.0=D\:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e658aa52b7bc1b623fae0268a1b501e5da1df5d2
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6ae6724b7f80f86064bac3de50c76a25efe14613\\classes.dex
+base.1=D\:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6ae6724b7f80f86064bac3de50c76a25efe14613
+file.0=D\:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e658aa52b7bc1b623fae0268a1b501e5da1df5d2\\classes.dex

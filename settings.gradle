@@ -1,0 +1,8 @@
+include ':app', ':SlidingMenu_library', ':xutils', ':xUtils3_sample', ':RefreshListView', ':RefreshListView_sample', ':JPushExample', ':Jshareexample'
+include ':ViewPagerIndicator_library'
+include ':ViewPagerIndicator_sample'
+include ':ViewPagerIndicator_sample'
+include ':PullToRefresh_sample_library'
+include ':pullToRefreshListFragment'
+include ':pullToRefreshViewPager'
+include ':PullToRefresh_sample'

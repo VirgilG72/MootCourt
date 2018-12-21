@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_textcolor_indicator.xml",
+        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\default\\res\\drawable\\vpi__tab_textcolor_indicator.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_camera.xml",
+        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\src\\main\\res\\drawable\\perm_group_camera.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_location.xml",
+        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\src\\main\\res\\drawable\\perm_group_location.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_tab_indicator.xml",
+        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\src\\main\\res\\drawable\\custom_tab_indicator.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\default\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\news_tab_item_bg_select.9.png",
+        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\default\\res\\drawable\\news_tab_item_bg_select.9.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_device_alarms.xml",
+        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\src\\main\\res\\drawable\\perm_group_device_alarms.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable\\perm_group_calendar.xml",
+        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\src\\main\\res\\drawable\\perm_group_calendar.xml"
+    }
+]

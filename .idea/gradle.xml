@@ -18,6 +18,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/pullToRefreshListFragment" />
             <option value="$PROJECT_DIR$/pullToRefreshViewPager" />
+            <option value="$PROJECT_DIR$/sMSSDK" />
+            <option value="$PROJECT_DIR$/shortMessageSDKGUI" />
             <option value="$PROJECT_DIR$/xUtils3_sample" />
             <option value="$PROJECT_DIR$/xutils" />
           </set>

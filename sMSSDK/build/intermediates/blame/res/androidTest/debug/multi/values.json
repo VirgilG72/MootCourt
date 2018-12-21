@@ -1,0 +1,3177 @@
+[
+    {
+        "outputFile": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 22,
+                    "endColumn": 19,
+                    "endOffset": 1197
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 22,
+                        "endColumn": 19,
+                        "endOffset": 1197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1202,
+                    "endLine": 49,
+                    "endColumn": 19,
+                    "endOffset": 2606
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1202,
+                        "endLine": 49,
+                        "endColumn": 19,
+                        "endOffset": 2606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2611,
+                    "endLine": 53,
+                    "endColumn": 19,
+                    "endOffset": 2747
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2611,
+                        "endLine": 53,
+                        "endColumn": 19,
+                        "endOffset": 2747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2752,
+                    "endLine": 61,
+                    "endColumn": 19,
+                    "endOffset": 3224
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2752,
+                        "endLine": 61,
+                        "endColumn": 19,
+                        "endOffset": 3224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3229,
+                    "endLine": 65,
+                    "endColumn": 19,
+                    "endOffset": 3422
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3229,
+                        "endLine": 65,
+                        "endColumn": 19,
+                        "endOffset": 3422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 3427,
+                    "endLine": 73,
+                    "endColumn": 19,
+                    "endOffset": 3910
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3427,
+                        "endLine": 73,
+                        "endColumn": 19,
+                        "endOffset": 3910
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 3915,
+                    "endLine": 88,
+                    "endColumn": 19,
+                    "endOffset": 4598
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 3915,
+                        "endLine": 88,
+                        "endColumn": 19,
+                        "endOffset": 4598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 4603,
+                    "endLine": 97,
+                    "endColumn": 19,
+                    "endOffset": 5148
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 4603,
+                        "endLine": 97,
+                        "endColumn": 19,
+                        "endOffset": 5148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 5153,
+                    "endLine": 100,
+                    "endColumn": 16,
+                    "endOffset": 5220
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 5153,
+                        "endLine": 100,
+                        "endColumn": 16,
+                        "endOffset": 5220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 5225,
+                    "endLine": 113,
+                    "endColumn": 19,
+                    "endOffset": 5994
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 5225,
+                        "endLine": 113,
+                        "endColumn": 19,
+                        "endOffset": 5994
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 5999,
+                    "endLine": 124,
+                    "endColumn": 19,
+                    "endOffset": 6447
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 5999,
+                        "endLine": 124,
+                        "endColumn": 19,
+                        "endOffset": 6447
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 6452,
+                    "endLine": 138,
+                    "endColumn": 19,
+                    "endOffset": 7104
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 6452,
+                        "endLine": 138,
+                        "endColumn": 19,
+                        "endOffset": 7104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 7109,
+                    "endLine": 162,
+                    "endColumn": 19,
+                    "endOffset": 8787
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 7109,
+                        "endLine": 162,
+                        "endColumn": 19,
+                        "endOffset": 8787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 8792,
+                    "endLine": 172,
+                    "endColumn": 19,
+                    "endOffset": 9289
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 8792,
+                        "endLine": 172,
+                        "endColumn": 19,
+                        "endOffset": 9289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 9294,
+                    "endLine": 175,
+                    "endColumn": 16,
+                    "endOffset": 9361
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 173,
+                        "startColumn": 4,
+                        "startOffset": 9294,
+                        "endLine": 175,
+                        "endColumn": 16,
+                        "endOffset": 9361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 9366,
+                    "endLine": 179,
+                    "endColumn": 19,
+                    "endOffset": 9519
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 176,
+                        "startColumn": 4,
+                        "startOffset": 9366,
+                        "endLine": 179,
+                        "endColumn": 19,
+                        "endOffset": 9519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 9524,
+                    "endLine": 181,
+                    "endColumn": 16,
+                    "endOffset": 9585
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 180,
+                        "startColumn": 4,
+                        "startOffset": 9524,
+                        "endLine": 181,
+                        "endColumn": 16,
+                        "endOffset": 9585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 9590,
+                    "endLine": 186,
+                    "endColumn": 19,
+                    "endOffset": 10656
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 182,
+                        "startColumn": 4,
+                        "startOffset": 9590,
+                        "endLine": 186,
+                        "endColumn": 19,
+                        "endOffset": 10656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 10661,
+                    "endLine": 210,
+                    "endColumn": 19,
+                    "endOffset": 11745
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 10661,
+                        "endLine": 210,
+                        "endColumn": 19,
+                        "endOffset": 11745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 11750,
+                    "endLine": 222,
+                    "endColumn": 19,
+                    "endOffset": 12426
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 211,
+                        "startColumn": 4,
+                        "startOffset": 11750,
+                        "endLine": 222,
+                        "endColumn": 19,
+                        "endOffset": 12426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 223,
+                    "startColumn": 4,
+                    "startOffset": 12431,
+                    "endLine": 225,
+                    "endColumn": 16,
+                    "endOffset": 12498
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 223,
+                        "startColumn": 4,
+                        "startOffset": 12431,
+                        "endLine": 225,
+                        "endColumn": 16,
+                        "endOffset": 12498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 12503,
+                    "endLine": 228,
+                    "endColumn": 16,
+                    "endOffset": 12570
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 226,
+                        "startColumn": 4,
+                        "startOffset": 12503,
+                        "endLine": 228,
+                        "endColumn": 16,
+                        "endOffset": 12570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 12575,
+                    "endLine": 240,
+                    "endColumn": 19,
+                    "endOffset": 13174
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 229,
+                        "startColumn": 4,
+                        "startOffset": 12575,
+                        "endLine": 240,
+                        "endColumn": 19,
+                        "endOffset": 13174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 13179,
+                    "endLine": 250,
+                    "endColumn": 19,
+                    "endOffset": 13827
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 13179,
+                        "endLine": 250,
+                        "endColumn": 19,
+                        "endOffset": 13827
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 13832,
+                    "endLine": 264,
+                    "endColumn": 19,
+                    "endOffset": 16585
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 13832,
+                        "endLine": 264,
+                        "endColumn": 19,
+                        "endOffset": 16585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 16590,
+                    "endLine": 273,
+                    "endColumn": 19,
+                    "endOffset": 17008
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 16590,
+                        "endLine": 273,
+                        "endColumn": 19,
+                        "endOffset": 17008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 17013,
+                    "endColumn": 54,
+                    "endOffset": 17063
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 274,
+                        "startColumn": 4,
+                        "startOffset": 17013,
+                        "endColumn": 54,
+                        "endOffset": 17063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 17068,
+                    "endColumn": 54,
+                    "endOffset": 17118
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 17068,
+                        "endColumn": 54,
+                        "endOffset": 17118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 17123,
+                    "endColumn": 57,
+                    "endOffset": 17176
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 17123,
+                        "endColumn": 57,
+                        "endOffset": 17176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 17181,
+                    "endColumn": 58,
+                    "endOffset": 17235
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 17181,
+                        "endColumn": 58,
+                        "endOffset": 17235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 17240,
+                    "endColumn": 57,
+                    "endOffset": 17293
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 17240,
+                        "endColumn": 57,
+                        "endOffset": 17293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 17298,
+                    "endColumn": 57,
+                    "endOffset": 17351
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 17298,
+                        "endColumn": 57,
+                        "endOffset": 17351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 17356,
+                    "endColumn": 58,
+                    "endOffset": 17410
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 280,
+                        "startColumn": 4,
+                        "startOffset": 17356,
+                        "endColumn": 58,
+                        "endOffset": 17410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 17415,
+                    "endColumn": 58,
+                    "endOffset": 17469
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 17415,
+                        "endColumn": 58,
+                        "endOffset": 17469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 17474,
+                    "endColumn": 54,
+                    "endOffset": 17524
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 4,
+                        "startOffset": 17474,
+                        "endColumn": 54,
+                        "endOffset": 17524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 17529,
+                    "endColumn": 55,
+                    "endOffset": 17580
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 17529,
+                        "endColumn": 55,
+                        "endOffset": 17580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 17585,
+                    "endColumn": 58,
+                    "endOffset": 17639
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 17585,
+                        "endColumn": 58,
+                        "endOffset": 17639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 17644,
+                    "endColumn": 65,
+                    "endOffset": 17705
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 4,
+                        "startOffset": 17644,
+                        "endColumn": 65,
+                        "endOffset": 17705
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 17710,
+                    "endColumn": 57,
+                    "endOffset": 17763
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 17710,
+                        "endColumn": 57,
+                        "endOffset": 17763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 17768,
+                    "endColumn": 54,
+                    "endOffset": 17818
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 17768,
+                        "endColumn": 54,
+                        "endOffset": 17818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 17823,
+                    "endColumn": 62,
+                    "endOffset": 17881
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 17823,
+                        "endColumn": 62,
+                        "endOffset": 17881
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 17886,
+                    "endColumn": 64,
+                    "endOffset": 17946
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 17886,
+                        "endColumn": 64,
+                        "endOffset": 17946
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 17951,
+                    "endColumn": 54,
+                    "endOffset": 18001
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 290,
+                        "startColumn": 4,
+                        "startOffset": 17951,
+                        "endColumn": 54,
+                        "endOffset": 18001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 18006,
+                    "endColumn": 56,
+                    "endOffset": 18058
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 18006,
+                        "endColumn": 56,
+                        "endOffset": 18058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 18063,
+                    "endColumn": 54,
+                    "endOffset": 18113
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 18063,
+                        "endColumn": 54,
+                        "endOffset": 18113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 18118,
+                    "endColumn": 56,
+                    "endOffset": 18170
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 4,
+                        "startOffset": 18118,
+                        "endColumn": 56,
+                        "endOffset": 18170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 18175,
+                    "endColumn": 55,
+                    "endOffset": 18226
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 294,
+                        "startColumn": 4,
+                        "startOffset": 18175,
+                        "endColumn": 55,
+                        "endOffset": 18226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 18231,
+                    "endColumn": 61,
+                    "endOffset": 18288
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 295,
+                        "startColumn": 4,
+                        "startOffset": 18231,
+                        "endColumn": 61,
+                        "endOffset": 18288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 18293,
+                    "endColumn": 62,
+                    "endOffset": 18351
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 4,
+                        "startOffset": 18293,
+                        "endColumn": 62,
+                        "endOffset": 18351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 18356,
+                    "endColumn": 57,
+                    "endOffset": 18409
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 4,
+                        "startOffset": 18356,
+                        "endColumn": 57,
+                        "endOffset": 18409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 18414,
+                    "endColumn": 60,
+                    "endOffset": 18470
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 4,
+                        "startOffset": 18414,
+                        "endColumn": 60,
+                        "endOffset": 18470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 18475,
+                    "endColumn": 59,
+                    "endOffset": 18530
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 18475,
+                        "endColumn": 59,
+                        "endOffset": 18530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 18535,
+                    "endColumn": 62,
+                    "endOffset": 18593
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 300,
+                        "startColumn": 4,
+                        "startOffset": 18535,
+                        "endColumn": 62,
+                        "endOffset": 18593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 18598,
+                    "endColumn": 62,
+                    "endOffset": 18656
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 301,
+                        "startColumn": 4,
+                        "startOffset": 18598,
+                        "endColumn": 62,
+                        "endOffset": 18656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 18661,
+                    "endColumn": 68,
+                    "endOffset": 18725
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 18661,
+                        "endColumn": 68,
+                        "endOffset": 18725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 18730,
+                    "endColumn": 58,
+                    "endOffset": 18784
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 303,
+                        "startColumn": 4,
+                        "startOffset": 18730,
+                        "endColumn": 58,
+                        "endOffset": 18784
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 18789,
+                    "endColumn": 59,
+                    "endOffset": 18844
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 304,
+                        "startColumn": 4,
+                        "startOffset": 18789,
+                        "endColumn": 59,
+                        "endOffset": 18844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 18849,
+                    "endColumn": 60,
+                    "endOffset": 18905
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 305,
+                        "startColumn": 4,
+                        "startOffset": 18849,
+                        "endColumn": 60,
+                        "endOffset": 18905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 18910,
+                    "endColumn": 60,
+                    "endOffset": 18966
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 306,
+                        "startColumn": 4,
+                        "startOffset": 18910,
+                        "endColumn": 60,
+                        "endOffset": 18966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 18971,
+                    "endColumn": 56,
+                    "endOffset": 19023
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 307,
+                        "startColumn": 4,
+                        "startOffset": 18971,
+                        "endColumn": 56,
+                        "endOffset": 19023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 19028,
+                    "endColumn": 56,
+                    "endOffset": 19080
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 308,
+                        "startColumn": 4,
+                        "startOffset": 19028,
+                        "endColumn": 56,
+                        "endOffset": 19080
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 19085,
+                    "endColumn": 59,
+                    "endOffset": 19140
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 19085,
+                        "endColumn": 59,
+                        "endOffset": 19140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 19145,
+                    "endColumn": 66,
+                    "endOffset": 19207
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 310,
+                        "startColumn": 4,
+                        "startOffset": 19145,
+                        "endColumn": 66,
+                        "endOffset": 19207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 19212,
+                    "endColumn": 61,
+                    "endOffset": 19269
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 311,
+                        "startColumn": 4,
+                        "startOffset": 19212,
+                        "endColumn": 61,
+                        "endOffset": 19269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 19274,
+                    "endColumn": 64,
+                    "endOffset": 19334
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 312,
+                        "startColumn": 4,
+                        "startOffset": 19274,
+                        "endColumn": 64,
+                        "endOffset": 19334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 19339,
+                    "endColumn": 69,
+                    "endOffset": 19404
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 313,
+                        "startColumn": 4,
+                        "startOffset": 19339,
+                        "endColumn": 69,
+                        "endOffset": 19404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 19409,
+                    "endColumn": 66,
+                    "endOffset": 19471
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 314,
+                        "startColumn": 4,
+                        "startOffset": 19409,
+                        "endColumn": 66,
+                        "endOffset": 19471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 19476,
+                    "endColumn": 67,
+                    "endOffset": 19539
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 315,
+                        "startColumn": 4,
+                        "startOffset": 19476,
+                        "endColumn": 67,
+                        "endOffset": 19539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 19544,
+                    "endColumn": 58,
+                    "endOffset": 19598
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 316,
+                        "startColumn": 4,
+                        "startOffset": 19544,
+                        "endColumn": 58,
+                        "endOffset": 19598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 19603,
+                    "endColumn": 57,
+                    "endOffset": 19656
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 19603,
+                        "endColumn": 57,
+                        "endOffset": 19656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 19661,
+                    "endColumn": 61,
+                    "endOffset": 19718
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 318,
+                        "startColumn": 4,
+                        "startOffset": 19661,
+                        "endColumn": 61,
+                        "endOffset": 19718
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 19723,
+                    "endColumn": 57,
+                    "endOffset": 19776
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 319,
+                        "startColumn": 4,
+                        "startOffset": 19723,
+                        "endColumn": 57,
+                        "endOffset": 19776
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 19781,
+                    "endColumn": 69,
+                    "endOffset": 19846
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 320,
+                        "startColumn": 4,
+                        "startOffset": 19781,
+                        "endColumn": 69,
+                        "endOffset": 19846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 19851,
+                    "endColumn": 65,
+                    "endOffset": 19912
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 321,
+                        "startColumn": 4,
+                        "startOffset": 19851,
+                        "endColumn": 65,
+                        "endOffset": 19912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 19917,
+                    "endColumn": 73,
+                    "endOffset": 19986
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 322,
+                        "startColumn": 4,
+                        "startOffset": 19917,
+                        "endColumn": 73,
+                        "endOffset": 19986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 19991,
+                    "endColumn": 69,
+                    "endOffset": 20056
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 323,
+                        "startColumn": 4,
+                        "startOffset": 19991,
+                        "endColumn": 69,
+                        "endOffset": 20056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 20061,
+                    "endColumn": 80,
+                    "endOffset": 20137
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 324,
+                        "startColumn": 4,
+                        "startOffset": 20061,
+                        "endColumn": 80,
+                        "endOffset": 20137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 20142,
+                    "endColumn": 88,
+                    "endOffset": 20226
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 20142,
+                        "endColumn": 88,
+                        "endOffset": 20226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 20231,
+                    "endColumn": 93,
+                    "endOffset": 20320
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 326,
+                        "startColumn": 4,
+                        "startOffset": 20231,
+                        "endColumn": 93,
+                        "endOffset": 20320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 20325,
+                    "endColumn": 86,
+                    "endOffset": 20407
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 327,
+                        "startColumn": 4,
+                        "startOffset": 20325,
+                        "endColumn": 86,
+                        "endOffset": 20407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 20412,
+                    "endColumn": 77,
+                    "endOffset": 20485
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 328,
+                        "startColumn": 4,
+                        "startOffset": 20412,
+                        "endColumn": 77,
+                        "endOffset": 20485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 20490,
+                    "endColumn": 96,
+                    "endOffset": 20582
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 329,
+                        "startColumn": 4,
+                        "startOffset": 20490,
+                        "endColumn": 96,
+                        "endOffset": 20582
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 20587,
+                    "endColumn": 64,
+                    "endOffset": 20647
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 20587,
+                        "endColumn": 64,
+                        "endOffset": 20647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 20652,
+                    "endColumn": 62,
+                    "endOffset": 20710
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 331,
+                        "startColumn": 4,
+                        "startOffset": 20652,
+                        "endColumn": 62,
+                        "endOffset": 20710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 20715,
+                    "endColumn": 59,
+                    "endOffset": 20770
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 20715,
+                        "endColumn": 59,
+                        "endOffset": 20770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 20775,
+                    "endColumn": 60,
+                    "endOffset": 20831
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 333,
+                        "startColumn": 4,
+                        "startOffset": 20775,
+                        "endColumn": 60,
+                        "endOffset": 20831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 20836,
+                    "endColumn": 69,
+                    "endOffset": 20901
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 334,
+                        "startColumn": 4,
+                        "startOffset": 20836,
+                        "endColumn": 69,
+                        "endOffset": 20901
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 20906,
+                    "endColumn": 59,
+                    "endOffset": 20961
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 335,
+                        "startColumn": 4,
+                        "startOffset": 20906,
+                        "endColumn": 59,
+                        "endOffset": 20961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 20966,
+                    "endColumn": 58,
+                    "endOffset": 21020
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 336,
+                        "startColumn": 4,
+                        "startOffset": 20966,
+                        "endColumn": 58,
+                        "endOffset": 21020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 21025,
+                    "endColumn": 83,
+                    "endOffset": 21104
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 337,
+                        "startColumn": 4,
+                        "startOffset": 21025,
+                        "endColumn": 83,
+                        "endOffset": 21104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 21109,
+                    "endColumn": 75,
+                    "endOffset": 21180
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 338,
+                        "startColumn": 4,
+                        "startOffset": 21109,
+                        "endColumn": 75,
+                        "endOffset": 21180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 21185,
+                    "endColumn": 73,
+                    "endOffset": 21254
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 339,
+                        "startColumn": 4,
+                        "startOffset": 21185,
+                        "endColumn": 73,
+                        "endOffset": 21254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 21259,
+                    "endColumn": 78,
+                    "endOffset": 21333
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 340,
+                        "startColumn": 4,
+                        "startOffset": 21259,
+                        "endColumn": 78,
+                        "endOffset": 21333
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 21338,
+                    "endColumn": 61,
+                    "endOffset": 21395
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 341,
+                        "startColumn": 4,
+                        "startOffset": 21338,
+                        "endColumn": 61,
+                        "endOffset": 21395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 21400,
+                    "endColumn": 63,
+                    "endOffset": 21459
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 342,
+                        "startColumn": 4,
+                        "startOffset": 21400,
+                        "endColumn": 63,
+                        "endOffset": 21459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 21464,
+                    "endColumn": 68,
+                    "endOffset": 21528
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 343,
+                        "startColumn": 4,
+                        "startOffset": 21464,
+                        "endColumn": 68,
+                        "endOffset": 21528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 21533,
+                    "endColumn": 63,
+                    "endOffset": 21592
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 344,
+                        "startColumn": 4,
+                        "startOffset": 21533,
+                        "endColumn": 63,
+                        "endOffset": 21592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 21597,
+                    "endColumn": 63,
+                    "endOffset": 21656
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 345,
+                        "startColumn": 4,
+                        "startOffset": 21597,
+                        "endColumn": 63,
+                        "endOffset": 21656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 21661,
+                    "endColumn": 64,
+                    "endOffset": 21721
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 346,
+                        "startColumn": 4,
+                        "startOffset": 21661,
+                        "endColumn": 64,
+                        "endOffset": 21721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 21726,
+                    "endColumn": 69,
+                    "endOffset": 21791
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 347,
+                        "startColumn": 4,
+                        "startOffset": 21726,
+                        "endColumn": 69,
+                        "endOffset": 21791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 21796,
+                    "endColumn": 69,
+                    "endOffset": 21861
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 348,
+                        "startColumn": 4,
+                        "startOffset": 21796,
+                        "endColumn": 69,
+                        "endOffset": 21861
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 21866,
+                    "endColumn": 64,
+                    "endOffset": 21926
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 349,
+                        "startColumn": 4,
+                        "startOffset": 21866,
+                        "endColumn": 64,
+                        "endOffset": 21926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 21931,
+                    "endColumn": 65,
+                    "endOffset": 21992
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 350,
+                        "startColumn": 4,
+                        "startOffset": 21931,
+                        "endColumn": 65,
+                        "endOffset": 21992
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 21997,
+                    "endColumn": 67,
+                    "endOffset": 22060
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 351,
+                        "startColumn": 4,
+                        "startOffset": 21997,
+                        "endColumn": 67,
+                        "endOffset": 22060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 22065,
+                    "endColumn": 60,
+                    "endOffset": 22121
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 352,
+                        "startColumn": 4,
+                        "startOffset": 22065,
+                        "endColumn": 60,
+                        "endOffset": 22121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 22126,
+                    "endColumn": 61,
+                    "endOffset": 22183
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 353,
+                        "startColumn": 4,
+                        "startOffset": 22126,
+                        "endColumn": 61,
+                        "endOffset": 22183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 22188,
+                    "endColumn": 74,
+                    "endOffset": 22258
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 354,
+                        "startColumn": 4,
+                        "startOffset": 22188,
+                        "endColumn": 74,
+                        "endOffset": 22258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 22263,
+                    "endColumn": 63,
+                    "endOffset": 22322
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 355,
+                        "startColumn": 4,
+                        "startOffset": 22263,
+                        "endColumn": 63,
+                        "endOffset": 22322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 22327,
+                    "endColumn": 60,
+                    "endOffset": 22383
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 356,
+                        "startColumn": 4,
+                        "startOffset": 22327,
+                        "endColumn": 60,
+                        "endOffset": 22383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 22388,
+                    "endColumn": 89,
+                    "endOffset": 22473
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 357,
+                        "startColumn": 4,
+                        "startOffset": 22388,
+                        "endColumn": 89,
+                        "endOffset": 22473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 358,
+                    "startColumn": 4,
+                    "startOffset": 22478,
+                    "endColumn": 72,
+                    "endOffset": 22546
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 358,
+                        "startColumn": 4,
+                        "startOffset": 22478,
+                        "endColumn": 72,
+                        "endOffset": 22546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 22551,
+                    "endColumn": 61,
+                    "endOffset": 22608
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 359,
+                        "startColumn": 4,
+                        "startOffset": 22551,
+                        "endColumn": 61,
+                        "endOffset": 22608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 360,
+                    "startColumn": 4,
+                    "startOffset": 22613,
+                    "endColumn": 82,
+                    "endOffset": 22691
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 360,
+                        "startColumn": 4,
+                        "startOffset": 22613,
+                        "endColumn": 82,
+                        "endOffset": 22691
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 22696,
+                    "endColumn": 57,
+                    "endOffset": 22749
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 361,
+                        "startColumn": 4,
+                        "startOffset": 22696,
+                        "endColumn": 57,
+                        "endOffset": 22749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 362,
+                    "startColumn": 4,
+                    "startOffset": 22754,
+                    "endColumn": 66,
+                    "endOffset": 22816
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 362,
+                        "startColumn": 4,
+                        "startOffset": 22754,
+                        "endColumn": 66,
+                        "endOffset": 22816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 22821,
+                    "endColumn": 73,
+                    "endOffset": 22890
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 363,
+                        "startColumn": 4,
+                        "startOffset": 22821,
+                        "endColumn": 73,
+                        "endOffset": 22890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 364,
+                    "startColumn": 4,
+                    "startOffset": 22895,
+                    "endColumn": 65,
+                    "endOffset": 22956
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 364,
+                        "startColumn": 4,
+                        "startOffset": 22895,
+                        "endColumn": 65,
+                        "endOffset": 22956
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 365,
+                    "startColumn": 4,
+                    "startOffset": 22961,
+                    "endColumn": 72,
+                    "endOffset": 23029
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 365,
+                        "startColumn": 4,
+                        "startOffset": 22961,
+                        "endColumn": 72,
+                        "endOffset": 23029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 366,
+                    "startColumn": 4,
+                    "startOffset": 23034,
+                    "endColumn": 67,
+                    "endOffset": 23097
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 366,
+                        "startColumn": 4,
+                        "startOffset": 23034,
+                        "endColumn": 67,
+                        "endOffset": 23097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 23102,
+                    "endColumn": 69,
+                    "endOffset": 23167
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 367,
+                        "startColumn": 4,
+                        "startOffset": 23102,
+                        "endColumn": 69,
+                        "endOffset": 23167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 23172,
+                    "endColumn": 67,
+                    "endOffset": 23235
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 368,
+                        "startColumn": 4,
+                        "startOffset": 23172,
+                        "endColumn": 67,
+                        "endOffset": 23235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 23240,
+                    "endColumn": 70,
+                    "endOffset": 23306
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 369,
+                        "startColumn": 4,
+                        "startOffset": 23240,
+                        "endColumn": 70,
+                        "endOffset": 23306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 23311,
+                    "endColumn": 68,
+                    "endOffset": 23375
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 370,
+                        "startColumn": 4,
+                        "startOffset": 23311,
+                        "endColumn": 68,
+                        "endOffset": 23375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 371,
+                    "startColumn": 4,
+                    "startOffset": 23380,
+                    "endColumn": 73,
+                    "endOffset": 23449
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 371,
+                        "startColumn": 4,
+                        "startOffset": 23380,
+                        "endColumn": 73,
+                        "endOffset": 23449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 372,
+                    "startColumn": 4,
+                    "startOffset": 23454,
+                    "endColumn": 63,
+                    "endOffset": 23513
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 372,
+                        "startColumn": 4,
+                        "startOffset": 23454,
+                        "endColumn": 63,
+                        "endOffset": 23513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 373,
+                    "startColumn": 4,
+                    "startOffset": 23518,
+                    "endColumn": 70,
+                    "endOffset": 23584
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 373,
+                        "startColumn": 4,
+                        "startOffset": 23518,
+                        "endColumn": 70,
+                        "endOffset": 23584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 374,
+                    "startColumn": 4,
+                    "startOffset": 23589,
+                    "endColumn": 65,
+                    "endOffset": 23650
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 374,
+                        "startColumn": 4,
+                        "startOffset": 23589,
+                        "endColumn": 65,
+                        "endOffset": 23650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 375,
+                    "startColumn": 4,
+                    "startOffset": 23655,
+                    "endColumn": 69,
+                    "endOffset": 23720
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 375,
+                        "startColumn": 4,
+                        "startOffset": 23655,
+                        "endColumn": 69,
+                        "endOffset": 23720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 376,
+                    "startColumn": 4,
+                    "startOffset": 23725,
+                    "endColumn": 62,
+                    "endOffset": 23783
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 376,
+                        "startColumn": 4,
+                        "startOffset": 23725,
+                        "endColumn": 62,
+                        "endOffset": 23783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 377,
+                    "startColumn": 4,
+                    "startOffset": 23788,
+                    "endColumn": 69,
+                    "endOffset": 23853
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 377,
+                        "startColumn": 4,
+                        "startOffset": 23788,
+                        "endColumn": 69,
+                        "endOffset": 23853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 378,
+                    "startColumn": 4,
+                    "startOffset": 23858,
+                    "endColumn": 68,
+                    "endOffset": 23922
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 378,
+                        "startColumn": 4,
+                        "startOffset": 23858,
+                        "endColumn": 68,
+                        "endOffset": 23922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 379,
+                    "startColumn": 4,
+                    "startOffset": 23927,
+                    "endColumn": 68,
+                    "endOffset": 23991
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 379,
+                        "startColumn": 4,
+                        "startOffset": 23927,
+                        "endColumn": 68,
+                        "endOffset": 23991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 380,
+                    "startColumn": 4,
+                    "startOffset": 23996,
+                    "endColumn": 63,
+                    "endOffset": 24055
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 380,
+                        "startColumn": 4,
+                        "startOffset": 23996,
+                        "endColumn": 63,
+                        "endOffset": 24055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 381,
+                    "startColumn": 4,
+                    "startOffset": 24060,
+                    "endColumn": 66,
+                    "endOffset": 24122
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 381,
+                        "startColumn": 4,
+                        "startOffset": 24060,
+                        "endColumn": 66,
+                        "endOffset": 24122
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 382,
+                    "startColumn": 4,
+                    "startOffset": 24127,
+                    "endColumn": 97,
+                    "endOffset": 24220
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 382,
+                        "startColumn": 4,
+                        "startOffset": 24127,
+                        "endColumn": 97,
+                        "endOffset": 24220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 383,
+                    "startColumn": 4,
+                    "startOffset": 24225,
+                    "endColumn": 87,
+                    "endOffset": 24308
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 383,
+                        "startColumn": 4,
+                        "startOffset": 24225,
+                        "endColumn": 87,
+                        "endOffset": 24308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 384,
+                    "startColumn": 4,
+                    "startOffset": 24313,
+                    "endColumn": 81,
+                    "endOffset": 24390
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 384,
+                        "startColumn": 4,
+                        "startOffset": 24313,
+                        "endColumn": 81,
+                        "endOffset": 24390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 24395,
+                    "endColumn": 60,
+                    "endOffset": 24451
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 385,
+                        "startColumn": 4,
+                        "startOffset": 24395,
+                        "endColumn": 60,
+                        "endOffset": 24451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 386,
+                    "startColumn": 4,
+                    "startOffset": 24456,
+                    "endColumn": 75,
+                    "endOffset": 24527
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 386,
+                        "startColumn": 4,
+                        "startOffset": 24456,
+                        "endColumn": 75,
+                        "endOffset": 24527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 387,
+                    "startColumn": 4,
+                    "startOffset": 24532,
+                    "endColumn": 71,
+                    "endOffset": 24599
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 387,
+                        "startColumn": 4,
+                        "startOffset": 24532,
+                        "endColumn": 71,
+                        "endOffset": 24599
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 388,
+                    "startColumn": 4,
+                    "startOffset": 24604,
+                    "endColumn": 60,
+                    "endOffset": 24660
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 388,
+                        "startColumn": 4,
+                        "startOffset": 24604,
+                        "endColumn": 60,
+                        "endOffset": 24660
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 389,
+                    "startColumn": 4,
+                    "startOffset": 24665,
+                    "endColumn": 71,
+                    "endOffset": 24732
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 389,
+                        "startColumn": 4,
+                        "startOffset": 24665,
+                        "endColumn": 71,
+                        "endOffset": 24732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 390,
+                    "startColumn": 4,
+                    "startOffset": 24737,
+                    "endColumn": 67,
+                    "endOffset": 24800
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 390,
+                        "startColumn": 4,
+                        "startOffset": 24737,
+                        "endColumn": 67,
+                        "endOffset": 24800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 391,
+                    "startColumn": 4,
+                    "startOffset": 24805,
+                    "endColumn": 75,
+                    "endOffset": 24876
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 391,
+                        "startColumn": 4,
+                        "startOffset": 24805,
+                        "endColumn": 75,
+                        "endOffset": 24876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 392,
+                    "startColumn": 4,
+                    "startOffset": 24881,
+                    "endColumn": 71,
+                    "endOffset": 24948
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 392,
+                        "startColumn": 4,
+                        "startOffset": 24881,
+                        "endColumn": 71,
+                        "endOffset": 24948
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 393,
+                    "startColumn": 4,
+                    "startOffset": 24953,
+                    "endColumn": 82,
+                    "endOffset": 25031
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 393,
+                        "startColumn": 4,
+                        "startOffset": 24953,
+                        "endColumn": 82,
+                        "endOffset": 25031
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 394,
+                    "startColumn": 4,
+                    "startOffset": 25036,
+                    "endColumn": 90,
+                    "endOffset": 25122
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 394,
+                        "startColumn": 4,
+                        "startOffset": 25036,
+                        "endColumn": 90,
+                        "endOffset": 25122
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 395,
+                    "startColumn": 4,
+                    "startOffset": 25127,
+                    "endColumn": 95,
+                    "endOffset": 25218
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 395,
+                        "startColumn": 4,
+                        "startOffset": 25127,
+                        "endColumn": 95,
+                        "endOffset": 25218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 396,
+                    "startColumn": 4,
+                    "startOffset": 25223,
+                    "endColumn": 88,
+                    "endOffset": 25307
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 396,
+                        "startColumn": 4,
+                        "startOffset": 25223,
+                        "endColumn": 88,
+                        "endOffset": 25307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 397,
+                    "startColumn": 4,
+                    "startOffset": 25312,
+                    "endColumn": 79,
+                    "endOffset": 25387
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 397,
+                        "startColumn": 4,
+                        "startOffset": 25312,
+                        "endColumn": 79,
+                        "endOffset": 25387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 398,
+                    "startColumn": 4,
+                    "startOffset": 25392,
+                    "endColumn": 98,
+                    "endOffset": 25486
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 398,
+                        "startColumn": 4,
+                        "startOffset": 25392,
+                        "endColumn": 98,
+                        "endOffset": 25486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 399,
+                    "startColumn": 4,
+                    "startOffset": 25491,
+                    "endColumn": 66,
+                    "endOffset": 25553
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 399,
+                        "startColumn": 4,
+                        "startOffset": 25491,
+                        "endColumn": 66,
+                        "endOffset": 25553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 400,
+                    "startColumn": 4,
+                    "startOffset": 25558,
+                    "endColumn": 64,
+                    "endOffset": 25618
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 400,
+                        "startColumn": 4,
+                        "startOffset": 25558,
+                        "endColumn": 64,
+                        "endOffset": 25618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 401,
+                    "startColumn": 4,
+                    "startOffset": 25623,
+                    "endColumn": 61,
+                    "endOffset": 25680
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 401,
+                        "startColumn": 4,
+                        "startOffset": 25623,
+                        "endColumn": 61,
+                        "endOffset": 25680
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 402,
+                    "startColumn": 4,
+                    "startOffset": 25685,
+                    "endColumn": 62,
+                    "endOffset": 25743
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 402,
+                        "startColumn": 4,
+                        "startOffset": 25685,
+                        "endColumn": 62,
+                        "endOffset": 25743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 403,
+                    "startColumn": 4,
+                    "startOffset": 25748,
+                    "endColumn": 71,
+                    "endOffset": 25815
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 403,
+                        "startColumn": 4,
+                        "startOffset": 25748,
+                        "endColumn": 71,
+                        "endOffset": 25815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 404,
+                    "startColumn": 4,
+                    "startOffset": 25820,
+                    "endColumn": 61,
+                    "endOffset": 25877
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 404,
+                        "startColumn": 4,
+                        "startOffset": 25820,
+                        "endColumn": 61,
+                        "endOffset": 25877
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 405,
+                    "startColumn": 4,
+                    "startOffset": 25882,
+                    "endColumn": 60,
+                    "endOffset": 25938
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 405,
+                        "startColumn": 4,
+                        "startOffset": 25882,
+                        "endColumn": 60,
+                        "endOffset": 25938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 406,
+                    "startColumn": 4,
+                    "startOffset": 25943,
+                    "endColumn": 85,
+                    "endOffset": 26024
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 406,
+                        "startColumn": 4,
+                        "startOffset": 25943,
+                        "endColumn": 85,
+                        "endOffset": 26024
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 407,
+                    "startColumn": 4,
+                    "startOffset": 26029,
+                    "endColumn": 77,
+                    "endOffset": 26102
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 407,
+                        "startColumn": 4,
+                        "startOffset": 26029,
+                        "endColumn": 77,
+                        "endOffset": 26102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 408,
+                    "startColumn": 4,
+                    "startOffset": 26107,
+                    "endColumn": 75,
+                    "endOffset": 26178
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 408,
+                        "startColumn": 4,
+                        "startOffset": 26107,
+                        "endColumn": 75,
+                        "endOffset": 26178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 409,
+                    "startColumn": 4,
+                    "startOffset": 26183,
+                    "endColumn": 80,
+                    "endOffset": 26259
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 409,
+                        "startColumn": 4,
+                        "startOffset": 26183,
+                        "endColumn": 80,
+                        "endOffset": 26259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 410,
+                    "startColumn": 4,
+                    "startOffset": 26264,
+                    "endColumn": 63,
+                    "endOffset": 26323
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 410,
+                        "startColumn": 4,
+                        "startOffset": 26264,
+                        "endColumn": 63,
+                        "endOffset": 26323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 411,
+                    "startColumn": 4,
+                    "startOffset": 26328,
+                    "endLine": 425,
+                    "endColumn": 9,
+                    "endOffset": 26915
+                },
+                "from": {
+                    "file": "D:\\project\\MootCourt\\sMSSDK\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 411,
+                        "startColumn": 4,
+                        "startOffset": 26328,
+                        "endLine": 425,
+                        "endColumn": 9,
+                        "endOffset": 26915
+                    }
+                }
+            }
+        ]
+    }
+]

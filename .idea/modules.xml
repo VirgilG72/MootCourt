@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" filepath="$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" filepath="$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sMSSDK/sMSSDK.iml" filepath="$PROJECT_DIR$/sMSSDK/sMSSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shortMessageSDKGUI/shortMessageSDKGUI.iml" filepath="$PROJECT_DIR$/shortMessageSDKGUI/shortMessageSDKGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/xUtils3_sample/xUtils3_sample.iml" filepath="$PROJECT_DIR$/xUtils3_sample/xUtils3_sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/xutils/xutils.iml" filepath="$PROJECT_DIR$/xutils/xutils.iml" />
     </modules>

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_popup_dialog_bg.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_popup_dialog_bg.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_conners_edittext_bg.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_conners_edittext_bg.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_dialog_btn_back.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_dialog_btn_back.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_btn_disenable.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_btn_disenable.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_corners_bg_pre.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_corners_bg_pre.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_btn_enable.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_btn_enable.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_edittext_bg_selector.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_edittext_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_corners_bg.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_corners_bg.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_bg_selector.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_country_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_group_scroll_up.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_country_group_scroll_up.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_btn_line_bg.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_btn_line_bg.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_country_group_scroll_down.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_back_arrow_bitmap.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_back_arrow_bitmap.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_corners_bg_nor.xml",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_corners_bg_nor.xml"
+    }
+]

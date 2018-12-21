@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="smssdk_bg_gray">#EFEFF3</color>
+    <color name="smssdk_black">#ff000000</color>
+    <color name="smssdk_gray">#ff898989</color>
+    <color name="smssdk_gray_press">#fff2f2f2</color>
+    <color name="smssdk_line_light_gray">#ffe0e0e6</color>
+    <color name="smssdk_lv_item_divider">#ffd9d9da</color>
+    <color name="smssdk_lv_item_selector">#f7fcff</color>
+    <color name="smssdk_lv_title_color">#ff000000</color>
+    <color name="smssdk_lv_tv_color">#ff353535</color>
+    <color name="smssdk_main_color">#00D69C</color>
+    <color name="smssdk_transparent">#00000000</color>
+    <color name="smssdk_tv_light_gray">#C7C7C7</color>
+    <color name="smssdk_white">#ffffffff</color>
+    <item name="smssdk_titlebar_height" type="dimen">48dp</item>
+    <drawable name="smssdk_dialog_btn_nor">#00000000</drawable>
+    <drawable name="smssdk_dialog_btn_pre">#ff282a2b</drawable>
+    <item name="btn_add" type="id"/>
+    <item name="btn_dialog_cancel" type="id"/>
+    <item name="btn_dialog_ok" type="id"/>
+    <item name="btn_invite" type="id"/>
+    <item name="btn_next" type="id"/>
+    <item name="btn_sounds" type="id"/>
+    <item name="btn_submit" type="id"/>
+    <item name="clContact" type="id"/>
+    <item name="clCountry" type="id"/>
+    <item name="et_put_identify" type="id"/>
+    <item name="et_write_phone" type="id"/>
+    <item name="ivSearch" type="id"/>
+    <item name="iv_clear" type="id"/>
+    <item name="iv_contact" type="id"/>
+    <item name="iv_contact_icon" type="id"/>
+    <item name="llSearch" type="id"/>
+    <item name="llTitle" type="id"/>
+    <item name="ll_back" type="id"/>
+    <item name="ll_phone2" type="id"/>
+    <item name="ll_voice" type="id"/>
+    <item name="rl_country" type="id"/>
+    <item name="rl_lv_item_bg" type="id"/>
+    <item name="tv_contact" type="id"/>
+    <item name="tv_contact_name" type="id"/>
+    <item name="tv_contact_phones" type="id"/>
+    <item name="tv_country" type="id"/>
+    <item name="tv_country_num" type="id"/>
+    <item name="tv_dialog_hint" type="id"/>
+    <item name="tv_dialog_title" type="id"/>
+    <item name="tv_identify_notify" type="id"/>
+    <item name="tv_invite_hint" type="id"/>
+    <item name="tv_name" type="id"/>
+    <item name="tv_phone" type="id"/>
+    <item name="tv_phone2" type="id"/>
+    <item name="tv_resend" type="id"/>
+    <item name="tv_title" type="id"/>
+    <item name="tv_unreceive_identify" type="id"/>
+    <item name="tv_voice" type="id"/>
+    <item name="vw_divider2" type="id"/>
+    <string name="smssdk_add_contact">添加好友</string>
+    <string name="smssdk_back">返回 </string>
+    <string name="smssdk_bind_profile">绑定资料</string>
+    <string name="smssdk_cancel">取消</string>
+    <string name="smssdk_choice_invite_phones">选择一个号码发送邀请</string>
+    <string name="smssdk_choose_country">选择国家或地区</string>
+    <string name="smssdk_close_identify_page_dialog">验证码短信可能略有延迟，确定返回并重新开始？</string>
+    <string name="smssdk_confirm">确定</string>
+    <string name="smssdk_contacts_in_app">待添加好友</string>
+    <string name="smssdk_contacts_out_app">待邀请好友</string>
+    <string name="smssdk_contacts_phones">手机号码: </string>
+    <string name="smssdk_country">国家/地区</string>
+    <string name="smssdk_country_not_support_currently">当前服务暂不支持此国家，请选择其它国家</string>
+    <string name="smssdk_get_phone_verifycode_today_frequentlly">很抱歉，该手机号申请验证码次数过多，请明天重试！</string>
+    <string name="smssdk_get_verifycode_frequentlly">发送验证码太频繁，请稍后再发！</string>
+    <string name="smssdk_i_know">我知道了</string>
+    <string name="smssdk_identify_code">验证码</string>
+    <string name="smssdk_identify_num_page_resend">重新发送</string>
+    <string name="smssdk_identify_success">手机号验证成功</string>
+    <string name="smssdk_input_phone">请输入你的手机号</string>
+    <string name="smssdk_invite">邀请</string>
+    <string name="smssdk_invite_content">Mob最新短信SDK,欢迎大家使用，你的好友邀请你加入；下载地址： http://www.mob.com</string>
+    <string name="smssdk_invite_friend">邀请好友</string>
+    <string name="smssdk_label_phone">手机号</string>
+    <string name="smssdk_label_phone2">手机号2</string>
+    <string name="smssdk_make_sure_country_mobile">请确认你的国家或地区并输入手机号码</string>
+    <string formatted="false" name="smssdk_make_sure_mobile_detail">我们将发送验证码短信到这个号码:\n%s</string>
+    <string name="smssdk_make_sure_mobile_num">确认手机号码</string>
+    <string name="smssdk_make_sure_send_sounds">确认发送？</string>
+    <string name="smssdk_msg_profile_empty">用户资料不完整</string>
+    <string name="smssdk_my_profile">我的资料</string>
+    <string name="smssdk_network_error">网络异常，请稍后重试</string>
+    <string name="smssdk_next">提交认证</string>
+    <string name="smssdk_ok">好</string>
+    <string name="smssdk_pick_avatar">选择头像</string>
+    <string name="smssdk_rebind_profile">重新绑定</string>
+    <string name="smssdk_receive_msg"><Data>接收短信大约需要&lt;font color=#209526>%s&lt;/font>秒</Data></string>
+    <string name="smssdk_regist">使用手机号码注册</string>
+    <string name="smssdk_resend_identify_code">重新获取验证码</string>
+    <string name="smssdk_search">搜索</string>
+    <string name="smssdk_search_contact">通讯录</string>
+    <string name="smssdk_send_invitation">发送邀请</string>
+    <string name="smssdk_send_mobile_detail">短信验证码已发送，请填写验证码</string>
+    <string name="smssdk_send_sounds">点击发送语音验证</string>
+    <string name="smssdk_send_sounds_identify_code">我们将以电话的方式告知你验证码，\n请注意接听</string>
+    <string name="smssdk_send_sounds_success">语音验证码发送成功</string>
+    <string name="smssdk_smart_verify_already">您的手机号码已验证成功</string>
+    <string name="smssdk_smart_verify_tips">以下号码为诚信号码,无需验证短信</string>
+    <string name="smssdk_submit">提交</string>
+    <string name="smssdk_unreceive_identify_code">短信验证码收不到？ 请尝试</string>
+    <string name="smssdk_user_info_submited">用户资料已提交</string>
+    <string name="smssdk_virificaition_code_sent">验证码已发送</string>
+    <string name="smssdk_virificaition_code_wrong">验证码不正确，请重新输入</string>
+    <string name="smssdk_voice_code">语音验证码</string>
+    <string name="smssdk_wait">等待 </string>
+    <string name="smssdk_write_identify_code">请输入验证码</string>
+    <string name="smssdk_write_mobile_phone">请填写手机号码</string>
+    <string name="smssdk_write_right_mobile_phone">请填写正确的手机号码</string>
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CommonDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/smssdk_dialog_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Dialog_Common" parent="@android:style/Theme.Dialog">
+		<!-- 边框 -->
+		<item name="android:windowFrame">@null</item>
+		<!-- 是否浮现在activity之上 -->
+		<item name="android:windowIsFloating">true</item>
+		<!-- 半透明 -->
+		<item name="android:windowIsTranslucent">false</item>
+		<!-- 无标题 -->
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<!-- 自己想要的背景 -->
+		<item name="android:background">@android:color/transparent</item>
+		<!-- 模糊 -->
+		<item name="android:backgroundDimEnabled">true</item>
+	</style>
+    <style name="MobShellTheme" parent="android:Theme.Light.NoTitleBar">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:colorBackgroundCacheHint">@null</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+	</style>
+    <style name="aaaa" parent="android:Theme.Translucent.NoTitleBar">
+	</style>
+</resources>

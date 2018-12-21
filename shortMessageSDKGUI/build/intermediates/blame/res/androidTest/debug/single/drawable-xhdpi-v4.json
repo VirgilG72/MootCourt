@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_dialog_bg.9.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_dialog_bg.9.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_phone.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_phone.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_input_bg_focus.9.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_input_bg_focus.9.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_default_avatar.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_default_avatar.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_back_arrow2.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_back_arrow2.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_cl_divider.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_cl_divider.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_clear_search.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_clear_search.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_back_arrow.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_back_arrow.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_dialog_back.9.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_dialog_back.9.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_input_bg_special_normal.9.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_input_bg_special_normal.9.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_ic_popup_dialog_close.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_ic_popup_dialog_close.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_search_icon.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_search_icon.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_arrow_right.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_arrow_right.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_input_bg_special_focus.9.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_input_bg_special_focus.9.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_input_bg_normal.9.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_input_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\smssdk_cp_default_avatar.png",
+        "source": "D:\\project\\MootCourt\\shortMessageSDKGUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\smssdk_cp_default_avatar.png"
+    }
+]

@@ -18,7 +18,7 @@ ADDED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xm
 uses-sdk
 ADDED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml:7:5-9:41
 MERGED from [MootCourt:pullToRefreshViewPager:unspecified] D:\project\MootCourt\pullToRefreshViewPager\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [MootCourt:PullToRefresh_sample_library:unspecified] D:\project\MootCourt\PullToRefresh_sample_library\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:40
+MERGED from [MootCourt:PullToRefresh_sample_library:unspecified] D:\project\MootCourt\PullToRefresh_sample_library\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:25.2.0] F:\AS\SDK\.android\build-cache\73a1879deb347b413cdb675485b7732496c8e219\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.2.0] F:\AS\SDK\.android\build-cache\d1ca9ef480b1bc0d234154ef5650acb797c8a4ac\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.2.0] F:\AS\SDK\.android\build-cache\cb813fa366cb388ff5637c28492c04f5ce7ce10d\output\AndroidManifest.xml:21:5-23:63

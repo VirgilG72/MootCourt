@@ -2,6 +2,8 @@ package com.example.a61979.mootcourt;
 
 import android.app.Application;
 
+import com.mob.MobSDK;
+
 import org.xutils.x;
 
 import cn.jpush.android.api.JPushInterface;
@@ -23,6 +25,7 @@ public class MootCourtApplication extends Application {
         //初始化极光推送
         JPushInterface.setDebugMode(true); 	// 设置开启日志,发布时请关闭日志
         JPushInterface.init(this);     		// 初始化 JPush
+        MobSDK.init(this);
 
     }
 }

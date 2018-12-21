@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JPushExample/JPushExample.iml" filepath="$PROJECT_DIR$/JPushExample/JPushExample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Jshareexample/Jshareexample.iml" filepath="$PROJECT_DIR$/Jshareexample/Jshareexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/MootCourt.iml" filepath="$PROJECT_DIR$/MootCourt.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefresh_sample/PullToRefresh_sample.iml" filepath="$PROJECT_DIR$/PullToRefresh_sample/PullToRefresh_sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefresh_sample_library/PullToRefresh_sample_library.iml" filepath="$PROJECT_DIR$/PullToRefresh_sample_library/PullToRefresh_sample_library.iml" />

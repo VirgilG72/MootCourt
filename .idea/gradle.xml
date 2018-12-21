@@ -8,8 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/JPushExample" />
-            <option value="$PROJECT_DIR$/Jshareexample" />
             <option value="$PROJECT_DIR$/PullToRefresh_sample" />
             <option value="$PROJECT_DIR$/PullToRefresh_sample_library" />
             <option value="$PROJECT_DIR$/RefreshListView" />

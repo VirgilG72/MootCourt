@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.mob.sdk'
 android {
     compileSdkVersion 25
     buildToolsVersion '25.0.2'
@@ -36,12 +36,50 @@ dependencies {
     compile files('libs/Volleylibrary-1.0.19.jar')
     compile files('libs/jcore-android-1.2.6.jar')
     compile files('libs/jpush-android-3.1.8.jar')
-//    compile files('libs/android-support-v4.jar')
-//    compile files('libs/jshare-android-1.6.1.jar')
-//    compile files('libs/jshare-facebook-android-1.6.1.jar')
-//    compile files('libs/jshare-jchatpro-android-1.6.1.jar')
-//    compile files('libs/jshare-qq-android-1.6.1.jar')
-//    compile files('libs/jshare-sina-android-1.6.1.jar')
-//    compile files('libs/jshare-twitter-android-1.6.1.jar')
-//    compile files('libs/jshare-wechat-android-1.6.1.jar')
+    compile files('libs/MobCommons-2018.1128.1916.jar')
+    compile files('libs/MobTools-2018.1128.1916.jar')
+    compile files('libs/ShareSDK-Core-3.4.0.jar')
+    compile files('libs/ShareSDK-QQ-3.4.0.jar')
+    compile files('libs/ShareSDK-SinaWeibo-3.4.0.jar')
+    compile files('libs/ShareSDK-Wechat-3.4.0.jar')
+    compile files('libs/ShareSDK-Wechat-Core-3.4.0.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-3.4.0.jar')
 }
+
+MobSDK {
+    appKey "2968bac5959b8"
+    appSecret "cd00f3416991565e2c97900d198153a5"
+
+    ShareSDK {
+        //平台配置信息
+        devInfo {
+            SinaWeibo {
+                appKey "568898243"
+                appSecret "38a4f8204cc784f81f9f0daaf31e02e3"
+                callbackUri "http://www.sharesdk.cn"
+                shareByAppClient true
+            }
+            Wechat {
+                appId "wx4868b35061f87885"
+                appSecret "64020361b8ec4c99936c0e3999a9f249"
+            }
+            QQ {
+                appId "100371282"
+                appKey "aed9b0303e3ed1e27bae87c33761161d"
+                shareByAppClient true
+            }
+            WechatMoments {
+                appId "wx4868b35061f87885"
+                appSecret "64020361b8ec4c99936c0e3999a9f249"
+                BypassApproval true
+            }
+            Facebook {
+                appKey "1412473428822331"
+                appSecret "a42f4f3f867dc947b9ed6020c2e93558"
+                callbackUri "https://mob.com"
+            }
+        }
+    }
+
+}
+

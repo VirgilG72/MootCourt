@@ -17,6 +17,7 @@ ADDED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xm
 		ADDED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [MootCourt:pullToRefreshListFragment:unspecified] D:\project\MootCourt\pullToRefreshListFragment\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [MootCourt:pullToRefreshViewPager:unspecified] D:\project\MootCourt\pullToRefreshViewPager\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [MootCourt:PullToRefresh_sample_library:unspecified] D:\project\MootCourt\PullToRefresh_sample_library\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:25.2.0] F:\AS\SDK\.android\build-cache\73a1879deb347b413cdb675485b7732496c8e219\output\AndroidManifest.xml:21:5-23:54
@@ -37,7 +38,7 @@ MERGED from [com.android.support:support-compat:25.2.0] F:\AS\SDK\.android\build
 		INJECTED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml
 application
 ADDED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml:11:5-64:19
-MERGED from [MootCourt:pullToRefreshListFragment:unspecified] D:\project\MootCourt\pullToRefreshListFragment\build\intermediates\bundles\default\AndroidManifest.xml:7:5-20
+MERGED from [MootCourt:pullToRefreshListFragment:unspecified] D:\project\MootCourt\pullToRefreshListFragment\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
 MERGED from [MootCourt:pullToRefreshViewPager:unspecified] D:\project\MootCourt\pullToRefreshViewPager\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
 MERGED from [MootCourt:PullToRefresh_sample_library:unspecified] D:\project\MootCourt\PullToRefresh_sample_library\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:support-v4:25.2.0] F:\AS\SDK\.android\build-cache\73a1879deb347b413cdb675485b7732496c8e219\output\AndroidManifest.xml:25:5-20
@@ -136,9 +137,3 @@ supports-screens
 ADDED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml:69:5-51
 	android:anyDensity
 		ADDED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml:69:23-48
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml:2:1-71:12 reason: com.handmark.pulltorefresh.extras.listfragment has a targetSdkVersion < 4
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml:2:1-71:12 reason: com.handmark.pulltorefresh.extras.listfragment has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\project\MootCourt\PullToRefresh_sample\src\main\AndroidManifest.xml:2:1-71:12 reason: com.handmark.pulltorefresh.extras.listfragment requested WRITE_EXTERNAL_STORAGE

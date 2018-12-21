@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\project\\MootCourt\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\project\\MootCourt\\PullToRefresh_sample_library\\build\\intermediates\\bundles\\default\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\project\\MootCourt\\PullToRefresh_sample_library\\build\\intermediates\\bundles\\default\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\debug\\layout\\need_this_for_maven.xml",
+        "source": "D:\\project\\MootCourt\\pullToRefreshViewPager\\src\\main\\res\\layout\\need_this_for_maven.xml"
+    }
+]

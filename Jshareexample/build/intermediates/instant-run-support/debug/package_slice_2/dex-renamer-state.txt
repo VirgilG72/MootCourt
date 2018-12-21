@@ -1,4 +1,0 @@
-#Wed Dec 19 20:34:09 CST 2018
-base.0=D\:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
-renamed.0=classes.dex
-file.0=D\:\\project\\MootCourt\\Jshareexample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\project\\MootCourt\\MobDependency\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_group_scroll_up.xml",
+        "source": "D:\\project\\MootCourt\\MobDependency\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_country_group_scroll_up.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\MobDependency\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
+        "source": "D:\\project\\MootCourt\\MobDependency\\build\\intermediates\\bundles\\debug\\res\\drawable\\smssdk_country_group_scroll_down.xml"
+    }
+]

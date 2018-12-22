@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\project\MootCourt\UMSSDK\libs"><file name="UMSSDK-1.0.1.jar" path="D:\project\MootCourt\UMSSDK\libs\UMSSDK-1.0.1.jar"/></source></dataSet><dataSet config="release"><source path="D:\project\MootCourt\UMSSDK\src\release\jniLibs"/></dataSet></merger>

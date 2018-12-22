@@ -1,4 +1,4 @@
-include ':app', ':SlidingMenu_library', ':xutils', ':xUtils3_sample', ':RefreshListView', ':RefreshListView_sample'
+include ':app', ':SlidingMenu_library', ':xutils', ':xUtils3_sample', ':RefreshListView', ':RefreshListView_sample', ':MobDependency', ':UMSSDK', ':UMSSDK-GUI'
 include ':ViewPagerIndicator_library'
 include ':ViewPagerIndicator_sample'
 include ':ViewPagerIndicator_sample'

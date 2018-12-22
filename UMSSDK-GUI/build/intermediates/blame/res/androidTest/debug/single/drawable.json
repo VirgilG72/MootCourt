@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_useritem_gender_bg_male.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_useritem_gender_bg_male.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_sms_country_search_bg.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_sms_country_search_bg.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_dialog_button.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_dialog_button.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_image_picker_bg.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_image_picker_bg.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_defalut_add_friend_message.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_defalut_add_friend_message.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_dialog_btn_left.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_dialog_btn_left.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_dialog_prompt.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_dialog_prompt.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_remove_black_btn.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_remove_black_btn.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_defalut_new_request.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_defalut_new_request.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_useritem_gender_bg_secret.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_useritem_gender_bg_secret.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_search_edit_bg.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_search_edit_bg.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_defalut_list_sep.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_defalut_list_sep.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_progress_bar_loading.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_progress_bar_loading.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_sms_country_list_sep.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_sms_country_list_sep.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_useritem_gender_bg_female.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_useritem_gender_bg_female.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
+        "source": "D:\\project\\MootCourt\\MobDependency\\build\\intermediates\\bundles\\default\\res\\drawable\\smssdk_country_group_scroll_down.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\smssdk_country_group_scroll_up.xml",
+        "source": "D:\\project\\MootCourt\\MobDependency\\build\\intermediates\\bundles\\default\\res\\drawable\\smssdk_country_group_scroll_up.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_login_btn.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_login_btn.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_avatar_round_bg.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_avatar_round_bg.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_dialog_btn_right.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_dialog_btn_right.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_request_accept_btn.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_request_accept_btn.xml"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umssdk_default_bind_platform.xml",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable\\umssdk_default_bind_platform.xml"
+    }
+]

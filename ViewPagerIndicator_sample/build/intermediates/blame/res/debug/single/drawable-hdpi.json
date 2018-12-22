@@ -44,12 +44,12 @@
         "source": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\src\\main\\res\\drawable-hdpi\\perm_group_camera_normal.png"
     },
     {
-        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\perm_group_location_normal.png",
-        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\src\\main\\res\\drawable-hdpi\\perm_group_location_normal.png"
-    },
-    {
         "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\custom_tab_indicator_selected.9.png",
         "source": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\src\\main\\res\\drawable-hdpi\\custom_tab_indicator_selected.9.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\perm_group_location_normal.png",
+        "source": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\src\\main\\res\\drawable-hdpi\\perm_group_location_normal.png"
     },
     {
         "merged": "D:\\project\\MootCourt\\ViewPagerIndicator_sample\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\custom_tab_indicator_focused.9.png",

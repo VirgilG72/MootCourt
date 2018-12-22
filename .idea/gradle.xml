@@ -8,11 +8,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MobDependency" />
             <option value="$PROJECT_DIR$/PullToRefresh_sample" />
             <option value="$PROJECT_DIR$/PullToRefresh_sample_library" />
             <option value="$PROJECT_DIR$/RefreshListView" />
             <option value="$PROJECT_DIR$/RefreshListView_sample" />
             <option value="$PROJECT_DIR$/SlidingMenu_library" />
+            <option value="$PROJECT_DIR$/UMSSDK" />
+            <option value="$PROJECT_DIR$/UMSSDK-GUI" />
             <option value="$PROJECT_DIR$/ViewPagerIndicator_library" />
             <option value="$PROJECT_DIR$/ViewPagerIndicator_sample" />
             <option value="$PROJECT_DIR$/app" />

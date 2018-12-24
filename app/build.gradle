@@ -54,6 +54,7 @@ MobSDK {
     ShareSDK {
         //平台配置信息
         devInfo {
+            gui false
             SinaWeibo {
                 appKey "568898243"
                 appSecret "38a4f8204cc784f81f9f0daaf31e02e3"
@@ -82,7 +83,7 @@ MobSDK {
         }
     }
     SMSSDK {
-        gui true
+        gui false
     }
 
 }

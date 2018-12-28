@@ -36,12 +36,12 @@
         "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umssdk_default_qq_binded.png"
     },
     {
-        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umssdk_default_ptr_empty.png",
-        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umssdk_default_ptr_empty.png"
-    },
-    {
         "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umssdk_default_return_white.png",
         "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umssdk_default_return_white.png"
+    },
+    {
+        "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umssdk_default_ptr_empty.png",
+        "source": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umssdk_default_ptr_empty.png"
     },
     {
         "merged": "D:\\project\\MootCourt\\UMSSDK-GUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umssdk_default_add_follow.png",

@@ -47,7 +47,7 @@ public class BasePager {
      * 用于初始化公共部分视图，并且初始化子视图的Framelayout
      * @return
      */
-    private View initView() {
+    public View initView() {
         View view = View.inflate(context, R.layout.base_pager, null);
         x.view().inject(this,view);
         ib_menu.setOnClickListener(new View.OnClickListener() {

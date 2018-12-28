@@ -1,6 +1,8 @@
 package com.example.a61979.mootcourt.pager;
 
 import android.content.Context;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
@@ -33,6 +35,7 @@ public class HomePager extends BasePager {
     private ArrayList<ImageView> imageviews;
     private int preposition=0;
     private boolean isLoad=false;
+    private MyHandler myHandler;
 
     public HomePager(Context context) {
         super(context);
@@ -118,6 +121,17 @@ public class HomePager extends BasePager {
     private void initAdapter() {
         ll_point_group.getChildAt(0).setEnabled(true);
         viewpager.setAdapter(new MyviewpagerAdapter());
+        myHandler = new MyHandler();
+        myHandler.sendEmptyMessageDelayed(0,4000);
+    }
+    private class MyHandler extends Handler {
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            int item=(viewpager.getCurrentItem()+1)%imageviews.size();
+            viewpager.setCurrentItem(item);
+            myHandler.sendEmptyMessageDelayed(0,4000);
+        }
     }
 
     private class MyviewpagerAdapter extends PagerAdapter {
@@ -145,6 +159,7 @@ public class HomePager extends BasePager {
             container.removeView((View) object);
         }
     }
+
 
 
 }

@@ -1,17 +1,20 @@
 package com.example.a61979.mootcourt.pager;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.base.BasePager;
+import com.example.a61979.mootcourt.click.Start;
 import com.example.a61979.mootcourt.utils.DensityUtil;
 
 import org.xutils.view.annotation.ViewInject;
@@ -26,11 +29,18 @@ import java.util.ArrayList;
  * @updateAuthor $Author$
  * @updateDes ${TODO}
  */
-public class HomePager extends BasePager {
+public class HomePager extends BasePager{
     @ViewInject(R.id.viewpager)
     private ViewPager viewpager;
     @ViewInject(R.id.ll_point_group)
     private LinearLayout ll_point_group;
+    @ViewInject(R.id.ib_start)
+    private ImageButton ib_start;
+    @ViewInject(R.id.ib_famous)
+    private ImageButton ib_famous;
+    @ViewInject(R.id.ib_learn)
+    private ImageButton ib_learn;
+
     private int[] ImagesIDs;
     private ArrayList<ImageView> imageviews;
     private int preposition=0;
@@ -53,6 +63,7 @@ public class HomePager extends BasePager {
         return view;
 
     }
+
 
     private class MyHomeOnPageChangeListener implements ViewPager.OnPageChangeListener {
         @Override
@@ -88,7 +99,7 @@ public class HomePager extends BasePager {
         //        textView.setGravity(Gravity.CENTER);
         //        textView.setTextColor(Color.RED);
         //        textView.setTextSize(25);
-        //        fl_content.addView(textView);
+        //       fl_content.addView(textView);
         //        //3、绑定数据
         //        textView.setText("主页面内容");
 
@@ -124,6 +135,10 @@ public class HomePager extends BasePager {
         myHandler = new MyHandler();
         myHandler.sendEmptyMessageDelayed(0,4000);
     }
+
+    /**
+     * 轮播图的实现
+     */
     private class MyHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
@@ -134,6 +149,9 @@ public class HomePager extends BasePager {
         }
     }
 
+    /**
+     * viewpager适配器
+     */
     private class MyviewpagerAdapter extends PagerAdapter {
         @Override
         public int getCount() {
@@ -160,6 +178,12 @@ public class HomePager extends BasePager {
         }
     }
 
+
+    public void start(View view) {
+        Intent intent = new Intent(context,Start.class);
+        context.startActivity(intent);
+
+    }
 
 
 }

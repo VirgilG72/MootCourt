@@ -4,6 +4,7 @@
                 android:layout_height="match_parent">
 
     <RelativeLayout
+        android:id="@+id/rl_top"
         android:layout_width="match_parent"
         android:layout_height="180dp">
 
@@ -25,8 +26,8 @@
                 android:id="@+id/ll_point_group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
                 android:padding="8dp"
 
 
@@ -37,5 +38,123 @@
 
     </RelativeLayout>
 
+    <LinearLayout
+        android:id="@+id/ll_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#10000000"
+        android:layout_below="@+id/rl_top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/notice"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text=" 最 新 模 拟 庭 审 上 线"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_notice"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="start"
+                android:padding="8dp"
+                android:src="@drawable/start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ib_start"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+
+                android:text="即将开场"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ib_famous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="8dp"
+
+                android:onClick="famous"
+                android:src="@drawable/famous"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+
+                android:layout_below="@+id/ib_famous"
+                android:text="过往精选"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ib_learn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+
+                android:background="@android:color/transparent"
+                android:onClick="learn"
+                android:src="@drawable/learn"
+
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ib_learn"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:text="学习资料"/>
+        </RelativeLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>

@@ -199,6 +199,8 @@
         </activity>
         <activity android:name=".activity.Learn">
         </activity>
+        <activity android:name=".activity.Law">
+        </activity>
     </application>
 
 </manifest>

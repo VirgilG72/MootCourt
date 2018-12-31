@@ -11,18 +11,23 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.SimpleAdapter;
 
 import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.activity.Famous;
+import com.example.a61979.mootcourt.activity.Law;
 import com.example.a61979.mootcourt.activity.Learn;
 import com.example.a61979.mootcourt.activity.Start;
 import com.example.a61979.mootcourt.base.BasePager;
 import com.example.a61979.mootcourt.utils.DensityUtil;
+import com.example.a61979.mootcourt.view.HeaderGridView;
 
-import org.xutils.view.annotation.ViewInject;
 import org.xutils.x;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author Admin
@@ -32,23 +37,27 @@ import java.util.ArrayList;
  * @updateDes ${TODO}
  */
 public class HomePager extends BasePager {
-    @ViewInject(R.id.viewpager)
     private ViewPager viewpager;
-    @ViewInject(R.id.ll_point_group)
     private LinearLayout ll_point_group;
+    private HeaderGridView gridview;
+
     private ImageButton ib_start;
     private ImageButton ib_famous;
     private ImageButton ib_learn;
-
+    private ImageButton ib_law;
     private int[] ImagesIDs;
     private ArrayList<ImageView> imageviews;
     private int preposition = 0;
     private boolean isLoad = false;
     private MyHandler myHandler;
     private Intent intent;
+   private List<Map<String,Object>> data =new ArrayList<Map<String,Object>>();
+    public int[] ids=new int[]{R.drawable.a1,R.drawable.b,R.drawable.c};
+    public String[] names=new String[]{"a","b","c"};
 
     public HomePager(Context context) {
         super(context);
+
     }
 
     /**
@@ -58,10 +67,17 @@ public class HomePager extends BasePager {
      */
     @Override
     public View initView() {
+
         View view = View.inflate(context, R.layout.mytopnews, null);
-        ib_start = (ImageButton) view.findViewById(R.id.ib_start);
-        ib_famous = (ImageButton) view.findViewById(R.id.ib_famous);
-        ib_learn = (ImageButton) view.findViewById(R.id.ib_learn);
+        gridview = (HeaderGridView) view.findViewById(R.id.gridview);
+
+        View headerview = View.inflate(context, R.layout.homepagertop, null);
+        viewpager=(ViewPager) headerview.findViewById(R.id.viewpager);
+        ll_point_group=(LinearLayout) headerview.findViewById(R.id.ll_point_group);
+        ib_start = (ImageButton) headerview.findViewById(R.id.ib_start);
+        ib_famous = (ImageButton) headerview.findViewById(R.id.ib_famous);
+        ib_learn = (ImageButton) headerview.findViewById(R.id.ib_learn);
+        ib_law = (ImageButton) headerview.findViewById(R.id.ib_law);
         ib_start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -82,12 +98,21 @@ public class HomePager extends BasePager {
         ib_learn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               intent = new Intent(context, Learn.class);
+                intent = new Intent(context, Learn.class);
+                context.startActivity(intent);
+            }
+        });
+        ib_law.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(context, Law.class);
                 context.startActivity(intent);
             }
         });
         x.view().inject(this, view);
         viewpager.addOnPageChangeListener(new MyHomeOnPageChangeListener());
+        gridview.addHeaderView(headerview);
+
         return view;
 
     }
@@ -147,9 +172,16 @@ public class HomePager extends BasePager {
                 ll_point_group.addView(pointView, params);
                 imageviews.add(imageView);
             }
+            for (int i = 0; i <ids.length; i++) {
+                Map<String,Object> map=new HashMap<String, Object>();
+                map.put("id",ids[i]);
+                map.put("name",names[i]);
+                data.add(map);
+            }
             initAdapter();
             isLoad = true;
         }
+
 
     }
 
@@ -162,6 +194,10 @@ public class HomePager extends BasePager {
         viewpager.setAdapter(new MyviewpagerAdapter());
         myHandler = new MyHandler();
         myHandler.sendEmptyMessageDelayed(0, 4000);
+
+        SimpleAdapter simpleAdapter = new SimpleAdapter(context, data, R.layout.item_gridview, new String[]{"id", "name"}, new int[]{R.id.iv_gridview, R.id.tv_gridview});
+        gridview.setAdapter(simpleAdapter);
+
     }
 
     /**
@@ -204,12 +240,6 @@ public class HomePager extends BasePager {
             // super.destroyItem(container, position, object);
             container.removeView((View) object);
         }
-    }
-
-
-    public void start(View view) {
-
-
     }
 
 

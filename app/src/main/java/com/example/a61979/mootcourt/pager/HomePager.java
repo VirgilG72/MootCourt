@@ -13,8 +13,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.example.a61979.mootcourt.R;
+import com.example.a61979.mootcourt.activity.Famous;
+import com.example.a61979.mootcourt.activity.Learn;
+import com.example.a61979.mootcourt.activity.Start;
 import com.example.a61979.mootcourt.base.BasePager;
-import com.example.a61979.mootcourt.click.Start;
 import com.example.a61979.mootcourt.utils.DensityUtil;
 
 import org.xutils.view.annotation.ViewInject;
@@ -29,23 +31,21 @@ import java.util.ArrayList;
  * @updateAuthor $Author$
  * @updateDes ${TODO}
  */
-public class HomePager extends BasePager{
+public class HomePager extends BasePager {
     @ViewInject(R.id.viewpager)
     private ViewPager viewpager;
     @ViewInject(R.id.ll_point_group)
     private LinearLayout ll_point_group;
-    @ViewInject(R.id.ib_start)
     private ImageButton ib_start;
-    @ViewInject(R.id.ib_famous)
     private ImageButton ib_famous;
-    @ViewInject(R.id.ib_learn)
     private ImageButton ib_learn;
 
     private int[] ImagesIDs;
     private ArrayList<ImageView> imageviews;
-    private int preposition=0;
-    private boolean isLoad=false;
+    private int preposition = 0;
+    private boolean isLoad = false;
     private MyHandler myHandler;
+    private Intent intent;
 
     public HomePager(Context context) {
         super(context);
@@ -53,11 +53,39 @@ public class HomePager extends BasePager{
 
     /**
      * 初始化视图
+     *
      * @return
      */
     @Override
     public View initView() {
         View view = View.inflate(context, R.layout.mytopnews, null);
+        ib_start = (ImageButton) view.findViewById(R.id.ib_start);
+        ib_famous = (ImageButton) view.findViewById(R.id.ib_famous);
+        ib_learn = (ImageButton) view.findViewById(R.id.ib_learn);
+        ib_start.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                intent = new Intent(context, Start.class);
+                context.startActivity(intent);
+            }
+
+        });
+        ib_famous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(context, Famous.class);
+                context.startActivity(intent);
+            }
+        });
+
+        ib_learn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               intent = new Intent(context, Learn.class);
+                context.startActivity(intent);
+            }
+        });
         x.view().inject(this, view);
         viewpager.addOnPageChangeListener(new MyHomeOnPageChangeListener());
         return view;
@@ -75,7 +103,7 @@ public class HomePager extends BasePager{
         public void onPageSelected(int i) {
             ll_point_group.getChildAt(preposition).setEnabled(false);
             ll_point_group.getChildAt(i).setEnabled(true);
-            preposition=i;
+            preposition = i;
         }
 
         @Override
@@ -103,25 +131,25 @@ public class HomePager extends BasePager{
         //        //3、绑定数据
         //        textView.setText("主页面内容");
 
-       if(!isLoad){
-           ImagesIDs = new int[]{R.drawable.a1, R.drawable.b, R.drawable.c};
-           imageviews = new ArrayList<>();
-           ImageView imageView;
-           ImageView pointView;
-           for (int i = 0; i < ImagesIDs.length; i++) {
-               imageView = new ImageView(context);
-               pointView = new ImageView(context);
-               imageView.setBackgroundResource(ImagesIDs[i]);
-               pointView.setBackgroundResource(R.drawable.point_selector);
-               LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(DensityUtil.dip2px(context, 5), DensityUtil.dip2px(context, 5));
-               params.leftMargin = DensityUtil.dip2px(context,10);
-               pointView.setEnabled(false);
-               ll_point_group.addView(pointView, params);
-               imageviews.add(imageView);
-           }
-           initAdapter();
-           isLoad=true;
-       }
+        if (!isLoad) {
+            ImagesIDs = new int[]{R.drawable.a1, R.drawable.b, R.drawable.c};
+            imageviews = new ArrayList<>();
+            ImageView imageView;
+            ImageView pointView;
+            for (int i = 0; i < ImagesIDs.length; i++) {
+                imageView = new ImageView(context);
+                pointView = new ImageView(context);
+                imageView.setBackgroundResource(ImagesIDs[i]);
+                pointView.setBackgroundResource(R.drawable.point_selector);
+                LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(DensityUtil.dip2px(context, 5), DensityUtil.dip2px(context, 5));
+                params.leftMargin = DensityUtil.dip2px(context, 10);
+                pointView.setEnabled(false);
+                ll_point_group.addView(pointView, params);
+                imageviews.add(imageView);
+            }
+            initAdapter();
+            isLoad = true;
+        }
 
     }
 
@@ -133,7 +161,7 @@ public class HomePager extends BasePager{
         ll_point_group.getChildAt(0).setEnabled(true);
         viewpager.setAdapter(new MyviewpagerAdapter());
         myHandler = new MyHandler();
-        myHandler.sendEmptyMessageDelayed(0,4000);
+        myHandler.sendEmptyMessageDelayed(0, 4000);
     }
 
     /**
@@ -143,9 +171,9 @@ public class HomePager extends BasePager{
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            int item=(viewpager.getCurrentItem()+1)%imageviews.size();
+            int item = (viewpager.getCurrentItem() + 1) % imageviews.size();
             viewpager.setCurrentItem(item);
-            myHandler.sendEmptyMessageDelayed(0,4000);
+            myHandler.sendEmptyMessageDelayed(0, 4000);
         }
     }
 
@@ -180,8 +208,7 @@ public class HomePager extends BasePager{
 
 
     public void start(View view) {
-        Intent intent = new Intent(context,Start.class);
-        context.startActivity(intent);
+
 
     }
 

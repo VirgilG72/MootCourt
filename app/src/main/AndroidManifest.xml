@@ -193,7 +193,11 @@
             android:name="Mob-AppSecret"
             android:value="cd00f3416991565e2c97900d198153a5"/>
 
-        <activity android:name=".click.Start">
+        <activity android:name=".activity.Start">
+        </activity>
+        <activity android:name=".activity.Famous">
+        </activity>
+        <activity android:name=".activity.Learn">
         </activity>
     </application>
 

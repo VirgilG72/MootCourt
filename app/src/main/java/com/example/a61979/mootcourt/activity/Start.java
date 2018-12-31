@@ -1,4 +1,4 @@
-package com.example.a61979.mootcourt.click;
+package com.example.a61979.mootcourt.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

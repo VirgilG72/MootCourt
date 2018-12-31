@@ -135,6 +135,7 @@ public class TabDetailPager extends MenuDetailBasePager {
             Intent intent = new Intent(context, NewDetailActivity.class);
             intent.putExtra("url",Constants.BASE_URL+newsData.getUrl());
             context.startActivity(intent);
+
         }
     }
     private class MyONRefreshListener implements RefreshListview.OnRefreshListener {

@@ -7,6 +7,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.a61979.mootcourt.R;
+import com.example.a61979.mootcourt.activity.BaseActivity;
 import com.example.a61979.mootcourt.activity.MainActivity;
 
 import org.xutils.view.annotation.ViewInject;
@@ -19,7 +20,7 @@ import org.xutils.x;
  * @updateAuthor $Author$
  * @updateDes ${TODO}
  */
-public class BasePager {
+public class BasePager extends BaseActivity{
     /**
      * 上下文
      */

@@ -136,12 +136,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-
                 android:background="@android:color/transparent"
                 android:onClick="learn"
                 android:src="@drawable/learn"
-
                 />
+
 
             <TextView
                 android:id="@+id/textView"
@@ -153,6 +152,7 @@
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:text="学习资料"/>
+
         </RelativeLayout>
 
     </LinearLayout>

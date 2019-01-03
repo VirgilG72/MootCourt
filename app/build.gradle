@@ -79,6 +79,9 @@ MobSDK {
     SMSSDK {
         gui false
     }
+    MobPush {
+
+    }
 
 }
 

@@ -30,8 +30,6 @@ dependencies {
     api project(':RefreshListView')
     api project(':PullToRefresh_sample_library')
     api files('libs/Volleylibrary-1.0.19.jar')
-    api files('libs/jcore-android-1.2.6.jar')
-    api files('libs/jpush-android-3.1.8.jar')
     api 'com.android.support:appcompat-v7:27.1.1'
     api 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'

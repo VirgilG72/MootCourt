@@ -3,6 +3,7 @@ package com.example.a61979.mootcourt.pager;
 import android.content.Context;
 
 import com.example.a61979.mootcourt.base.BasePager;
+import com.mob.ums.gui.UMSGUI;
 
 /**
  * @author Admin
@@ -34,6 +35,7 @@ public class User extends BasePager {
 
         //打开我的资料页面。如果此前没有登录，则会先执行登录，在登录完成后才显示资料页面
        // UMSGUI.showProfilePage();
+        UMSGUI.showProfilePage();
 
     }
 }

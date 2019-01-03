@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MobDependency/MobDependency.iml" filepath="$PROJECT_DIR$/MobDependency/MobDependency.iml" />
       <module fileurl="file://$PROJECT_DIR$/MootCourt.iml" filepath="$PROJECT_DIR$/MootCourt.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefresh_sample/PullToRefresh_sample.iml" filepath="$PROJECT_DIR$/PullToRefresh_sample/PullToRefresh_sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/PullToRefresh_sample_library/PullToRefresh_sample_library.iml" filepath="$PROJECT_DIR$/PullToRefresh_sample_library/PullToRefresh_sample_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefreshListView/RefreshListView.iml" filepath="$PROJECT_DIR$/RefreshListView/RefreshListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/RefreshListView_sample/RefreshListView_sample.iml" filepath="$PROJECT_DIR$/RefreshListView_sample/RefreshListView_sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingMenu_library/SlidingMenu_library.iml" filepath="$PROJECT_DIR$/SlidingMenu_library/SlidingMenu_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UMSSDK/UMSSDK.iml" filepath="$PROJECT_DIR$/UMSSDK/UMSSDK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UMSSDK-GUI/UMSSDK-GUI.iml" filepath="$PROJECT_DIR$/UMSSDK-GUI/UMSSDK-GUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator_sample/ViewPagerIndicator_sample.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator_sample/ViewPagerIndicator_sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" filepath="$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" filepath="$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sMSSDK/sMSSDK.iml" filepath="$PROJECT_DIR$/sMSSDK/sMSSDK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shortMessageSDKGUI/shortMessageSDKGUI.iml" filepath="$PROJECT_DIR$/shortMessageSDKGUI/shortMessageSDKGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/xUtils3_sample/xUtils3_sample.iml" filepath="$PROJECT_DIR$/xUtils3_sample/xUtils3_sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/xutils/xutils.iml" filepath="$PROJECT_DIR$/xutils/xutils.iml" />
     </modules>

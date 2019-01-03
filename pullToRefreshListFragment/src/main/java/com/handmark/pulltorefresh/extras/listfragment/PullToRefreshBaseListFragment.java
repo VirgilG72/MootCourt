@@ -15,8 +15,8 @@
  *******************************************************************************/
 package com.handmark.pulltorefresh.extras.listfragment;
 
+import android.app.ListFragment;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,6 +24,8 @@ import android.widget.AbsListView;
 import android.widget.ListView;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
+
+//import android.support.v4.app.ListFragment;
 
 abstract class PullToRefreshBaseListFragment<T extends PullToRefreshBase<? extends AbsListView>> extends ListFragment {
 

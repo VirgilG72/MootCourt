@@ -10,7 +10,6 @@ import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.activity.BaseActivity;
 import com.example.a61979.mootcourt.activity.MainActivity;
 
-import org.xutils.view.annotation.ViewInject;
 import org.xutils.x;
 
 /**
@@ -30,11 +29,11 @@ public class BasePager extends BaseActivity{
      * 视图，代表各个不同的页面
      */
     public View rootview;
-    @ViewInject(R.id.tv_title)
+
     public TextView tv_title;
-    @ViewInject(R.id.ib_menu)
+
     public ImageButton ib_menu;
-    @ViewInject(R.id.fl_content)
+
     public FrameLayout fl_content;
 
     public BasePager(Context context)
@@ -50,6 +49,10 @@ public class BasePager extends BaseActivity{
      */
     public View initView() {
         View view = View.inflate(context, R.layout.base_pager, null);
+        tv_title = (TextView) view.findViewById(R.id.tv_title);
+        ib_menu = (ImageButton) view.findViewById(R.id.ib_menu);
+        fl_content = (FrameLayout) view.findViewById(R.id.fl_content);
+
         x.view().inject(this,view);
         ib_menu.setOnClickListener(new View.OnClickListener() {
             @Override

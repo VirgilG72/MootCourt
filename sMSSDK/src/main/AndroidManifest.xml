@@ -4,9 +4,9 @@
     android:versionCode="30200"
     android:versionName="3.2.0" >
 
-    <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="25" />
+    <!--<uses-sdk-->
+        <!--android:minSdkVersion="15"-->
+        <!--android:targetSdkVersion="25" />-->
 
     <application
         android:allowBackup="true" >

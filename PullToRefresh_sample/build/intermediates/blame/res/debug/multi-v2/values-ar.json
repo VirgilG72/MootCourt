@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\project\\MootCourt\\PullToRefresh_sample\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
+            "map": [
+                {
+                    "source": "D:\\project\\MootCourt\\PullToRefresh_sample_library\\build\\intermediates\\packaged_res\\debug\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,192",
+                        "endColumns": "68,67,71",
+                        "endOffsets": "119,187,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\61979\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\3e25495d11971fc7bd0d660b1adc4493\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "100",
+                        "endOffsets": "360"
+                    }
+                }
+            ]
+        }
+    ]
+}

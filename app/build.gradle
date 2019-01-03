@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.mob.sdk'
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.2'
+    compileSdkVersion 27
     defaultConfig {
         applicationId "com.example.a61979.mootcourt"
-        minSdkVersion 15
-        targetSdkVersion 25
+        minSdkVersion 23
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -20,31 +19,31 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile project(':SlidingMenu_library')
-    compile project(':xutils')
-    compile files('libs/gson-2.2.1.jar')
-    compile project(':ViewPagerIndicator_library')
-    compile project(':RefreshListView')
-    compile project(':PullToRefresh_sample_library')
-    compile files('libs/Volleylibrary-1.0.19.jar')
-    compile files('libs/jcore-android-1.2.6.jar')
-    compile files('libs/jpush-android-3.1.8.jar')
-    compile files('libs/MobCommons-2018.1128.1916.jar')
-    compile files('libs/MobTools-2018.1128.1916.jar')
-    compile files('libs/ShareSDK-Core-3.4.0.jar')
-    compile files('libs/ShareSDK-QQ-3.4.0.jar')
-    compile files('libs/ShareSDK-SinaWeibo-3.4.0.jar')
-    compile files('libs/ShareSDK-Wechat-3.4.0.jar')
-    compile files('libs/ShareSDK-Wechat-Core-3.4.0.jar')
-    compile files('libs/ShareSDK-Wechat-Moments-3.4.0.jar')
-    compile project(':UMSSDK-GUI')
-    compile 'com.android.support:appcompat-v7:25.2.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
+    api project(':SlidingMenu_library')
+    api project(':xutils')
+    api files('libs/gson-2.2.1.jar')
+    api project(':ViewPagerIndicator_library')
+    api project(':RefreshListView')
+    api project(':PullToRefresh_sample_library')
+    api files('libs/Volleylibrary-1.0.19.jar')
+    api files('libs/jcore-android-1.2.6.jar')
+    api files('libs/jpush-android-3.1.8.jar')
+    api files('libs/MobCommons-2018.1128.1916.jar')
+    api files('libs/MobTools-2018.1128.1916.jar')
+    api files('libs/ShareSDK-Core-3.4.0.jar')
+    api files('libs/ShareSDK-QQ-3.4.0.jar')
+    api files('libs/ShareSDK-SinaWeibo-3.4.0.jar')
+    api files('libs/ShareSDK-Wechat-3.4.0.jar')
+    api files('libs/ShareSDK-Wechat-Core-3.4.0.jar')
+    api files('libs/ShareSDK-Wechat-Moments-3.4.0.jar')
+    api project(':UMSSDK-GUI')
+    api 'com.android.support:appcompat-v7:27.1.1'
+    api 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
 }
 
 MobSDK {

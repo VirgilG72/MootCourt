@@ -1,28 +1,28 @@
 apply plugin: 'com.android.library'
 
-String findBuildTools() {
-    def localProperties = new File(rootProject.projectDir, "local.properties")
-    if (localProperties.exists()) {
-        def properties = new Properties()
-        localProperties.withInputStream {
-            instr->properties.load(instr)
-        }
-        def sdkDir = properties.getProperty('sdk.dir')
-        def buildTools = new File(sdkDir, "build-tools")
-        if (buildTools.exists()) {
-            def tools = buildTools.list()
-            if (tools != null) {
-                Arrays.sort(tools)
-                return tools[tools.length - 1]
-            }
-        }
-    }
-    return "25.0.2"
-}
+//String findBuildTools() {
+//    def localProperties = new File(rootProject.projectDir, "local.properties")
+//    if (localProperties.exists()) {
+//        def properties = new Properties()
+//        localProperties.withInputStream {
+//            instr->properties.load(instr)
+//        }
+//        def sdkDir = properties.getProperty('sdk.dir')
+//        def buildTools = new File(sdkDir, "build-tools")
+//        if (buildTools.exists()) {
+//            def tools = buildTools.list()
+//            if (tools != null) {
+//                Arrays.sort(tools)
+//                return tools[tools.length - 1]
+//            }
+//        }
+//    }
+//    return "25.0.2"
+//}
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion findBuildTools()
+    compileSdkVersion 27
+    //buildToolsVersion findBuildTools()
 
     sourceSets.main {
 		manifest.srcFile 'AndroidManifest.xml'
@@ -43,5 +43,5 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    api fileTree(include: ['*.jar'], dir: 'libs')
 }

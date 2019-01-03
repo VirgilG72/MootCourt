@@ -1,12 +1,11 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 27
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 25
+        minSdkVersion 23
+        targetSdkVersion 27
     }
 
     buildTypes {
@@ -18,8 +17,8 @@ android {
 }
 
 dependencies {
-    compile files('libs/MobCommons-2018.1128.1916.jar')
-    compile files('libs/MobTools-2018.1128.1916.jar')
-    compile files('libs/SDKWrapper-2018.0801.1824.jar')
-    compile files('libs/SMSSDK-3.2.1.jar')
+    api files('libs/MobCommons-2018.1128.1916.jar')
+    api files('libs/MobTools-2018.1128.1916.jar')
+    api files('libs/SDKWrapper-2018.0801.1824.jar')
+    api files('libs/SMSSDK-3.2.1.jar')
 }

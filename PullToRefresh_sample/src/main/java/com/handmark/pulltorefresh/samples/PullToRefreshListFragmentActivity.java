@@ -15,12 +15,9 @@
  *******************************************************************************/
 package com.handmark.pulltorefresh.samples;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-
+import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -29,7 +26,10 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
-public final class PullToRefreshListFragmentActivity extends FragmentActivity implements OnRefreshListener<ListView> {
+import java.util.Arrays;
+import java.util.LinkedList;
+
+public final class PullToRefreshListFragmentActivity extends Activity implements OnRefreshListener<ListView> {
 
 	private LinkedList<String> mListItems;
 	private ArrayAdapter<String> mAdapter;
@@ -43,7 +43,7 @@ public final class PullToRefreshListFragmentActivity extends FragmentActivity im
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_ptr_list_fragment);
 
-		mPullRefreshListFragment = (PullToRefreshListFragment) getSupportFragmentManager().findFragmentById(
+		mPullRefreshListFragment = (PullToRefreshListFragment) getFragmentManager().findFragmentById(
 				R.id.frag_ptr_list);
 
 		// Get PullToRefreshListView from Fragment

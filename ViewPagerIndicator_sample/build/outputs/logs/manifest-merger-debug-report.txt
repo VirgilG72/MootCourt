@@ -1,6 +1,23 @@
 -- Merging decision tree log ---
 manifest
 ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-298:12
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-298:12
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-298:12
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-298:12
+MERGED from [:ViewPagerIndicator_library] D:\project\MootCourt\ViewPagerIndicator_library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b222de9dcfbbff0670844d95eb15619e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\401eca60a4cf94d6114bb5fd856e15c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\adbb2877bb544cec2382f1140dafe34a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\1070456580aa0527d3de848388f408d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\52b2d9beb77a3ea65b0dfa4d079c3c19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3e25495d11971fc7bd0d660b1adc4493\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8978a9d2b5f9abda1e30daaa5aa0c083\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f7a46976d9e2ef7e5f35a4fa37a3123d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\aecb6fe565b764367d78943fc7df0774\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7a02be73010ea9ebe964a74f9c48b00a\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-298:12
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-298:12
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-298:12
 	package
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
@@ -9,39 +26,14 @@ ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManife
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:5:5-32
 		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
 		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:4:5-29
 		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
 		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:11-69
-uses-sdk
-ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [MootCourt:ViewPagerIndicator_library:unspecified] D:\project\MootCourt\ViewPagerIndicator_library\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:25.2.0] F:\AS\SDK\.android\build-cache\73a1879deb347b413cdb675485b7732496c8e219\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] F:\AS\SDK\.android\build-cache\d1ca9ef480b1bc0d234154ef5650acb797c8a4ac\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] F:\AS\SDK\.android\build-cache\cb813fa366cb388ff5637c28492c04f5ce7ce10d\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] F:\AS\SDK\.android\build-cache\d14ffe054fa4f4ee59db275c8b6ca0c816a77ede\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] F:\AS\SDK\.android\build-cache\090b797129ad8db44662ae3e7b9ecfe82d28519f\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] F:\AS\SDK\.android\build-cache\74c35a21d8d07e38554f0a39360c3f59653c252d\output\AndroidManifest.xml:21:5-23:58
-	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:25.2.0] F:\AS\SDK\.android\build-cache\73a1879deb347b413cdb675485b7732496c8e219\output\AndroidManifest.xml:23:9-51
-	android:targetSdkVersion
-		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
-		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:8:9-34
-		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
-		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
 application
 ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:11:5-297:19
-MERGED from [com.android.support:support-v4:25.2.0] F:\AS\SDK\.android\build-cache\73a1879deb347b413cdb675485b7732496c8e219\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] F:\AS\SDK\.android\build-cache\d1ca9ef480b1bc0d234154ef5650acb797c8a4ac\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] F:\AS\SDK\.android\build-cache\cb813fa366cb388ff5637c28492c04f5ce7ce10d\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] F:\AS\SDK\.android\build-cache\d14ffe054fa4f4ee59db275c8b6ca0c816a77ede\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] F:\AS\SDK\.android\build-cache\090b797129ad8db44662ae3e7b9ecfe82d28519f\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] F:\AS\SDK\.android\build-cache\74c35a21d8d07e38554f0a39360c3f59653c252d\output\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:12:9-50
 	android:icon
@@ -52,7 +44,7 @@ ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManife
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:17:13-48
 	android:name
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:16:13-40
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
 ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:20:17-69
@@ -68,7 +60,7 @@ ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManife
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:30:13-44
 	android:name
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:29:13-49
-intent-filter#android.intent.action.MAIN+com.jakewharton.android.viewpagerindicator.sample.SAMPLE
+intent-filter#action:name:android.intent.action.MAIN+category:name:com.jakewharton.android.viewpagerindicator.sample.SAMPLE
 ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:31:13-34:29
 category#com.jakewharton.android.viewpagerindicator.sample.SAMPLE
 ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:33:17-101
@@ -272,3 +264,39 @@ ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManife
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:290:17-56
 	android:name
 		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:288:17-60
+uses-sdk
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+MERGED from [:ViewPagerIndicator_library] D:\project\MootCourt\ViewPagerIndicator_library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:6:5-8:41
+MERGED from [:ViewPagerIndicator_library] D:\project\MootCourt\ViewPagerIndicator_library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b222de9dcfbbff0670844d95eb15619e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b222de9dcfbbff0670844d95eb15619e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\401eca60a4cf94d6114bb5fd856e15c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\401eca60a4cf94d6114bb5fd856e15c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\adbb2877bb544cec2382f1140dafe34a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\adbb2877bb544cec2382f1140dafe34a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\1070456580aa0527d3de848388f408d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\1070456580aa0527d3de848388f408d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\52b2d9beb77a3ea65b0dfa4d079c3c19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\52b2d9beb77a3ea65b0dfa4d079c3c19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3e25495d11971fc7bd0d660b1adc4493\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\3e25495d11971fc7bd0d660b1adc4493\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8978a9d2b5f9abda1e30daaa5aa0c083\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8978a9d2b5f9abda1e30daaa5aa0c083\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f7a46976d9e2ef7e5f35a4fa37a3123d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f7a46976d9e2ef7e5f35a4fa37a3123d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\aecb6fe565b764367d78943fc7df0774\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\aecb6fe565b764367d78943fc7df0774\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7a02be73010ea9ebe964a74f9c48b00a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\61979\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7a02be73010ea9ebe964a74f9c48b00a\AndroidManifest.xml:20:5-44
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+		ADDED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+		INJECTED from D:\project\MootCourt\ViewPagerIndicator_sample\src\main\AndroidManifest.xml

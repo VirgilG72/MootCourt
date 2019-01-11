@@ -34,7 +34,13 @@ public class BasePager extends BaseActivity{
 
     public ImageButton ib_menu;
 
+    public ImageButton ib_search;
+
+    public ImageButton ib_help;
+
     public FrameLayout fl_content;
+
+
 
     public BasePager(Context context)
     {
@@ -51,6 +57,8 @@ public class BasePager extends BaseActivity{
         View view = View.inflate(context, R.layout.base_pager, null);
         tv_title = (TextView) view.findViewById(R.id.tv_title);
         ib_menu = (ImageButton) view.findViewById(R.id.ib_menu);
+        ib_search = (ImageButton) view.findViewById(R.id.ib_search);
+        ib_help = (ImageButton) view.findViewById(R.id.ib_help);
         fl_content = (FrameLayout) view.findViewById(R.id.fl_content);
 
         x.view().inject(this,view);
@@ -70,4 +78,5 @@ public class BasePager extends BaseActivity{
     public void initData(){
 
     }
+
 }

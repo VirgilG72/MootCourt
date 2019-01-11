@@ -66,4 +66,42 @@
             android:visibility="gone"
             />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+
+        >
+        <ImageButton
+            android:id="@+id/ib_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+
+
+
+            />
+
+        <ImageButton
+            android:id="@+id/ib_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/help"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+
+            />
+    </LinearLayout>
+
+
 </RelativeLayout>

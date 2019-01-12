@@ -62,7 +62,7 @@
 
 
     <Button
-        android:id="@+id/status"
+        android:id="@+id/bt_status"
 
         android:layout_width="53dp"
         android:layout_height="20dp"

@@ -4,7 +4,10 @@ import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.base.BasePager;
@@ -21,7 +24,6 @@ public class Signup extends BasePager {
 
 
     private ListView listview;
-    private View convertview;
 
     public Signup(Context context) {
 
@@ -44,7 +46,7 @@ public class Signup extends BasePager {
 
     }
     public View initSignupView(){
-        
+        fl_content.removeAllViews();
         View view = View.inflate(context,R.layout.activity_signup,null);
         listview = (ListView) view.findViewById(R.id.signup_listview);
 
@@ -68,7 +70,7 @@ public class Signup extends BasePager {
     private class MysignupAdapter extends BaseAdapter {
         @Override
         public int getCount() {
-            return 100;
+            return 10;
         }
 
         @Override
@@ -83,10 +85,39 @@ public class Signup extends BasePager {
 
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
-            convertview = View.inflate(context, R.layout.item_signup_listview, null);
+            ViewHolder viewHolder = new ViewHolder();
+            if(view==null){
+                LogUtil.e("第一次初始化listview========="+i);
+                view = View.inflate(context, R.layout.item_signup_listview, null);
+                viewHolder.number=(TextView) view.findViewById(R.id.number);
+                viewHolder.pic=(ImageView) view.findViewById(R.id.pic);
+                viewHolder.title=(TextView) view.findViewById(R.id.title);
+                viewHolder.time=(TextView) view.findViewById(R.id.time);
+                viewHolder.bt_status=(Button) view.findViewById(R.id.bt_status);
+                view.setTag(viewHolder);
 
 
-            return convertview;
+            }
+            else
+            {
+                LogUtil.e("复用listview=========");
+                viewHolder  = (ViewHolder) view.getTag();
+
+            }
+            viewHolder.number.setText(i+1+"、");
+
+            return view;
         }
+
+
+    }
+    static class ViewHolder {
+        TextView number;
+        ImageView pic;
+        TextView title;
+        TextView time;
+        Button bt_status;
+
+
     }
 }

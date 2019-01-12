@@ -347,7 +347,7 @@ public class TabDetailPager extends MenuDetailBasePager {
         public View getView(int position, View convertView, ViewGroup parent) {
            ViewHolder viewholder=new ViewHolder();
             if (convertView==null){
-                convertView=View.inflate(context,R.layout.item_tabdetail_pager,null);
+                convertView =View.inflate(context,R.layout.item_tabdetail_pager,null);
                 viewholder.iv_icon=(ImageView) convertView.findViewById(R.id.iv_icon);
                 viewholder.tv_time=(TextView) convertView.findViewById(R.id.tv_time);
                 viewholder.tv_title=(TextView) convertView.findViewById(R.id.tv_title);

@@ -1,11 +1,12 @@
 package com.example.a61979.mootcourt.pager;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.view.Gravity;
 import android.view.View;
-import android.widget.TextView;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ListView;
 
+import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.base.BasePager;
 import com.example.a61979.mootcourt.utils.LogUtil;
 
@@ -19,7 +20,11 @@ import com.example.a61979.mootcourt.utils.LogUtil;
 public class Signup extends BasePager {
 
 
+    private ListView listview;
+    private View convertview;
+
     public Signup(Context context) {
+
         super(context);
     }
 
@@ -30,44 +35,58 @@ public class Signup extends BasePager {
 
         ib_search.setVisibility(View.VISIBLE);
         ib_help.setVisibility(View.VISIBLE);
-
+        initSignupView();
         LogUtil.e("报名页面数据被初始化了。");
         //1、设置标题
         tv_title.setText("报名");
-        //2、联网请求得到数据，创建视图
-        TextView textView = new TextView(context);
-
-        textView.setGravity(Gravity.CENTER);
-        textView.setTextColor(Color.RED);
-        textView.setTextSize(25);
-        fl_content.addView(textView);
-        //3、绑定数据
-        textView.setText("报名内容");
-
 
 
 
     }
+    public View initSignupView(){
+        
+        View view = View.inflate(context,R.layout.activity_signup,null);
+        listview = (ListView) view.findViewById(R.id.signup_listview);
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.search_help_menu,menu);
-//        SearchView sv = (SearchView) menu.findItem(R.id.search).getActionView();
-//        sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-//            @Override
-//            public boolean onQueryTextSubmit(String query) {
-//                Toast.makeText(context,query,Toast.LENGTH_SHORT).show();
-//
-//                return false;
-//            }
-//
-//            @Override
-//            public boolean onQueryTextChange(String newText) {
-//                Toast.makeText(context,"onQueryTextChange========",Toast.LENGTH_SHORT).show();
-//
-//                return false;
-//            }
-//        });
-//        return super.onCreateOptionsMenu(menu);
-//    }
+
+        View headerview = View.inflate(context, R.layout.signup_topview, null);
+        listview.addHeaderView(headerview);
+        fl_content.addView(view);
+        initAdapter();
+
+        return view;
+
+    }
+
+    private void initAdapter() {
+        MysignupAdapter adapter = new MysignupAdapter();
+        listview.setAdapter(adapter);
+
+    }
+
+
+    private class MysignupAdapter extends BaseAdapter {
+        @Override
+        public int getCount() {
+            return 100;
+        }
+
+        @Override
+        public Object getItem(int i) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int i) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int i, View view, ViewGroup viewGroup) {
+            convertview = View.inflate(context, R.layout.item_signup_listview, null);
+
+
+            return convertview;
+        }
+    }
 }

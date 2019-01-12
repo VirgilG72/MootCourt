@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_signup"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_signup_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="47dp"
+            android:background="@android:color/transparent"
+            android:padding="20dp"
+            android:src="@drawable/signup_person"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ib_signup_person"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="个人报名"
+            android:textColor="#f91375d7"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ib_signup_person"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="242dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+
+            android:text="团队报名"
+            android:textColor="#f91375d7"
+            android:textSize="18sp"/>
+
+        <ImageButton
+            android:id="@+id/ib_signup_mulperson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/ib_signup_person"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="-166dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+
+            android:padding="20dp"
+            android:src="@drawable/signup_mulperson"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/title_blue"
+        android:layout_below="@+id/rl_signup"
+        android:id="@+id/rl_signup_title"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:text="我报名的"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="28dp"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+
+            android:text="更多"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:src="@drawable/right"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_signup_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-14dp"
+        android:id="@+id/bt_group">
+
+        <Button
+            android:id="@+id/bt_starting"
+            android:layout_width="98dp"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="275dp"
+            android:background="@drawable/corners_red"
+            android:text="正在进行"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/bt_willing"
+            android:layout_width="98dp"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/corners_orange"
+            android:text="即将开场"
+            android:textColor="#ffffff"
+
+            />
+
+        <Button
+            android:id="@+id/bt_ending"
+            android:layout_width="102dp"
+            android:layout_height="26dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="24dp"
+            android:layout_toEndOf="@+id/bt_willing"
+            android:background="@drawable/corners_green"
+            android:text="已结束"
+
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+</RelativeLayout>

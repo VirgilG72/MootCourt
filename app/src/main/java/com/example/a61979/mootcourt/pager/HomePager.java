@@ -195,7 +195,7 @@ public class HomePager extends BasePager {
         myHandler = new MyHandler();
         myHandler.sendEmptyMessageDelayed(0, 4000);
 
-        SimpleAdapter simpleAdapter = new SimpleAdapter(context, data, R.layout.item_gridview, new String[]{"id", "name"}, new int[]{R.id.iv_gridview, R.id.tv_gridview});
+       SimpleAdapter simpleAdapter = new SimpleAdapter(context, data, R.layout.item_gridview, new String[]{"id", "name"}, new int[]{R.id.iv_gridview, R.id.tv_gridview});
         gridview.setAdapter(simpleAdapter);
 
     }
@@ -241,6 +241,7 @@ public class HomePager extends BasePager {
             container.removeView((View) object);
         }
     }
+
 
 
 }

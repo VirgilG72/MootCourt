@@ -104,7 +104,7 @@ public class Signup extends BasePager {
                 viewHolder  = (ViewHolder) view.getTag();
 
             }
-            viewHolder.number.setText(i+1+"、");
+            viewHolder.number.setText(i+1+"、");//定义序号
 
             return view;
         }

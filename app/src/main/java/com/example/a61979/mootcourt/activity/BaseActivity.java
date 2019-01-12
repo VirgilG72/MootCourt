@@ -73,9 +73,9 @@ public class BaseActivity extends AppCompatActivity {
 
             //            Snackbar.make(getWindow().getDecorView(), requestName,
             //                    Snackbar.LENGTH_INDEFINITE)
-            //                    .setAction(R.string.common_ok, new View.OnClickListener() {
+            //                    .setAction(R.string.common_ok, new Horizon.OnClickListener() {
             //                        @Override
-            //                        public void onClick(View view) {
+            //                        public void onClick(Horizon view) {
             //                            ActivityCompat.requestPermissions(BaseAppCompatActivity.this,
             //                                    permissions,
             //                                    requestCode);

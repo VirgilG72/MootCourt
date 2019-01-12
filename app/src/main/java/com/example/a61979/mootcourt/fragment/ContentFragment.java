@@ -12,6 +12,7 @@ import com.example.a61979.mootcourt.listener.MyOnCheckedChangeListener;
 import com.example.a61979.mootcourt.listener.MyOnPageChangeListener;
 import com.example.a61979.mootcourt.pager.Discover;
 import com.example.a61979.mootcourt.pager.HomePager;
+import com.example.a61979.mootcourt.pager.Horizon;
 import com.example.a61979.mootcourt.pager.Signup;
 import com.example.a61979.mootcourt.pager.User;
 import com.example.a61979.mootcourt.utils.LogUtil;
@@ -59,7 +60,7 @@ public class ContentFragment extends BaseFragment {
         basePagers.add(new HomePager((context)));
         basePagers.add(new Discover((context)));
         basePagers.add(new Signup((context)));
-        basePagers.add(new com.example.a61979.mootcourt.pager.View(context));
+        basePagers.add(new Horizon(context));
         basePagers.add(new User((context)));
 
 

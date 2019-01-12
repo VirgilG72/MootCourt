@@ -3,4 +3,33 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="black5e">#5e5e5d</color>
+    <color name="blue_bg">#45a2ff</color>
+    <color name="gray1">#c1bdbd</color>
+    <color name="gray2">#efefef</color>
+    <color name="home_tab_bg">#F9F9F9</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="title_colcor">#F9F9F9</color>
+    <color name="blueLight">#7eb3ff</color>
+    <color name="btn_cm_bg_pressed">#eaeff4</color>
+    <color name="withe">#ffffff</color>
+    <color name="home_orange">#FAB21F</color>
+    <color name="black33">#333333</color>
+    <color name="black66">#666666</color>
+    <color name="black99">#999999</color>
+    <color name="home_gray_item_bg">#F0EFF4</color>
+    <color name="title_line1">#F95F4D</color>
+    <color name="title_line2">#FAB21F</color>
+    <color name="title_line3">#78D125</color>
+
+    <color name="centiment_date_unselected_color">#45A2FF</color>
+    <color name="centiment_date_selected_color">#FFFFFF</color>
+
+    <!--wheel 的颜色值-->
+    <color name="whell_item_bg_select">#efefef</color>
+
+    <color name="view1_bg">#d2d2d2</color>
+
+    <color name="bg_loading">#f0f0f3</color>
 </resources>

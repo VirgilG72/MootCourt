@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_mine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mine_top_bg"
+                android:scaleType="fitXY"
+                />
+
+            <com.example.a61979.mootcourt.view.My.CircleImageView
+                android:id="@+id/iv_mine_avatar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/title_bar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_head"/>
+
+            <TextView
+                android:id="@+id/tv_mine_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_mine_avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#7eb3ff"
+                android:text="VirgilG72"/>
+
+            <TextView
+                android:id="@+id/tv_mine_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_mine_name"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="3dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="3dp"
+                android:textColor="#7eb3ff"
+                android:text="Blog:http://gongjiazheng.top/"
+                android:textSize="12sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll_mine_item"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/tv_mine_account">
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/fake_status_bar"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@android:color/transparent"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

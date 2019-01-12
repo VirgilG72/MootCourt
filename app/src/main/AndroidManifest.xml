@@ -33,7 +33,8 @@
         <activity android:name=".activity.NewDetailActivity">
         </activity>
 
-
+        <activity
+            android:name=".activity.WebViewActivity"/>
         <activity android:name=".activity.Start">
         </activity>
         <activity android:name=".activity.Famous">

@@ -15,8 +15,8 @@ import com.example.a61979.mootcourt.utils.LogUtil;
  * @updateAuthor $Author$
  * @updateDes ${TODO}
  */
-public class View extends BasePager {
-    public View(Context context) {
+public class Horizon extends BasePager {
+    public Horizon(Context context) {
         super(context);
     }
 

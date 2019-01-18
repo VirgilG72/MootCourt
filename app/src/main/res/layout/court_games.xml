@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/title"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="民事审判"
+                android:textSize="30sp"
+                />
+
+            <ImageView
+
+                android:id="@+id/iv_national"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/nationals"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="第一庭"
+                android:textSize="30sp"
+                />
+
+        </LinearLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/black"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_peishentuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_top">
+        <!--审判长-->
+        <ImageView
+            android:id="@+id/ci_shenpanzhang"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ci_shenpanzhang"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="审判长"/>
+        <!--陪审1-->
+        <ImageView
+            android:id="@+id/ci_peishen1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ci_peishen1"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="-1dp"
+            android:text="陪审1"/>
+        <!--陪审2-->
+        <ImageView
+            android:id="@+id/ci_peishen2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="34dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ci_peishen2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="51dp"
+            android:text="陪审2"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_lvshituan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_peishentuan">
+        <!--书记员-->
+        <ImageView
+            android:id="@+id/ci_shujiyuan"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ci_shujiyuan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="书记员"/>
+        <!--原告律师-->
+        <ImageView
+            android:id="@+id/ci_yuangaolvshi"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ci_yuangaolvshi"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="-2dp"
+            android:text="原告律师"/>
+        <!--被告律师-->
+        <ImageView
+            android:id="@+id/ci_beigaolvshi"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="34dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ci_beigaolvshi"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="42dp"
+            android:text="被告律师"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_rentuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_lvshituan">
+        <!--证人-->
+        <ImageView
+            android:id="@+id/ci_zhengren"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ci_zhengren"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="证人"/>
+        <!--原告人-->
+        <ImageView
+            android:id="@+id/ci_yuangaoren"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ci_yuangaoren"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="0dp"
+            android:text="原告人"/>
+        <!--被告人-->
+        <ImageView
+            android:id="@+id/ci_beigaoren"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="34dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_head"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ci_beigaoren"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="51dp"
+            android:text="被告人"/>
+
+
+    </RelativeLayout>
+    <!--聊天界面-->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_rentuan"
+        android:divider="@null"
+
+        >
+
+
+    </ListView>
+    <!--聊天输入框，语音输入-->
+    <LinearLayout
+
+        android:id="@+id/room_key_voice_v"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#35206E"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/room_key_switch_ib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/room_im_keyborad_selected"/>
+
+        <LinearLayout
+            android:id="@+id/room_voice_v"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_room_voice_selected"
+            android:clickable="true"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@mipmap/room_im_voice"
+                android:gravity="center"
+                android:text=" 按住说话"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/room_key_v"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/room_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_room_edit"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/room_send_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_room_send"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="发送"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

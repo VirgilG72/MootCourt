@@ -32,9 +32,7 @@
         </activity>
         <activity android:name=".activity.NewDetailActivity">
         </activity>
-
-        <activity
-            android:name=".activity.WebViewActivity"/>
+        <activity android:name=".activity.WebViewActivity"/>
         <activity android:name=".activity.Start">
         </activity>
         <activity android:name=".activity.Famous">
@@ -42,6 +40,8 @@
         <activity android:name=".activity.Learn">
         </activity>
         <activity android:name=".activity.Law">
+        </activity>
+        <activity android:name=".activity.CourtGamesActivity">
         </activity>
     </application>
 

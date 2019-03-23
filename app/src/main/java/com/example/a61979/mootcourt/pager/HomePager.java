@@ -22,8 +22,6 @@ import com.example.a61979.mootcourt.base.BasePager;
 import com.example.a61979.mootcourt.utils.DensityUtil;
 import com.example.a61979.mootcourt.view.HeaderGridView;
 
-import org.xutils.x;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -109,7 +107,7 @@ public class HomePager extends BasePager {
                 context.startActivity(intent);
             }
         });
-        x.view().inject(this, view);
+
         viewpager.addOnPageChangeListener(new MyHomeOnPageChangeListener());
         gridview.addHeaderView(headerview);
 

@@ -13,7 +13,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.example.a61979.mootcourt.R;
+import com.example.a61979.mootcourt.RequestInterface.Get_Request_Path;
 import com.example.a61979.mootcourt.base.MenuDetailBasePager;
 import com.example.a61979.mootcourt.domain.DiscoverPagerBean2;
 import com.example.a61979.mootcourt.domain.TabDetailPagerBean;
@@ -26,12 +28,14 @@ import com.google.gson.Gson;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
-import org.xutils.common.Callback;
-import org.xutils.http.RequestParams;
-import org.xutils.image.ImageOptions;
-import org.xutils.x;
-
+import java.io.IOException;
 import java.util.List;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
 
 /**
  * @author Admin
@@ -46,7 +50,7 @@ public class UKDetailPager extends MenuDetailBasePager {
     private TextView tv_title;
     private LinearLayout ll_point_group;
     private ListView listview;
-    private ImageOptions imageOptions;
+    //private ImageOptions imageOptions;
 
 
     private final DiscoverPagerBean2.DetailPagerData.ChildrenData childrenData;
@@ -70,17 +74,17 @@ public class UKDetailPager extends MenuDetailBasePager {
     public UKDetailPager(Context context, DiscoverPagerBean2.DetailPagerData.ChildrenData childrenData) {
         super(context);
         this.childrenData=childrenData;
-        imageOptions = new ImageOptions.Builder()
-                .setSize(DensityUtil.dip2px(context,100), DensityUtil.dip2px(context,100))
-                .setRadius(DensityUtil.dip2px(context,5))
-                // 如果ImageView的大小不是定义为wrap_content, 不要crop.
-                .setCrop(true) // 很多时候设置了合适的scaleType也不需要它.
-                // 加载中或错误图片的ScaleType
-                //.setPlaceholderScaleType(ImageView.ScaleType.MATRIX)
-                .setImageScaleType(ImageView.ScaleType.CENTER_CROP)
-                .setLoadingDrawableId(R.drawable.news_pic_default)
-                .setFailureDrawableId(R.drawable.news_pic_default)
-                .build();
+//        imageOptions = new ImageOptions.Builder()
+//                .setSize(DensityUtil.dip2px(context,100), DensityUtil.dip2px(context,100))
+//                .setRadius(DensityUtil.dip2px(context,5))
+//                // 如果ImageView的大小不是定义为wrap_content, 不要crop.
+//                .setCrop(true) // 很多时候设置了合适的scaleType也不需要它.
+//                // 加载中或错误图片的ScaleType
+//                //.setPlaceholderScaleType(ImageView.ScaleType.MATRIX)
+//                .setImageScaleType(ImageView.ScaleType.CENTER_CROP)
+//                .setLoadingDrawableId(R.drawable.news_pic_default)
+//                .setFailureDrawableId(R.drawable.news_pic_default)
+//                .build();
 
     }
 
@@ -123,43 +127,40 @@ public class UKDetailPager extends MenuDetailBasePager {
 
         return view;
     }
-
-
     private void getMoreDataFromNet() {
-        RequestParams params=new RequestParams(moreUrl);
-        params.setConnectTimeout(4000);
-        x.http().get(params, new Callback.CommonCallback<String>() {
+        Retrofit retrofit=new Retrofit.Builder()
+                .baseUrl(moreUrl+"/")
+                .build();
+        Get_Request_Path request = retrofit.create(Get_Request_Path.class);
+        Call<ResponseBody> call = request.getCall(moreUrl);
+        call.enqueue(new Callback<ResponseBody>() {
             @Override
-            public void onSuccess(String result) {
-                LogUtil.e("加载更多联网成功=="+result);
-                //把这个放在前面
-                isLoadMore = true;
-                // 解析数据
-                processData(result);
-                //listview.onRefreshFinish(false);
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                try {
+                    String result=new String (response.body().bytes());
+                    LogUtil.e("加载更多联网成功=="+result);
+                    //把这个放在前面
+                    isLoadMore = true;
+                    // 解析数据
+                    processData(result);
+                    mPullRefreshListView.onRefreshComplete();
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                LogUtil.e("加载更多联网失败onError=="+t.getMessage());
                 mPullRefreshListView.onRefreshComplete();
-
-            }
-
-            @Override
-            public void onError(Throwable ex, boolean isOnCallback) {
-                LogUtil.e("加载更多联网失败onError=="+ex.getMessage());
-                //listview.onRefreshFinish(false);
-                mPullRefreshListView.onRefreshComplete();
-            }
-
-            @Override
-            public void onCancelled(CancelledException cex) {
-                LogUtil.e("加载更多联网失败oncancelled=="+cex.getMessage());
-            }
-
-            @Override
-            public void onFinished() {
-                LogUtil.e("加载更多联网onFinished");
-
             }
         });
+        //params.setConnectTimeout(4000);
+
     }
+
+
 
     @Override
     public void initData() {
@@ -181,46 +182,46 @@ public class UKDetailPager extends MenuDetailBasePager {
     }
 
     private void getDataFromNet() {
-        RequestParams params=new RequestParams(url);
-        params.setConnectTimeout(4000);
+        Retrofit retrofit=new Retrofit.Builder()
+                .baseUrl(Constants.BASE_URL+"/")
+                .build();
+        Get_Request_Path request = retrofit.create(Get_Request_Path.class);
+        Call<ResponseBody> call = request.getCall(url);
 
-        x.http().get(params, new Callback.CommonCallback<String>() {
+        call.enqueue(new Callback<ResponseBody>() {
             @Override
-            public void onSuccess(String result) {
-                //缓存数据
-                CacheUtils.putString(context,url,result);
-                LogUtil.e(childrenData.getTitle()+"页面数据请求成功==");
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                try {
+                    //                    String bodyInfo ="";
+                    //
+                    //                            ResponseBody body = response.body();
+                    //                            bodyInfo =inputStream2String(body.byteStream());
+                    //                            body.close();
+                    //
+                    //                        Log.i(TAG, "onResponse---bodymsg: ======="+bodyInfo);
+                    String result=new String(response.body().bytes());
+                    //缓存数据
+                    CacheUtils.putString(context,url,result);
+                    LogUtil.e(childrenData.getTitle()+"页面数据请求成功==");
+                    //解析和处理显示数据
+                    processData(result);
+                    //隐藏下拉刷新控件-重写数据更新时间
+                    mPullRefreshListView.onRefreshComplete();
 
-                //解析和处理显示数据
-                processData(result);
 
-                //隐藏下拉刷新控件-重写数据更新时间
-                //listview.onRefreshFinish(true);
-                mPullRefreshListView.onRefreshComplete();
-
-
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
 
             @Override
-            public void onError(Throwable ex, boolean isOnCallback) {
-                LogUtil.e(childrenData.getTitle()+"页面数据请求失败=="+ex.getMessage());
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                LogUtil.e(childrenData.getTitle()+"页面数据请求失败=="+t.getMessage());
                 //隐藏下拉刷新控件-不更新时间
-                //listview.onRefreshFinish(true);
                 mPullRefreshListView.onRefreshComplete();
-
-            }
-
-            @Override
-            public void onCancelled(CancelledException cex) {
-                LogUtil.e(childrenData.getTitle()+"页面数据请求失败=="+cex.getMessage());
-            }
-
-            @Override
-            public void onFinished() {
-                LogUtil.e(childrenData.getTitle()+"页面数据请求完成");
-
             }
         });
+
     }
 
     /**
@@ -308,7 +309,12 @@ public class UKDetailPager extends MenuDetailBasePager {
             TabDetailPagerBean.DataBean.NewsData newsData = news.get(position);
             String imgUrl=Constants.BASE_URL+newsData.getListimage();
             //请求图片
-            x.image().bind(viewholder.iv_icon,imgUrl,imageOptions);
+            Glide.with(context)
+                    .load(imgUrl)
+                    .override(DensityUtil.dip2px(context,100), DensityUtil.dip2px(context,100))
+                    .placeholder(R.drawable.news_pic_default)
+                    .error(R.drawable.news_pic_default)
+                    .into(viewholder.iv_icon);
 
             //设置标题
             viewholder.tv_title.setText(newsData.getTitle());
@@ -411,7 +417,12 @@ public class UKDetailPager extends MenuDetailBasePager {
             String imgUrl = Constants.BASE_URL+topnewsData.getTopimage();
 
             //联网请求图片
-            x.image().bind(imageView,imgUrl);
+            Glide.with(context)
+                    .load(imgUrl)
+                    //                    .override(DensityUtil.dip2px(context,100), DensityUtil.dip2px(context,100))
+                    //                    .placeholder(R.drawable.news_pic_default)
+                    //                    .error(R.drawable.news_pic_default)
+                    .into(imageView);
 
             //把图片添加到容器viewpager中
             container.addView(imageView);

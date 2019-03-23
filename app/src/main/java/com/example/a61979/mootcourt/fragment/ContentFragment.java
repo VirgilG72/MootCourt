@@ -19,9 +19,6 @@ import com.example.a61979.mootcourt.utils.LogUtil;
 import com.example.a61979.mootcourt.view.NoScrollViewPager;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
-import org.xutils.view.annotation.ViewInject;
-import org.xutils.x;
-
 import java.util.ArrayList;
 
 /**
@@ -33,10 +30,9 @@ import java.util.ArrayList;
  */
 public class ContentFragment extends BaseFragment {
     //2、初始化控件
-    @ViewInject(R.id.viewpager)
     private NoScrollViewPager viewpager;
 
-    @ViewInject(R.id.rg_main)
+    //@ViewInject(R.id.rg_main)
     private RadioGroup rg_main;
 
     private ArrayList<BasePager> basePagers;
@@ -45,8 +41,10 @@ public class ContentFragment extends BaseFragment {
     public View initView() {
         LogUtil.e("正文Fragment视图被初始化了");
         View view = View.inflate(context, R.layout.content_fragment, null);
+        viewpager= (NoScrollViewPager) view.findViewById(R.id.viewpager);
+        rg_main=(RadioGroup) view.findViewById(R.id.rg_main);
         //1、把视图注入到框架中，让此类和view关联起来
-        x.view().inject(this, view);
+        //x.view().inject(this, view);
         return view;
     }
 

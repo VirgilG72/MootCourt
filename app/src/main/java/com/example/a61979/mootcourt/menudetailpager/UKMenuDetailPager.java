@@ -16,9 +16,6 @@ import com.example.a61979.mootcourt.utils.LogUtil;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.viewpagerindicator.TabPageIndicator;
 
-import org.xutils.view.annotation.ViewInject;
-import org.xutils.x;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,13 +28,10 @@ import java.util.List;
  */
 public class UKMenuDetailPager extends MenuDetailBasePager {
 
-    @ViewInject(R.id.tabPageIndicator)
     private TabPageIndicator tabPageIndicator;
 
-    @ViewInject(R.id.viewpager)
     private ViewPager viewpager;
 
-    @ViewInject(R.id.ib_tab_next)
     private ImageButton ib_tab_next;
 
     /**
@@ -56,7 +50,9 @@ public class UKMenuDetailPager extends MenuDetailBasePager {
     @Override
     public View initView() {
         View view = View.inflate(context, R.layout.ukmenu_detail_pager, null);
-        x.view().inject(this,view);
+        tabPageIndicator= (TabPageIndicator) view.findViewById(R.id.tabPageIndicator);
+        viewpager= (ViewPager) view.findViewById(R.id.viewpager);
+        ib_tab_next=(ImageButton) view.findViewById(R.id.ib_tab_next);
         //设置点击事件
         ib_tab_next.setOnClickListener(new View.OnClickListener() {
             @Override

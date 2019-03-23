@@ -3,10 +3,12 @@ package com.example.a61979.mootcourt.pager;
 import android.content.Context;
 import android.graphics.Color;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.a61979.mootcourt.RequestInterface.Get_Request;
 import com.example.a61979.mootcourt.activity.MainActivity;
 import com.example.a61979.mootcourt.base.BasePager;
 import com.example.a61979.mootcourt.base.MenuDetailBasePager;
@@ -26,12 +28,15 @@ import com.google.gson.Gson;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.xutils.common.Callback;
-import org.xutils.http.RequestParams;
-import org.xutils.x;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
 
 //import com.example.a61979.mootcourt.domain.DiscoverPagerBean;
 
@@ -53,7 +58,7 @@ public class Discover extends BasePager {
      * 详情页面的集合
      */
     private ArrayList<MenuDetailBasePager> detailBasepagers;
-
+    private static final String TAG = "Discover";
     public Discover(Context context) {
         super(context);
     }
@@ -82,7 +87,7 @@ public class Discover extends BasePager {
         }
 
         //联网请求数据
-        getDataFromNet();
+        getDataFromNetByRetrofit();
         //用volley联网请求数据
         //getDataFromNetByVolley();
 
@@ -98,34 +103,34 @@ public class Discover extends BasePager {
     /**
      * 使用xUtils3联网请求
      */
-    private void getDataFromNet() {
-        RequestParams params=new RequestParams(Constants.DISCOVER_PAGER_URL);
-        x.http().get(params, new Callback.CommonCallback<String>() {
+    private void getDataFromNetByRetrofit() {
+        Retrofit retrofit=new Retrofit.Builder()
+                .baseUrl(Constants.DISCOVER_PAGER_URL)
+                .build();
+        Get_Request request = retrofit.create(Get_Request.class);
+        Call<ResponseBody> call = request.getCall();
+        call.enqueue(new Callback<ResponseBody>() {
             @Override
-            public void onSuccess(String result) {
-                LogUtil.e("使用xUtils3联网请求成功=="+result);
-                //缓存数据
-                CacheUtils.putString(context,Constants.DISCOVER_PAGER_URL,result);
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                try {
+                    String result=new String (response.body().bytes());
+                    Log.i(TAG, "onResponse: result==========="+result);
+                    //缓存数据
+                    CacheUtils.putString(context,Constants.DISCOVER_PAGER_URL,result);
 
-                processData(result);
-                //设置适配器
+                    processData(result);
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
 
             @Override
-            public void onError(Throwable ex, boolean isOnCallback) {
-                LogUtil.e("使用xUtils3联网请求失败=="+ex.getMessage());
-            }
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
 
-            @Override
-            public void onCancelled(CancelledException cex) {
-                LogUtil.e("使用xUtils3联网取消=="+cex.getMessage());
-            }
-
-            @Override
-            public void onFinished() {
-                LogUtil.e("使用xUtils3联网请求完成");
             }
         });
+
     }
 
     /**

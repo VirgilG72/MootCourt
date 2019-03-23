@@ -5,13 +5,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast;
 
 import com.example.a61979.mootcourt.activity.MainActivity;
-import com.example.a61979.mootcourt.utils.LogUtil;
-import com.mob.ums.OperationCallback;
-import com.mob.ums.User;
-import com.mob.ums.gui.UMSGUI;
 
 import java.lang.ref.WeakReference;
 
@@ -42,34 +37,7 @@ public class SplashActivity extends AppCompatActivity {
            if (activity!=null){
                switch (msg.what) {
                    case GO_HOME:
-                                           UMSGUI.showLogin(new OperationCallback<User>() {
-                                               @Override
-                                               public void onSuccess(User user) {
-                                                   super.onSuccess(user);
-                                                   LogUtil.e("user信息======" + user);
-                                                   String gender = user.gender.getName();
-                                                   System.out.println(gender);
-                                                   Toast.makeText(activity, "登陆成功", Toast.LENGTH_SHORT).show();
-                                                   gohome();
-                                               }
-
-                                               @Override
-                                               public void onFailed(Throwable throwable) {
-                                                   super.onFailed(throwable);
-                                                   LogUtil.e("异常信息======", throwable);
-                                                   Toast.makeText(activity, "登陆失败", Toast.LENGTH_SHORT).show();
-
-                                               }
-
-                                               @Override
-                                               public void onCancel() {
-                                                   super.onCancel();
-                                                   LogUtil.e("取消登录======");
-                                                   Toast.makeText(activity, "登陆取消", Toast.LENGTH_SHORT).show();
-
-                                               }
-                                           });
-                       //gohome();
+                       gohome();
                        break;
                    case GO_GUIDE:
                        break;

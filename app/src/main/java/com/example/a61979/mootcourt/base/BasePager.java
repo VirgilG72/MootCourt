@@ -10,8 +10,6 @@ import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.activity.BaseActivity;
 import com.example.a61979.mootcourt.activity.MainActivity;
 
-import org.xutils.x;
-
 /**
  * @author Admin
  * @version $Rev$
@@ -61,7 +59,7 @@ public class BasePager extends BaseActivity{
         ib_help = (ImageButton) view.findViewById(R.id.ib_help);
         fl_content = (FrameLayout) view.findViewById(R.id.fl_content);
 
-        x.view().inject(this,view);
+        //x.view().inject(this,view);
         ib_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

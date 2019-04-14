@@ -37,17 +37,28 @@
         </activity>
         <activity android:name=".activity.NewDetailActivity">
         </activity>
+        <activity android:name=".activity.Learn">
+        </activity>
         <activity android:name=".activity.WebViewActivity"/>
         <activity android:name=".activity.Start">
         </activity>
         <activity android:name=".activity.Famous">
         </activity>
-        <activity android:name=".activity.Learn">
-        </activity>
         <activity android:name=".activity.Law">
         </activity>
         <activity android:name=".activity.CourtGamesActivity">
         </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".RegisterActivity">
+        </activity>
+        <activity android:name=".activity.LawsActivity">
+        </activity>
+        <service
+            android:name="com.example.a61979.mootcourt.Download.DownloadService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
     </application>
 
 </manifest>

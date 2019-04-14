@@ -37,7 +37,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.0.2' // Retrofit库
 
     implementation 'com.squareup.okhttp3:okhttp:3.1.2'  // Okhttp库
-implementation 'com.github.bumptech.glide:glide:4.9.0' //glide
-annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.9.0' //glide
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
 
 }

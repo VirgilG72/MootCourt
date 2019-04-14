@@ -1,4 +1,4 @@
-include ':app', ':SlidingMenu_library', ':xutils', ':RefreshListView'
+include ':app', ':SlidingMenu_library', ':RefreshListView'
 include ':ViewPagerIndicator_library'
 include ':PullToRefresh_sample_library'
 include ':pullToRefreshListFragment'

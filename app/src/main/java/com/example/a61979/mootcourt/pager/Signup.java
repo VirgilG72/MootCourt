@@ -9,8 +9,10 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.base.BasePager;
+import com.example.a61979.mootcourt.utils.DensityUtil;
 import com.example.a61979.mootcourt.utils.LogUtil;
 
 /**
@@ -24,7 +26,8 @@ public class Signup extends BasePager {
 
 
     private ListView listview;
-
+    public String[] names=new String[]{"原审被告人顾雏军等虚报注册资本，违规披露、不披露重要信息，挪用资金再审","原审被告人张文中诈骗、单位行贿、挪用资金再审","迪奥尔公司商标申请驳回复审行政纠纷"};
+    public int[] ImagesIDs = new int[]{R.drawable.law1, R.drawable.law2, R.drawable.law3};
     public Signup(Context context) {
 
         super(context);
@@ -70,7 +73,7 @@ public class Signup extends BasePager {
     private class MysignupAdapter extends BaseAdapter {
         @Override
         public int getCount() {
-            return 10;
+            return 3;
         }
 
         @Override
@@ -105,6 +108,13 @@ public class Signup extends BasePager {
 
             }
             viewHolder.number.setText(i+1+"、");//定义序号
+            viewHolder.title.setText(names[i]);
+            Glide.with(context)
+                    .load(ImagesIDs[i])
+                    .override(DensityUtil.dip2px(context,100), DensityUtil.dip2px(context,100))
+                    .placeholder(R.drawable.news_pic_default)
+                    .error(R.drawable.news_pic_default)
+                    .into(viewHolder.pic);
 
             return view;
         }

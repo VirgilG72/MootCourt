@@ -15,7 +15,7 @@ import retrofit2.http.POST;
  */
 public interface register_interface {
    // @Headers({"Content-Type: application/json","Accept: application/json"})
-    @POST("register")
+@POST("register")
     Call<ResponseBody> getCall(@Body RequestBody route);
 
-}
+        }

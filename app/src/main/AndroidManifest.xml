@@ -54,11 +54,15 @@
         </activity>
         <activity android:name=".activity.LawsActivity">
         </activity>
+
         <service
-            android:name="com.example.a61979.mootcourt.Download.DownloadService"
+            android:name=".Download.DownloadService"
             android:enabled="true"
             android:exported="true">
         </service>
+
+        <activity android:name=".activity.GZHarticleActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -6,20 +6,26 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.SimpleAdapter;
+import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.activity.Famous;
+import com.example.a61979.mootcourt.activity.GZHarticleActivity;
 import com.example.a61979.mootcourt.activity.Law;
 import com.example.a61979.mootcourt.activity.Learn;
 import com.example.a61979.mootcourt.activity.Start;
 import com.example.a61979.mootcourt.base.BasePager;
 import com.example.a61979.mootcourt.utils.DensityUtil;
+import com.example.a61979.mootcourt.utils.LogUtil;
 import com.example.a61979.mootcourt.view.HeaderGridView;
 
 import java.util.ArrayList;
@@ -35,6 +41,7 @@ import java.util.Map;
  * @updateDes ${TODO}
  */
 public class HomePager extends BasePager {
+    private static final String TAG = "HomePager";
     private ViewPager viewpager;
     private LinearLayout ll_point_group;
     private HeaderGridView gridview;
@@ -50,8 +57,8 @@ public class HomePager extends BasePager {
     private MyHandler myHandler;
     private Intent intent;
    private List<Map<String,Object>> data =new ArrayList<Map<String,Object>>();
-    public int[] ids=new int[]{R.drawable.a1,R.drawable.b,R.drawable.c};
-    public String[] names=new String[]{"a","b","c"};
+    public int[] ids=new int[]{R.drawable.law1,R.drawable.law2,R.drawable.law3,R.drawable.law4};
+    public String[] names=new String[]{"雷庭君提问箱正式上线","法条整理（1、2期）","来自雷庭君的网购小tips","大家期待已久的《电子商务法》要来啦"};
 
     public HomePager(Context context) {
         super(context);
@@ -110,9 +117,21 @@ public class HomePager extends BasePager {
 
         viewpager.addOnPageChangeListener(new MyHomeOnPageChangeListener());
         gridview.addHeaderView(headerview);
+        gridview.setOnItemClickListener(new MyOnItemClickListener());
 
         return view;
 
+    }
+    private  class MyOnItemClickListener implements AdapterView.OnItemClickListener{
+
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            Log.i(TAG, "onItemClick position:=============== "+position);
+            Intent intent=new Intent(context,GZHarticleActivity.class);
+            intent.putExtra("url",position);
+            context.startActivity(intent);
+
+        }
     }
 
 
@@ -155,7 +174,7 @@ public class HomePager extends BasePager {
         //        textView.setText("主页面内容");
 
         if (!isLoad) {
-            ImagesIDs = new int[]{R.drawable.a1, R.drawable.b, R.drawable.c};
+            ImagesIDs = new int[]{R.drawable.lbt1, R.drawable.lbt2, R.drawable.lbt3};
             imageviews = new ArrayList<>();
             ImageView imageView;
             ImageView pointView;
@@ -193,9 +212,59 @@ public class HomePager extends BasePager {
         myHandler = new MyHandler();
         myHandler.sendEmptyMessageDelayed(0, 4000);
 
-       SimpleAdapter simpleAdapter = new SimpleAdapter(context, data, R.layout.item_gridview, new String[]{"id", "name"}, new int[]{R.id.iv_gridview, R.id.tv_gridview});
-        gridview.setAdapter(simpleAdapter);
+       //SimpleAdapter simpleAdapter = new SimpleAdapter(context, data, R.layout.item_gridview, new String[]{"id", "name"}, new int[]{R.id.iv_gridview, R.id.tv_gridview});
+        MyHomepagerAdapter adapter=new MyHomepagerAdapter();
+        gridview.setAdapter(adapter);
 
+    }
+    private class MyHomepagerAdapter extends BaseAdapter {
+
+        @Override
+        public int getCount() {
+            return 4;
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int position, View view, ViewGroup parent) {
+            ViewHolder viewHolder = new ViewHolder();
+            if(view==null){
+                LogUtil.e("第一次初始化listview========="+position);
+                view = View.inflate(context, R.layout.item_gridview, null);
+                viewHolder.tv_gridview=(TextView) view.findViewById(R.id.tv_gridview);
+                viewHolder.iv_gridview=(ImageView) view.findViewById(R.id.iv_gridview);
+                view.setTag(viewHolder);
+
+
+            }
+            else
+            {
+                LogUtil.e("复用listview=========");
+                viewHolder  = (ViewHolder) view.getTag();
+
+            }
+            viewHolder.tv_gridview.setText(names[position]);
+            Glide.with(context)
+                    .load(ids[position])
+                    .override(DensityUtil.dip2px(context,100), DensityUtil.dip2px(context,100))
+                    .placeholder(R.drawable.news_pic_default)
+                    .error(R.drawable.news_pic_default)
+                    .into(viewHolder.iv_gridview);
+            return view;
+        }
+    }
+    static class ViewHolder {
+        ImageView iv_gridview;
+        TextView tv_gridview;
     }
 
     /**

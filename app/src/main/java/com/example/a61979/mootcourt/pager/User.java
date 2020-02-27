@@ -61,30 +61,30 @@ public class User extends BasePager implements MyOneLineView.OnRootClickListener
         //使用示例，通过Java代码来创建MyOnelineView
         //icon + 文字 + 箭头
         ll_mine_item.addView(new MyOneLineView(context)
-                .initMine(R.drawable.mine_about_icon, "我的个人博客", "技术博文", true)
+                .initMine(R.drawable.mine_about_icon, "收藏", "", true)
                 .setOnRootClickListener(this, 1));
 
         ll_mine_item.addView(new MyOneLineView(context)
-                .initMine(R.drawable.mine_about_icon, "我的CSDN", "技术问 + 感想", true)
+                .initMine(R.drawable.mine_about_icon, "已阅", "", true)
                 .setOnRootClickListener(this, 2));
 
         ll_mine_item.addView(new MyOneLineView(context)
-                .initMine(R.drawable.mine_about_icon, "我的GitHub", "", true)
+                .initMine(R.drawable.mine_about_icon, "未阅", "", true)
                 .setOnRootClickListener(this, 3));
 
         ll_mine_item.addView(new MyOneLineView(context)
-                .initMine(R.drawable.mine_about_icon, "关于APP", "规划中", true)
+                .initMine(R.drawable.mine_about_icon, "用户须知", "", true)
                 .setDividerTopColor(R.color.gray2)
                 .showDivider(true,true)
                 .setDividerTopHigiht(10)
                 .setOnRootClickListener(this, 4));
 
         ll_mine_item.addView(new MyOneLineView(context)
-                .initMine(R.drawable.mine_version_update_icon, "版本更新", "规划中", true)
+                .initMine(R.drawable.mine_version_update_icon, "用户反馈", "", true)
                 .setOnRootClickListener(this, 5));
 
         ll_mine_item.addView(new MyOneLineView(context)
-                .initMine(R.drawable.mine_account_setting_icon, "账户设置", "规划中", true)
+                .initMine(R.drawable.mine_account_setting_icon, "账户设置", "", true)
                 .setOnRootClickListener(this, 6));
         fl_content.addView(view);
         return view;

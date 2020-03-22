@@ -31,8 +31,8 @@ public abstract class BaseFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return initView();
     }
-
     public abstract View initView();
+
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {

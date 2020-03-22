@@ -28,7 +28,7 @@ import java.util.ArrayList;
  * @updateAuthor $Author$
  * @updateDes ${TODO}
  */
-public class ContentFragment extends BaseFragment {
+public class     ContentFragment extends BaseFragment {
     //2、初始化控件
     private NoScrollViewPager viewpager;
 
@@ -41,7 +41,7 @@ public class ContentFragment extends BaseFragment {
     public View initView() {
         LogUtil.e("正文Fragment视图被初始化了");
         View view = View.inflate(context, R.layout.content_fragment, null);
-        viewpager= (NoScrollViewPager) view.findViewById(R.id.viewpager);
+        viewpager= (NoScrollViewPager) view.findViewById(R.id .viewpager);
         rg_main=(RadioGroup) view.findViewById(R.id.rg_main);
         //1、把视图注入到框架中，让此类和view关联起来
         //x.view().inject(this, view);
@@ -62,11 +62,11 @@ public class ContentFragment extends BaseFragment {
         basePagers.add(new User((context)));
 
 
-        //设置viewPager的适配器
+        //设置viewPager的适配器,执行initview()
         viewpager.setAdapter(new ContentFragmentAdapter(basePagers));
         //设置radiogroup的选中状态改变监听
         rg_main.setOnCheckedChangeListener(new MyOnCheckedChangeListener(viewpager, context));
-        //监听某个页面被选中，初始化对应的页面的数据
+        //监听某个页面被选中，初始化对应的页面的数据,执行initdata()
         viewpager.addOnPageChangeListener(new MyOnPageChangeListener(basePagers));
 
         //设置默认首选项

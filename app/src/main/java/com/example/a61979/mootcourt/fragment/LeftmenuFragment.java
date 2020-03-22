@@ -94,9 +94,9 @@ public class LeftmenuFragment extends BaseFragment {
         }
 
         //设置适配器
-        adapter = new LeftmenuFragmentAdapter();
+        adapter = new LeftmenuFragmentAdapter();//only change the color
         listview.setAdapter(adapter);
-    //设置默认页面
+    //设置默认页面,真正的切换
         switchPager(prePosition);
     }
 

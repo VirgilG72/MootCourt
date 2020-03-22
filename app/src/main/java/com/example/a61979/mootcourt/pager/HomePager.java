@@ -115,9 +115,9 @@ public class HomePager extends BasePager {
             }
         });
 
-        viewpager.addOnPageChangeListener(new MyHomeOnPageChangeListener());
-        gridview.addHeaderView(headerview);
-        gridview.setOnItemClickListener(new MyOnItemClickListener());
+        viewpager.addOnPageChangeListener(new MyHomeOnPageChangeListener());//轮播图变化监听，更改红点
+        gridview.addHeaderView(headerview);//精髓精髓精髓精髓精髓精髓精髓精髓精髓精髓精髓精髓
+        gridview.setOnItemClickListener(new MyOnItemClickListener());//Html
 
         return view;
 
@@ -207,13 +207,14 @@ public class HomePager extends BasePager {
      * 初始化适配器
      */
     private void initAdapter() {
+        //设置默认轮播图与红点
         ll_point_group.getChildAt(0).setEnabled(true);
         viewpager.setAdapter(new MyviewpagerAdapter());
         myHandler = new MyHandler();
         myHandler.sendEmptyMessageDelayed(0, 4000);
 
        //SimpleAdapter simpleAdapter = new SimpleAdapter(context, data, R.layout.item_gridview, new String[]{"id", "name"}, new int[]{R.id.iv_gridview, R.id.tv_gridview});
-        MyHomepagerAdapter adapter=new MyHomepagerAdapter();
+        MyHomepagerAdapter adapter=new MyHomepagerAdapter();//设置gridview
         gridview.setAdapter(adapter);
 
     }

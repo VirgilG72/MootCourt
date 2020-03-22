@@ -120,7 +120,7 @@ public class RefreshListview extends ListView {
     public void addTopNewsView(View topNewsView) {
         if(topNewsView!=null){
             this.topNewsView=topNewsView;
-            headerview.addView(topNewsView);
+            headerview.addView(topNewsView);//加到下拉刷新的下面！addView
         }
 
     }

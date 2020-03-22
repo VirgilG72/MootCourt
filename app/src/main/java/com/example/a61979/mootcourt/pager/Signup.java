@@ -59,7 +59,7 @@ public class Signup extends BasePager {
         fl_content.addView(view);
         initAdapter();
 
-        return view;
+        return view;//可不return view。
 
     }
 

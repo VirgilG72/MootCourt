@@ -457,12 +457,12 @@ public class TabDetailPager extends MenuDetailBasePager {
         @Override
         public void onPageSelected(int position) {
             //1.设置文本
-            tv_title.setText(topnews.get(position).getTitle());
-            //2.对应页面的红点高亮
-            //把之前的变成灰色
-            ll_point_group.getChildAt(prePosition).setEnabled(false);
-            //把当前设置红色
-            ll_point_group.getChildAt(position).setEnabled(true);
+                tv_title.setText(topnews.get(position).getTitle());
+                //2.对应页面的红点高亮
+                //把之前的变成灰色
+                ll_point_group.getChildAt(prePosition).setEnabled(false);
+                //把当前设置红色
+                ll_point_group.getChildAt(position).setEnabled(true);
 
             prePosition=position;
         }
@@ -538,7 +538,7 @@ public class TabDetailPager extends MenuDetailBasePager {
 
             //把图片添加到容器viewpager中
             container.addView(imageView);
-
+            //按下时，移除handler消息队列（目的是防止轮播，更加人性化）
             imageView.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
@@ -549,7 +549,7 @@ public class TabDetailPager extends MenuDetailBasePager {
                             internalhandler.removeCallbacksAndMessages(null);
 
                             break;
-
+            //离开时，恢复轮播
                         case MotionEvent.ACTION_UP:
                             LogUtil.e("离开");
                             //是把消息队列所有的消息和消息回调移除

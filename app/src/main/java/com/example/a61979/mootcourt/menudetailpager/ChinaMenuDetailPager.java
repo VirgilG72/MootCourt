@@ -82,7 +82,7 @@ public class ChinaMenuDetailPager extends MenuDetailBasePager {
         //ViewPager和TabPageIndicator关联
         tabPageIndicator.setViewPager(viewpager);
 
-        //注意：以后监听页面的变化 就用tabPageIndicator监听页面的变化
+        //注意：以后监听页面的变化 就用tabPageIndicator监听页面的变化 取代了viewpager
         tabPageIndicator.setOnPageChangeListener(new MyOnpageChangeListener());
     }
     private class MyOnpageChangeListener implements ViewPager.OnPageChangeListener {
@@ -93,7 +93,7 @@ public class ChinaMenuDetailPager extends MenuDetailBasePager {
 
         @Override
         public void onPageSelected(int position) {
-            if (position==0) {
+            if (position==0) {//“北京”才允许弹出菜单！！！
                 //slidingmenu可以全屏滑动
                 isEnableSlidingMenu(SlidingMenu.TOUCHMODE_FULLSCREEN);
 

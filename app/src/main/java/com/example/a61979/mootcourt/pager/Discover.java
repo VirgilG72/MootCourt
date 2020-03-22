@@ -81,7 +81,7 @@ public class Discover extends BasePager {
         textView.setText("发现内容");
         //4、获取缓存数据
         String saveJson = CacheUtils.getString(context, Constants.DISCOVER_PAGER_URL);
-        if (!TextUtils.isEmpty(saveJson))
+        if (!TextUtils.isEmpty(saveJson))//非空时才执行
         {
             processData(saveJson);
         }
@@ -269,7 +269,7 @@ public class Discover extends BasePager {
      */
     public void switchPager(int position) {
         //1.设置标题
-        tv_title.setText(data.get(position).getTitle());
+        tv_title.setText(data.get(position).getTitle());//标题栏
         //2.移除之前内容
         fl_content.removeAllViews();
 

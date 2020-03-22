@@ -24,7 +24,7 @@ public class Horizon extends BasePager {
     @Override
     public void initData() {
         super.initData();
-        Intent intent = new Intent(context,CourtGamesActivity.class);
+        Intent intent = new Intent(context, CourtGamesActivity.class);
         context.startActivity(intent);
 
 

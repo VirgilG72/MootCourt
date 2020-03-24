@@ -3,7 +3,7 @@ package com.example.a61979.mootcourt.pager;
 import android.content.Context;
 import android.content.Intent;
 
-import com.example.a61979.mootcourt.activity.CourtGamesActivity;
+import com.example.a61979.mootcourt.ForumActivity;
 import com.example.a61979.mootcourt.base.BasePager;
 
 /**
@@ -24,7 +24,7 @@ public class Horizon extends BasePager {
     @Override
     public void initData() {
         super.initData();
-        Intent intent = new Intent(context, CourtGamesActivity.class);
+        Intent intent = new Intent(context, ForumActivity.class);
         context.startActivity(intent);
 
 

@@ -20,7 +20,6 @@ import com.bumptech.glide.Glide;
 import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.activity.Famous;
 import com.example.a61979.mootcourt.activity.GZHarticleActivity;
-import com.example.a61979.mootcourt.activity.Law;
 import com.example.a61979.mootcourt.activity.Learn;
 import com.example.a61979.mootcourt.activity.Start;
 import com.example.a61979.mootcourt.base.BasePager;
@@ -110,7 +109,7 @@ public class HomePager extends BasePager {
         ib_law.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(context, Law.class);
+                intent = new Intent(context, Learn.class);
                 context.startActivity(intent);
             }
         });

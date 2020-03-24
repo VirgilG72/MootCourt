@@ -67,6 +67,8 @@
         </activity>
         <activity android:name=".ForumDetailActivity">
         </activity>
+        <activity android:name=".activity.SignupActivity">
+        </activity>
     </application>
 
 </manifest>

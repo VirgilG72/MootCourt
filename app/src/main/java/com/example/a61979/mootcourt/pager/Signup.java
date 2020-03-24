@@ -1,8 +1,11 @@
 package com.example.a61979.mootcourt.pager;
 
 import android.content.Context;
+import android.content.Intent;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -11,6 +14,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.a61979.mootcourt.R;
+import com.example.a61979.mootcourt.activity.SignupActivity;
 import com.example.a61979.mootcourt.base.BasePager;
 import com.example.a61979.mootcourt.utils.DensityUtil;
 import com.example.a61979.mootcourt.utils.LogUtil;
@@ -26,7 +30,7 @@ public class Signup extends BasePager {
 
 
     private ListView listview;
-    public String[] names=new String[]{"原审被告人顾雏军等虚报注册资本，违规披露、不披露重要信息，挪用资金再审","原审被告人张文中诈骗、单位行贿、挪用资金再审","迪奥尔公司商标申请驳回复审行政纠纷"};
+    public String[] names=new String[]{"夫妻一方以个人名义借款 债务应否共同承担","疫情中以危险方法危害公共安全罪与妨害传染病防治罪如何区分适用","司机在车辆卸沙过程中遭掩埋致死的保险责任认定"};
     public int[] ImagesIDs = new int[]{R.drawable.law1, R.drawable.law2, R.drawable.law3};
     public Signup(Context context) {
 
@@ -56,6 +60,7 @@ public class Signup extends BasePager {
 
         View headerview = View.inflate(context, R.layout.signup_topview, null);
         listview.addHeaderView(headerview);
+        listview.setOnItemClickListener(new MyOnItemClickonListener());
         fl_content.addView(view);
         initAdapter();
 
@@ -69,7 +74,19 @@ public class Signup extends BasePager {
 
     }
 
+    /*
+     *设置listview监听事件
+     * */
+    private class MyOnItemClickonListener implements AdapterView.OnItemClickListener {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+            Log.i("!", "onItemClick position:=============== "+position);
+            Intent intent=new Intent(context,SignupActivity.class);
+            intent.putExtra("url",position);
+            context.startActivity(intent);
+        }
+    }
     private class MysignupAdapter extends BaseAdapter {
         @Override
         public int getCount() {

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/title">
+                android:layout_height="60dp"
+                android:background="@color/title_line1">
 
     <TextView
         android:id="@+id/tv_title"
@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="我是标题"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="23sp"
         />
 
@@ -21,7 +21,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="8dp"
         android:background="@android:color/transparent"
-        android:src="@drawable/menu"
+        android:src="@drawable/menu3"
         android:visibility="gone"
         />
 

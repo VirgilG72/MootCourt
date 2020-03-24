@@ -30,7 +30,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/default_head"/>
+                android:src="@drawable/user_logo"/>
 
             <TextView
                 android:id="@+id/tv_mine_name"

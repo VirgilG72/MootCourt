@@ -56,24 +56,14 @@ public class Horizon extends BasePager {
         super(context);
     }
 
-    @Override
-    public View initView() {
-        View view = View.inflate(context, R.layout.activity_forum, null);
-        listview = view.findViewById(R.id.main_list_view);
-        bt_addforum = (FloatingActionButton) view.findViewById(R.id.bt_addforum);
-        bt_addforum.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showforumDialog();
-            }
-        });
-        return view;
 
-    }
+
 
     @Override
     public void initData() {
         super.initData();
+        initHorizonView();
+        tv_title.setText("论坛");
 //        Intent intent = new Intent(context, ForumActivity.class);
 //        context.startActivity(intent);
         forumdatas = new ArrayList<forumBean>();
@@ -105,6 +95,21 @@ public class Horizon extends BasePager {
 //        fl_content.addView(textView);
 //        //3、绑定数据
 //        textView.setText("视界内容");
+
+    }
+    public void initHorizonView() {
+        fl_content.removeAllViews();
+        View view = View.inflate(context, R.layout.activity_forum, null);
+        listview = view.findViewById(R.id.main_list_view);
+        bt_addforum = (FloatingActionButton) view.findViewById(R.id.bt_addforum);
+        bt_addforum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showforumDialog();
+            }
+        });
+        fl_content.addView(view);
+       // return view;
 
     }
     /*

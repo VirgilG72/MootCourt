@@ -74,6 +74,7 @@ public class ForumActivity extends AppCompatActivity {
                 showforumDialog();
             }
         });
+
         adapter = new MyAdapter();
         listview.setAdapter(adapter);
         listview.setOnItemClickListener(new MyOnItemClickonListener());

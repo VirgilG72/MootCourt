@@ -4,9 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import androidx.appcompat.app.AppCompatActivity;
 
 import java.lang.ref.WeakReference;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class SplashActivity extends AppCompatActivity {
@@ -45,7 +46,7 @@ public class SplashActivity extends AppCompatActivity {
        }
 
        private void gohome() {
-            Intent intent = new Intent(activity, LoginActivity.class);
+            Intent intent = new Intent(activity, Loginactivity2.class);
    //       Intent intent = new Intent(activity, MainActivity.class);
                activity.startActivity(intent);
          activity.finish();

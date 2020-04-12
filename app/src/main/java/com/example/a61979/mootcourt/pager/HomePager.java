@@ -4,8 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,9 +16,9 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.a61979.mootcourt.R;
+import com.example.a61979.mootcourt.activity.BLearn;
 import com.example.a61979.mootcourt.activity.Famous;
 import com.example.a61979.mootcourt.activity.GZHarticleActivity;
-import com.example.a61979.mootcourt.activity.Learn;
 import com.example.a61979.mootcourt.activity.Start;
 import com.example.a61979.mootcourt.base.BasePager;
 import com.example.a61979.mootcourt.utils.DensityUtil;
@@ -31,6 +29,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * @author Admin
@@ -102,14 +103,14 @@ public class HomePager extends BasePager {
         ib_learn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(context, Learn.class);
+                intent = new Intent(context, BLearn.class);
                 context.startActivity(intent);
             }
         });
         ib_law.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(context, Learn.class);
+                intent = new Intent(context, BLearn.class);
                 context.startActivity(intent);
             }
         });

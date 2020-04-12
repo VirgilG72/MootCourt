@@ -1,5 +1,7 @@
 package com.example.a61979.mootcourt.domain;
 
+import cn.bmob.v3.BmobObject;
+
 /**
  * @author Admin
  * @version $Rev$
@@ -7,18 +9,23 @@ package com.example.a61979.mootcourt.domain;
  * @updateAuthor $Author$
  * @updateDes ${TODO}
  */
-public class Laws {
-    private String newstitle;
-    public Laws(String newstitle){
-        this.newstitle=newstitle;
+public class Laws extends BmobObject {
+    private String Title;
+    private String Url;
 
+    public String getTitle() {
+        return Title;
     }
 
-    public String getNewstitle() {
-        return newstitle;
+    public void setTitle(String title) {
+        Title = title;
     }
 
-    public void setNewstitle(String newstitle) {
-        this.newstitle = newstitle;
+    public String getUrl() {
+        return Url;
+    }
+
+    public void setUrl(String url) {
+        Url = url;
     }
 }

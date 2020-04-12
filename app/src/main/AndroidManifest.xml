@@ -91,6 +91,8 @@
         </activity>
         <activity android:name=".view.Registeractivity2">
         </activity>
+        <activity android:name=".activity.BLearn">
+        </activity>
     </application>
 
 </manifest>

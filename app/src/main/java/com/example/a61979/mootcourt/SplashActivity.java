@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 
-import com.example.a61979.mootcourt.activity.MainActivity;
-
 import java.lang.ref.WeakReference;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -48,8 +46,8 @@ public class SplashActivity extends AppCompatActivity {
        }
 
        private void gohome() {
-   //         Intent intent = new Intent(activity, Loginactivity2.class);
-          Intent intent = new Intent(activity, MainActivity.class);
+         Intent intent = new Intent(activity, Loginactivity2.class);
+      //   Intent intent = new Intent(activity, MainActivity.class);
                activity.startActivity(intent);
          activity.finish();
 

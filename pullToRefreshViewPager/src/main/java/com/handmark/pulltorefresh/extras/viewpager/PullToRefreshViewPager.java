@@ -16,11 +16,12 @@
 package com.handmark.pulltorefresh.extras.viewpager;
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
+
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 public class PullToRefreshViewPager extends PullToRefreshBase<ViewPager> {
 

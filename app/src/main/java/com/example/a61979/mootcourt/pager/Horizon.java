@@ -4,7 +4,6 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,11 +19,19 @@ import android.widget.Toast;
 import com.example.a61979.mootcourt.ForumDetailActivity;
 import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.base.BasePager;
+import com.example.a61979.mootcourt.domain.BPost;
+import com.example.a61979.mootcourt.domain.BUser;
 import com.example.a61979.mootcourt.domain.forumbean.forumBean;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.FindListener;
+import cn.bmob.v3.listener.SaveListener;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
@@ -41,16 +48,17 @@ public class Horizon extends BasePager {
     public int[] images = new int[]{R.drawable.user_logo, R.drawable.user_other, R.drawable.user_1, R.drawable.user_2
             , R.drawable.user_3, R.drawable.user_4, R.drawable.user_5
     };
-    public String[] title = new String[]{"刘淑兰反应内蒙古杭锦后旗交警大队非法限制人生自由不让看病的事实",
-            "扬州市邗江区长钱锋方巷镇长书记村霸鱼肉百姓", "北京协和医院的司法保护伞不除，百姓难安，危害无穷！"
-            , "北京市高级人民法院再次受理本人再审申请，可喜可贺可悲！", "邓炯汉、覃勇、秦春林、韦志民、合伙损害中国共产党形象破坏司法公正！"
-            , "你打人骨折(鉴定轻伤),天津鸿顺里派出所于俊涛所长为你撑起保护伞,安(转载)", "天津鸿顺里派出所于俊涛所长: 你保护他们”故意伤害,”隐避些别公开呀"
-    };
-    public String[] username = new String[]{"法律尊严正义", "春茔匠", "小富即安W3", "人做诗与诗做人", "讲真理说真话",
-            "山岩石子", "漂泊玉树"};
+//    public String[] title = new String[]{"刘淑兰反应内蒙古杭锦后旗交警大队非法限制人生自由不让看病的事实",
+//            "扬州市邗江区长钱锋方巷镇长书记村霸鱼肉百姓", "北京协和医院的司法保护伞不除，百姓难安，危害无穷！"
+//            , "北京市高级人民法院再次受理本人再审申请，可喜可贺可悲！", "邓炯汉、覃勇、秦春林、韦志民、合伙损害中国共产党形象破坏司法公正！"
+//            , "你打人骨折(鉴定轻伤),天津鸿顺里派出所于俊涛所长为你撑起保护伞,安(转载)", "天津鸿顺里派出所于俊涛所长: 你保护他们”故意伤害,”隐避些别公开呀"
+//    };
+//    public String[] username = new String[]{"法律尊严正义", "春茔匠", "小富即安W3", "人做诗与诗做人", "讲真理说真话",
+//            "山岩石子", "漂泊玉树"};
     private MyAdapter adapter;
     private FloatingActionButton bt_addforum;
     private Dialog dialog2;
+    private BUser MyUser;
 
     public Horizon(Context context) {
         super(context);
@@ -67,21 +75,39 @@ public class Horizon extends BasePager {
 //        Intent intent = new Intent(context, ForumActivity.class);
 //        context.startActivity(intent);
         forumdatas = new ArrayList<forumBean>();
-        for (int i = 0; i < title.length; i++) {
+        BmobQuery<BPost> bmobQuery = new BmobQuery<>();
+        bmobQuery.include("author");
+        bmobQuery.findObjects(new FindListener<BPost>() {
+            @Override
+            public void done(List<BPost> object, BmobException e) {
+                if (e==null){
+                   // forumdatas.addAll(object);
+                    for (int i = 0; i < object.size(); i++) {
 
-            //添加数据
-            forumBean m = new forumBean("", "", "水光潋滟晴方好，山色空蒙雨亦奇。\n欲把西湖比西子，淡抹浓妆总相宜。");
-            m.setImageID(images[i]);
-            m.setTitle(title[i]);
-            m.setViewsCnt(String.valueOf(200 - i * 17));
-            m.setReplyCnt(String.valueOf(170 - i * 17));
-            m.setUsername("作者：" + username[i]);
-            forumdatas.add(m);
+                        //添加数据
+                        forumBean m = new forumBean("作者：" + object.get(i).getAuthor().getUsername(), object.get(i).getTitle()
+                                , object.get(i).getContent());
 
-        }
-        adapter = new MyAdapter();
-        listview.setAdapter(adapter);
-        listview.setOnItemClickListener(new MyOnItemClickonListener());
+                        m.setImageID(images[i%7]);
+                       // m.setTitle(title[i]);
+                        m.setViewsCnt(String.valueOf(200 - i * 17));
+                        m.setReplyCnt(String.valueOf(170 - i * 17));
+                       // m.setUsername("作者：" + username[i]);
+                        forumdatas.add(m);
+
+                    }
+                    Toast.makeText(context,"帖子查询成功："+ object.size(),Toast.LENGTH_SHORT).show();//debug:context中应该是context，而非Horizon.this
+                    adapter = new MyAdapter();
+                    listview.setAdapter(adapter);
+                    listview.setOnItemClickListener(new MyOnItemClickonListener());
+                }
+                else{
+                    Toast.makeText(context,"帖子查询失败："+ e.getMessage(),Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
 
 //        LogUtil.e("视图页面数据被初始化了。");
 //        //1、设置标题
@@ -108,6 +134,7 @@ public class Horizon extends BasePager {
                 showforumDialog();
             }
         });
+        MyUser=BmobUser.getCurrentUser(BUser.class);
         fl_content.addView(view);
        // return view;
 
@@ -221,9 +248,19 @@ public class Horizon extends BasePager {
 
                     //commentOnWork(commentContent);
                     dialog2.dismiss();
-                    forumBean detailBean = new forumBean("法律至上", forumTitle, forumContent);
-                    addTheforumData(detailBean);
-                    Toast.makeText(context, "发帖成功", Toast.LENGTH_SHORT).show();
+                    BPost bPost = new BPost();
+                    bPost.setTitle(forumTitle);
+                    bPost.setContent(forumContent);
+                    bPost.setAuthor(MyUser);
+                    bPost.save(new SaveListener<String>() {
+                        @Override
+                        public void done(String s, BmobException e) {
+                            forumBean detailBean = new forumBean(MyUser.getUsername(), forumTitle, forumContent);
+                            addTheforumData(detailBean);
+                            Toast.makeText(context, "发帖成功", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+
 
                 } else {
                     Toast.makeText(context, "标题/帖子内容不能为空", Toast.LENGTH_SHORT).show();

@@ -18,7 +18,17 @@ public class forumBean implements Serializable {
     private String replyCnt;
     private String username;
     private String content;
-    public forumBean(String name,String title,String content) {
+    private String objectId;
+
+    public String getObjectId() {
+        return objectId;
+    }
+
+    public void setObjectId(String objectId) {
+        this.objectId = objectId;
+    }
+
+    public forumBean(String name, String title, String content) {
         this.username=name;
         this.title=title;
         this.content=content;

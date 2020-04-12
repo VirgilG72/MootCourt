@@ -92,6 +92,7 @@ public class Horizon extends BasePager {
                        // m.setTitle(title[i]);
                         m.setViewsCnt(String.valueOf(200 - i * 17));
                         m.setReplyCnt(String.valueOf(170 - i * 17));
+                        m.setObjectId(object.get(i).getObjectId());
                        // m.setUsername("作者：" + username[i]);
                         forumdatas.add(m);
 
@@ -197,6 +198,7 @@ public class Horizon extends BasePager {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+            //Intent intent = new Intent(context, Forumdetailactivity2.class);
             Intent intent = new Intent(context, ForumDetailActivity.class);
             Bundle bundle = new Bundle();
             bundle.putSerializable("forum", forumdatas.get(position));
@@ -256,8 +258,9 @@ public class Horizon extends BasePager {
                         @Override
                         public void done(String s, BmobException e) {
                             forumBean detailBean = new forumBean(MyUser.getUsername(), forumTitle, forumContent);
+                            detailBean.setObjectId(s);
                             addTheforumData(detailBean);
-                            Toast.makeText(context, "发帖成功", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(context, "发帖成功"+s, Toast.LENGTH_SHORT).show();
                         }
                     });
 

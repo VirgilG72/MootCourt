@@ -2,8 +2,14 @@
 
 buildscript {
     repositories {
-        jcenter()
         google()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        jcenter()
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
@@ -18,6 +24,13 @@ buildscript {
 allprojects {
     repositories {
         google()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        //maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
+        maven {url 'https://dl.bintray.com/chaozhouzhang/maven' }
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
         jcenter()
     }
 }

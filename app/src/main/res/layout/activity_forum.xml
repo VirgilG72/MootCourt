@@ -15,7 +15,7 @@
         android:layout_height="match_parent">
 
     </ListView>
-<android.support.design.widget.CoordinatorLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_alignParentRight="true"
@@ -24,7 +24,7 @@
     android:layout_marginBottom="20dp"
     >
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/bt_addforum"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -37,7 +37,7 @@
         app:elevation="3dp"
         app:fabCustomSize="55dp"
         />
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
 </RelativeLayout>

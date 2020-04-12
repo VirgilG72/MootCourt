@@ -1,8 +1,6 @@
 package com.example.a61979.mootcourt.activity;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.Window;
 
 import com.example.a61979.mootcourt.R;
@@ -11,6 +9,9 @@ import com.example.a61979.mootcourt.fragment.LeftmenuFragment;
 import com.example.a61979.mootcourt.utils.DensityUtil;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
+
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 public class MainActivity extends SlidingFragmentActivity{
 

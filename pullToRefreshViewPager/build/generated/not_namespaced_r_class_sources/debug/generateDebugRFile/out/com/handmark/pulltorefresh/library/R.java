@@ -20,34 +20,34 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static int ptrAdapterViewBackground = 0x7f040012;
-        public static int ptrAnimationStyle = 0x7f040013;
-        public static int ptrDrawable = 0x7f040014;
-        public static int ptrDrawableBottom = 0x7f040015;
-        public static int ptrDrawableEnd = 0x7f040016;
-        public static int ptrDrawableStart = 0x7f040017;
-        public static int ptrDrawableTop = 0x7f040018;
-        public static int ptrHeaderBackground = 0x7f040019;
-        public static int ptrHeaderSubTextColor = 0x7f04001a;
-        public static int ptrHeaderTextAppearance = 0x7f04001b;
-        public static int ptrHeaderTextColor = 0x7f04001c;
-        public static int ptrListViewExtrasEnabled = 0x7f04001d;
-        public static int ptrMode = 0x7f04001e;
-        public static int ptrOverScroll = 0x7f04001f;
-        public static int ptrRefreshableViewBackground = 0x7f040020;
-        public static int ptrRotateDrawableWhilePulling = 0x7f040021;
-        public static int ptrScrollingWhileRefreshingEnabled = 0x7f040022;
-        public static int ptrShowIndicator = 0x7f040023;
-        public static int ptrSubHeaderTextAppearance = 0x7f040024;
+        public static int ptrAdapterViewBackground = 0x7f040013;
+        public static int ptrAnimationStyle = 0x7f040014;
+        public static int ptrDrawable = 0x7f040015;
+        public static int ptrDrawableBottom = 0x7f040016;
+        public static int ptrDrawableEnd = 0x7f040017;
+        public static int ptrDrawableStart = 0x7f040018;
+        public static int ptrDrawableTop = 0x7f040019;
+        public static int ptrHeaderBackground = 0x7f04001a;
+        public static int ptrHeaderSubTextColor = 0x7f04001b;
+        public static int ptrHeaderTextAppearance = 0x7f04001c;
+        public static int ptrHeaderTextColor = 0x7f04001d;
+        public static int ptrListViewExtrasEnabled = 0x7f04001e;
+        public static int ptrMode = 0x7f04001f;
+        public static int ptrOverScroll = 0x7f040020;
+        public static int ptrRefreshableViewBackground = 0x7f040021;
+        public static int ptrRotateDrawableWhilePulling = 0x7f040022;
+        public static int ptrScrollingWhileRefreshingEnabled = 0x7f040023;
+        public static int ptrShowIndicator = 0x7f040024;
+        public static int ptrSubHeaderTextAppearance = 0x7f040025;
     }
     public static final class dimen {
         private dimen() {}
 
-        public static int header_footer_left_right_padding = 0x7f080006;
-        public static int header_footer_top_bottom_padding = 0x7f080007;
-        public static int indicator_corner_radius = 0x7f080008;
-        public static int indicator_internal_padding = 0x7f080009;
-        public static int indicator_right_padding = 0x7f08000a;
+        public static int header_footer_left_right_padding = 0x7f080008;
+        public static int header_footer_top_bottom_padding = 0x7f080009;
+        public static int indicator_corner_radius = 0x7f08000a;
+        public static int indicator_internal_padding = 0x7f08000b;
+        public static int indicator_right_padding = 0x7f08000c;
     }
     public static final class drawable {
         private drawable() {}
@@ -89,7 +89,7 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static int[] PullToRefresh = { 0x7f040012, 0x7f040013, 0x7f040014, 0x7f040015, 0x7f040016, 0x7f040017, 0x7f040018, 0x7f040019, 0x7f04001a, 0x7f04001b, 0x7f04001c, 0x7f04001d, 0x7f04001e, 0x7f04001f, 0x7f040020, 0x7f040021, 0x7f040022, 0x7f040023, 0x7f040024 };
+        public static int[] PullToRefresh = { 0x7f040013, 0x7f040014, 0x7f040015, 0x7f040016, 0x7f040017, 0x7f040018, 0x7f040019, 0x7f04001a, 0x7f04001b, 0x7f04001c, 0x7f04001d, 0x7f04001e, 0x7f04001f, 0x7f040020, 0x7f040021, 0x7f040022, 0x7f040023, 0x7f040024, 0x7f040025 };
         public static int PullToRefresh_ptrAdapterViewBackground = 0;
         public static int PullToRefresh_ptrAnimationStyle = 1;
         public static int PullToRefresh_ptrDrawable = 2;

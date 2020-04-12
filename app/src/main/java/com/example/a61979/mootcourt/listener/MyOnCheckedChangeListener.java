@@ -1,7 +1,7 @@
 package com.example.a61979.mootcourt.listener;
 
 import android.app.Activity;
-import android.support.annotation.IdRes;
+import androidx.annotation.IdRes;
 import android.widget.RadioGroup;
 
 import com.example.a61979.mootcourt.R;

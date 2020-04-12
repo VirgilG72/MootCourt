@@ -13,6 +13,7 @@ attr fontProviderFetchTimeout
 attr fontProviderPackage
 attr fontProviderQuery
 attr fontStyle
+attr fontVariationSettings
 attr fontWeight
 attr keylines
 attr layout_anchor
@@ -29,9 +30,9 @@ attr shadowWidth
 attr statusBarBackground
 attr touchModeAbove
 attr touchModeBehind
+attr ttcIndex
 attr viewAbove
 attr viewBehind
-bool abc_action_bar_embed_tabs
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
@@ -44,6 +45,8 @@ dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
 dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
+dimen compat_notification_large_icon_max_height
+dimen compat_notification_large_icon_max_width
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -59,6 +62,9 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -148,5 +154,5 @@ style Widget_Support_CoordinatorLayout
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
-styleable FontFamilyFont android_font android_fontStyle android_fontWeight font fontStyle fontWeight
+styleable FontFamilyFont android_font android_fontStyle android_fontVariationSettings android_fontWeight android_ttcIndex font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable SlidingMenu behindOffset behindScrollScale behindWidth fadeDegree fadeEnabled mode selectorDrawable selectorEnabled shadowDrawable shadowWidth touchModeAbove touchModeBehind viewAbove viewBehind

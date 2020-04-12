@@ -7,7 +7,7 @@
         app:showAsAction="always"
         android:icon="@drawable/search"
         android:orderInCategory="100"
-        app:actionViewClass="android.support.v7.widget.SearchView"/>
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
     <item
         android:id="@+id/help"
         android:title="新手指南"

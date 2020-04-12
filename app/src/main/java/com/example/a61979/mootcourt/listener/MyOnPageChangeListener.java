@@ -1,6 +1,6 @@
 package com.example.a61979.mootcourt.listener;
 
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 
 import com.example.a61979.mootcourt.base.BasePager;
 

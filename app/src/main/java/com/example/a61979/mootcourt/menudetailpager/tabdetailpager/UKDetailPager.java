@@ -1,8 +1,8 @@
 package com.example.a61979.mootcourt.menudetailpager.tabdetailpager;
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;

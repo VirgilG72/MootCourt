@@ -26,29 +26,26 @@ public final class R {
         public static int fontProviderPackage = 0x7f04000c;
         public static int fontProviderQuery = 0x7f04000d;
         public static int fontStyle = 0x7f04000e;
-        public static int fontWeight = 0x7f04000f;
-        public static int keylines = 0x7f040010;
-        public static int layout_anchor = 0x7f040011;
-        public static int layout_anchorGravity = 0x7f040012;
-        public static int layout_behavior = 0x7f040013;
-        public static int layout_dodgeInsetEdges = 0x7f040014;
-        public static int layout_insetEdge = 0x7f040015;
-        public static int layout_keyline = 0x7f040016;
-        public static int mode = 0x7f040017;
-        public static int selectorDrawable = 0x7f040018;
-        public static int selectorEnabled = 0x7f040019;
-        public static int shadowDrawable = 0x7f04001a;
-        public static int shadowWidth = 0x7f04001b;
-        public static int statusBarBackground = 0x7f04001c;
-        public static int touchModeAbove = 0x7f04001d;
-        public static int touchModeBehind = 0x7f04001e;
-        public static int viewAbove = 0x7f04001f;
-        public static int viewBehind = 0x7f040020;
-    }
-    public static final class bool {
-        private bool() {}
-
-        public static int abc_action_bar_embed_tabs = 0x7f050001;
+        public static int fontVariationSettings = 0x7f04000f;
+        public static int fontWeight = 0x7f040010;
+        public static int keylines = 0x7f040011;
+        public static int layout_anchor = 0x7f040012;
+        public static int layout_anchorGravity = 0x7f040013;
+        public static int layout_behavior = 0x7f040014;
+        public static int layout_dodgeInsetEdges = 0x7f040015;
+        public static int layout_insetEdge = 0x7f040016;
+        public static int layout_keyline = 0x7f040017;
+        public static int mode = 0x7f040018;
+        public static int selectorDrawable = 0x7f040019;
+        public static int selectorEnabled = 0x7f04001a;
+        public static int shadowDrawable = 0x7f04001b;
+        public static int shadowWidth = 0x7f04001c;
+        public static int statusBarBackground = 0x7f04001d;
+        public static int touchModeAbove = 0x7f04001e;
+        public static int touchModeBehind = 0x7f04001f;
+        public static int ttcIndex = 0x7f040020;
+        public static int viewAbove = 0x7f040021;
+        public static int viewBehind = 0x7f040022;
     }
     public static final class color {
         private color() {}
@@ -69,21 +66,26 @@ public final class R {
         public static int compat_button_padding_horizontal_material = 0x7f080003;
         public static int compat_button_padding_vertical_material = 0x7f080004;
         public static int compat_control_corner_material = 0x7f080005;
-        public static int notification_action_icon_size = 0x7f080006;
-        public static int notification_action_text_size = 0x7f080007;
-        public static int notification_big_circle_margin = 0x7f080008;
-        public static int notification_content_margin_start = 0x7f080009;
-        public static int notification_large_icon_height = 0x7f08000a;
-        public static int notification_large_icon_width = 0x7f08000b;
-        public static int notification_main_column_padding_top = 0x7f08000c;
-        public static int notification_media_narrow_margin = 0x7f08000d;
-        public static int notification_right_icon_size = 0x7f08000e;
-        public static int notification_right_side_padding_top = 0x7f08000f;
-        public static int notification_small_icon_background_padding = 0x7f080010;
-        public static int notification_small_icon_size_as_large = 0x7f080011;
-        public static int notification_subtext_size = 0x7f080012;
-        public static int notification_top_pad = 0x7f080013;
-        public static int notification_top_pad_large_text = 0x7f080014;
+        public static int compat_notification_large_icon_max_height = 0x7f080006;
+        public static int compat_notification_large_icon_max_width = 0x7f080007;
+        public static int notification_action_icon_size = 0x7f080008;
+        public static int notification_action_text_size = 0x7f080009;
+        public static int notification_big_circle_margin = 0x7f08000a;
+        public static int notification_content_margin_start = 0x7f08000b;
+        public static int notification_large_icon_height = 0x7f08000c;
+        public static int notification_large_icon_width = 0x7f08000d;
+        public static int notification_main_column_padding_top = 0x7f08000e;
+        public static int notification_media_narrow_margin = 0x7f08000f;
+        public static int notification_right_icon_size = 0x7f080010;
+        public static int notification_right_side_padding_top = 0x7f080011;
+        public static int notification_small_icon_background_padding = 0x7f080012;
+        public static int notification_small_icon_size_as_large = 0x7f080013;
+        public static int notification_subtext_size = 0x7f080014;
+        public static int notification_top_pad = 0x7f080015;
+        public static int notification_top_pad_large_text = 0x7f080016;
+        public static int subtitle_outline_width = 0x7f080017;
+        public static int subtitle_shadow_offset = 0x7f080018;
+        public static int subtitle_shadow_radius = 0x7f080019;
     }
     public static final class drawable {
         private drawable() {}
@@ -198,10 +200,10 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static int[] CoordinatorLayout = { 0x7f040010, 0x7f04001c };
+        public static int[] CoordinatorLayout = { 0x7f040011, 0x7f04001d };
         public static int CoordinatorLayout_keylines = 0;
         public static int CoordinatorLayout_statusBarBackground = 1;
-        public static int[] CoordinatorLayout_Layout = { 0x10100b3, 0x7f040011, 0x7f040012, 0x7f040013, 0x7f040014, 0x7f040015, 0x7f040016 };
+        public static int[] CoordinatorLayout_Layout = { 0x10100b3, 0x7f040012, 0x7f040013, 0x7f040014, 0x7f040015, 0x7f040016, 0x7f040017 };
         public static int CoordinatorLayout_Layout_android_layout_gravity = 0;
         public static int CoordinatorLayout_Layout_layout_anchor = 1;
         public static int CoordinatorLayout_Layout_layout_anchorGravity = 2;
@@ -216,14 +218,18 @@ public final class R {
         public static int FontFamily_fontProviderFetchTimeout = 3;
         public static int FontFamily_fontProviderPackage = 4;
         public static int FontFamily_fontProviderQuery = 5;
-        public static int[] FontFamilyFont = { 0x1010532, 0x101053f, 0x1010533, 0x7f040007, 0x7f04000e, 0x7f04000f };
+        public static int[] FontFamilyFont = { 0x1010532, 0x101053f, 0x0, 0x1010533, 0x0, 0x7f040007, 0x7f04000e, 0x7f04000f, 0x7f040010, 0x7f040020 };
         public static int FontFamilyFont_android_font = 0;
         public static int FontFamilyFont_android_fontStyle = 1;
-        public static int FontFamilyFont_android_fontWeight = 2;
-        public static int FontFamilyFont_font = 3;
-        public static int FontFamilyFont_fontStyle = 4;
-        public static int FontFamilyFont_fontWeight = 5;
-        public static int[] SlidingMenu = { 0x7f040001, 0x7f040002, 0x7f040003, 0x7f040005, 0x7f040006, 0x7f040017, 0x7f040018, 0x7f040019, 0x7f04001a, 0x7f04001b, 0x7f04001d, 0x7f04001e, 0x7f04001f, 0x7f040020 };
+        public static int FontFamilyFont_android_fontVariationSettings = 2;
+        public static int FontFamilyFont_android_fontWeight = 3;
+        public static int FontFamilyFont_android_ttcIndex = 4;
+        public static int FontFamilyFont_font = 5;
+        public static int FontFamilyFont_fontStyle = 6;
+        public static int FontFamilyFont_fontVariationSettings = 7;
+        public static int FontFamilyFont_fontWeight = 8;
+        public static int FontFamilyFont_ttcIndex = 9;
+        public static int[] SlidingMenu = { 0x7f040001, 0x7f040002, 0x7f040003, 0x7f040005, 0x7f040006, 0x7f040018, 0x7f040019, 0x7f04001a, 0x7f04001b, 0x7f04001c, 0x7f04001e, 0x7f04001f, 0x7f040021, 0x7f040022 };
         public static int SlidingMenu_behindOffset = 0;
         public static int SlidingMenu_behindScrollScale = 1;
         public static int SlidingMenu_behindWidth = 2;

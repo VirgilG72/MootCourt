@@ -29,39 +29,36 @@ public final class R {
         public static int fontProviderPackage = 0x7f040007;
         public static int fontProviderQuery = 0x7f040008;
         public static int fontStyle = 0x7f040009;
-        public static int fontWeight = 0x7f04000a;
-        public static int keylines = 0x7f04000b;
-        public static int layout_anchor = 0x7f04000c;
-        public static int layout_anchorGravity = 0x7f04000d;
-        public static int layout_behavior = 0x7f04000e;
-        public static int layout_dodgeInsetEdges = 0x7f04000f;
-        public static int layout_insetEdge = 0x7f040010;
-        public static int layout_keyline = 0x7f040011;
-        public static int ptrAdapterViewBackground = 0x7f040012;
-        public static int ptrAnimationStyle = 0x7f040013;
-        public static int ptrDrawable = 0x7f040014;
-        public static int ptrDrawableBottom = 0x7f040015;
-        public static int ptrDrawableEnd = 0x7f040016;
-        public static int ptrDrawableStart = 0x7f040017;
-        public static int ptrDrawableTop = 0x7f040018;
-        public static int ptrHeaderBackground = 0x7f040019;
-        public static int ptrHeaderSubTextColor = 0x7f04001a;
-        public static int ptrHeaderTextAppearance = 0x7f04001b;
-        public static int ptrHeaderTextColor = 0x7f04001c;
-        public static int ptrListViewExtrasEnabled = 0x7f04001d;
-        public static int ptrMode = 0x7f04001e;
-        public static int ptrOverScroll = 0x7f04001f;
-        public static int ptrRefreshableViewBackground = 0x7f040020;
-        public static int ptrRotateDrawableWhilePulling = 0x7f040021;
-        public static int ptrScrollingWhileRefreshingEnabled = 0x7f040022;
-        public static int ptrShowIndicator = 0x7f040023;
-        public static int ptrSubHeaderTextAppearance = 0x7f040024;
-        public static int statusBarBackground = 0x7f040025;
-    }
-    public static final class bool {
-        private bool() {}
-
-        public static int abc_action_bar_embed_tabs = 0x7f050001;
+        public static int fontVariationSettings = 0x7f04000a;
+        public static int fontWeight = 0x7f04000b;
+        public static int keylines = 0x7f04000c;
+        public static int layout_anchor = 0x7f04000d;
+        public static int layout_anchorGravity = 0x7f04000e;
+        public static int layout_behavior = 0x7f04000f;
+        public static int layout_dodgeInsetEdges = 0x7f040010;
+        public static int layout_insetEdge = 0x7f040011;
+        public static int layout_keyline = 0x7f040012;
+        public static int ptrAdapterViewBackground = 0x7f040013;
+        public static int ptrAnimationStyle = 0x7f040014;
+        public static int ptrDrawable = 0x7f040015;
+        public static int ptrDrawableBottom = 0x7f040016;
+        public static int ptrDrawableEnd = 0x7f040017;
+        public static int ptrDrawableStart = 0x7f040018;
+        public static int ptrDrawableTop = 0x7f040019;
+        public static int ptrHeaderBackground = 0x7f04001a;
+        public static int ptrHeaderSubTextColor = 0x7f04001b;
+        public static int ptrHeaderTextAppearance = 0x7f04001c;
+        public static int ptrHeaderTextColor = 0x7f04001d;
+        public static int ptrListViewExtrasEnabled = 0x7f04001e;
+        public static int ptrMode = 0x7f04001f;
+        public static int ptrOverScroll = 0x7f040020;
+        public static int ptrRefreshableViewBackground = 0x7f040021;
+        public static int ptrRotateDrawableWhilePulling = 0x7f040022;
+        public static int ptrScrollingWhileRefreshingEnabled = 0x7f040023;
+        public static int ptrShowIndicator = 0x7f040024;
+        public static int ptrSubHeaderTextAppearance = 0x7f040025;
+        public static int statusBarBackground = 0x7f040026;
+        public static int ttcIndex = 0x7f040027;
     }
     public static final class color {
         private color() {}
@@ -82,26 +79,31 @@ public final class R {
         public static int compat_button_padding_horizontal_material = 0x7f080003;
         public static int compat_button_padding_vertical_material = 0x7f080004;
         public static int compat_control_corner_material = 0x7f080005;
-        public static int header_footer_left_right_padding = 0x7f080006;
-        public static int header_footer_top_bottom_padding = 0x7f080007;
-        public static int indicator_corner_radius = 0x7f080008;
-        public static int indicator_internal_padding = 0x7f080009;
-        public static int indicator_right_padding = 0x7f08000a;
-        public static int notification_action_icon_size = 0x7f08000b;
-        public static int notification_action_text_size = 0x7f08000c;
-        public static int notification_big_circle_margin = 0x7f08000d;
-        public static int notification_content_margin_start = 0x7f08000e;
-        public static int notification_large_icon_height = 0x7f08000f;
-        public static int notification_large_icon_width = 0x7f080010;
-        public static int notification_main_column_padding_top = 0x7f080011;
-        public static int notification_media_narrow_margin = 0x7f080012;
-        public static int notification_right_icon_size = 0x7f080013;
-        public static int notification_right_side_padding_top = 0x7f080014;
-        public static int notification_small_icon_background_padding = 0x7f080015;
-        public static int notification_small_icon_size_as_large = 0x7f080016;
-        public static int notification_subtext_size = 0x7f080017;
-        public static int notification_top_pad = 0x7f080018;
-        public static int notification_top_pad_large_text = 0x7f080019;
+        public static int compat_notification_large_icon_max_height = 0x7f080006;
+        public static int compat_notification_large_icon_max_width = 0x7f080007;
+        public static int header_footer_left_right_padding = 0x7f080008;
+        public static int header_footer_top_bottom_padding = 0x7f080009;
+        public static int indicator_corner_radius = 0x7f08000a;
+        public static int indicator_internal_padding = 0x7f08000b;
+        public static int indicator_right_padding = 0x7f08000c;
+        public static int notification_action_icon_size = 0x7f08000d;
+        public static int notification_action_text_size = 0x7f08000e;
+        public static int notification_big_circle_margin = 0x7f08000f;
+        public static int notification_content_margin_start = 0x7f080010;
+        public static int notification_large_icon_height = 0x7f080011;
+        public static int notification_large_icon_width = 0x7f080012;
+        public static int notification_main_column_padding_top = 0x7f080013;
+        public static int notification_media_narrow_margin = 0x7f080014;
+        public static int notification_right_icon_size = 0x7f080015;
+        public static int notification_right_side_padding_top = 0x7f080016;
+        public static int notification_small_icon_background_padding = 0x7f080017;
+        public static int notification_small_icon_size_as_large = 0x7f080018;
+        public static int notification_subtext_size = 0x7f080019;
+        public static int notification_top_pad = 0x7f08001a;
+        public static int notification_top_pad_large_text = 0x7f08001b;
+        public static int subtitle_outline_width = 0x7f08001c;
+        public static int subtitle_shadow_offset = 0x7f08001d;
+        public static int subtitle_shadow_radius = 0x7f08001e;
     }
     public static final class drawable {
         private drawable() {}
@@ -234,10 +236,10 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static int[] CoordinatorLayout = { 0x7f04000b, 0x7f040025 };
+        public static int[] CoordinatorLayout = { 0x7f04000c, 0x7f040026 };
         public static int CoordinatorLayout_keylines = 0;
         public static int CoordinatorLayout_statusBarBackground = 1;
-        public static int[] CoordinatorLayout_Layout = { 0x10100b3, 0x7f04000c, 0x7f04000d, 0x7f04000e, 0x7f04000f, 0x7f040010, 0x7f040011 };
+        public static int[] CoordinatorLayout_Layout = { 0x10100b3, 0x7f04000d, 0x7f04000e, 0x7f04000f, 0x7f040010, 0x7f040011, 0x7f040012 };
         public static int CoordinatorLayout_Layout_android_layout_gravity = 0;
         public static int CoordinatorLayout_Layout_layout_anchor = 1;
         public static int CoordinatorLayout_Layout_layout_anchorGravity = 2;
@@ -252,14 +254,18 @@ public final class R {
         public static int FontFamily_fontProviderFetchTimeout = 3;
         public static int FontFamily_fontProviderPackage = 4;
         public static int FontFamily_fontProviderQuery = 5;
-        public static int[] FontFamilyFont = { 0x1010532, 0x101053f, 0x1010533, 0x7f040002, 0x7f040009, 0x7f04000a };
+        public static int[] FontFamilyFont = { 0x1010532, 0x101053f, 0x0, 0x1010533, 0x0, 0x7f040002, 0x7f040009, 0x7f04000a, 0x7f04000b, 0x7f040027 };
         public static int FontFamilyFont_android_font = 0;
         public static int FontFamilyFont_android_fontStyle = 1;
-        public static int FontFamilyFont_android_fontWeight = 2;
-        public static int FontFamilyFont_font = 3;
-        public static int FontFamilyFont_fontStyle = 4;
-        public static int FontFamilyFont_fontWeight = 5;
-        public static int[] PullToRefresh = { 0x7f040012, 0x7f040013, 0x7f040014, 0x7f040015, 0x7f040016, 0x7f040017, 0x7f040018, 0x7f040019, 0x7f04001a, 0x7f04001b, 0x7f04001c, 0x7f04001d, 0x7f04001e, 0x7f04001f, 0x7f040020, 0x7f040021, 0x7f040022, 0x7f040023, 0x7f040024 };
+        public static int FontFamilyFont_android_fontVariationSettings = 2;
+        public static int FontFamilyFont_android_fontWeight = 3;
+        public static int FontFamilyFont_android_ttcIndex = 4;
+        public static int FontFamilyFont_font = 5;
+        public static int FontFamilyFont_fontStyle = 6;
+        public static int FontFamilyFont_fontVariationSettings = 7;
+        public static int FontFamilyFont_fontWeight = 8;
+        public static int FontFamilyFont_ttcIndex = 9;
+        public static int[] PullToRefresh = { 0x7f040013, 0x7f040014, 0x7f040015, 0x7f040016, 0x7f040017, 0x7f040018, 0x7f040019, 0x7f04001a, 0x7f04001b, 0x7f04001c, 0x7f04001d, 0x7f04001e, 0x7f04001f, 0x7f040020, 0x7f040021, 0x7f040022, 0x7f040023, 0x7f040024, 0x7f040025 };
         public static int PullToRefresh_ptrAdapterViewBackground = 0;
         public static int PullToRefresh_ptrAnimationStyle = 1;
         public static int PullToRefresh_ptrDrawable = 2;

@@ -20,6 +20,7 @@ import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.adapter.CommentExpandAdapter;
 import com.example.a61979.mootcourt.domain.BComment;
 import com.example.a61979.mootcourt.domain.BPost;
+import com.example.a61979.mootcourt.domain.BReply;
 import com.example.a61979.mootcourt.domain.BUser;
 import com.example.a61979.mootcourt.domain.forumbean.CommentBean;
 import com.example.a61979.mootcourt.domain.forumbean.CommentDetailBean;
@@ -120,6 +121,24 @@ public class Forumdetailactivity2 extends AppCompatActivity {
         setContentView(R.layout.forumdetailactivity_main);
         MyUser=BmobUser.getCurrentUser(BUser.class);
         initView();
+//        BComment bComment = new BComment();
+//        bComment.setObjectId("yiKM333U");
+//        List<BReply> replylist = new ArrayList<BReply>();
+//        for (int i = 0; i < 2; i++) {
+//            replylist.add(new BReply("test"+i,MyUser));
+//        }
+//        bComment.addAll("replylist",replylist);
+//        bComment.update(new UpdateListener() {
+//            @Override
+//            public void done(BmobException e) {
+//                if (e==null){
+//                    Toast.makeText(Forumdetailactivity2.this,"Reply添加成功",Toast.LENGTH_SHORT).show();
+//                }
+//                else{
+//                    Toast.makeText(Forumdetailactivity2.this,"Reply添加失败："+ e.getMessage(),Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
     }
 
     private void initView() {
@@ -155,6 +174,16 @@ public class Forumdetailactivity2 extends AppCompatActivity {
                         CommentDetailBean m= new CommentDetailBean(object.get(i).getAuthor().getUsername(),object.get(i).getContent(),
                                 object.get(i).getCreatedAt());
                         m.setId(i);
+                        List<ReplyDetailBean> replylistapp=new ArrayList<ReplyDetailBean>();
+                        if (object.get(i).getReplylist()!=null){
+                            List<BReply> replylist= object.get(i).getReplylist();
+                            for (int j = 0; j <replylist.size() ; j++) {
+                                ReplyDetailBean r=new ReplyDetailBean( replylist.get(j).getAuthor().getUsername(),replylist.get(j).getContent());
+                                replylistapp.add(r);
+                            }
+                            m.setReplyList(replylistapp);
+                        }
+
                        // m.setReplyList();
                         commentsList.add(m);
 

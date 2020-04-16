@@ -13,7 +13,10 @@ public class BReply extends BmobObject {
     private BUser author;
     private BComment comment;
     private String content;
-
+    public BReply(String content,BUser author){
+        this.content=content;
+        this.author=author;
+    }
     public BUser getAuthor() {
         return author;
     }

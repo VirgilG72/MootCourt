@@ -1,5 +1,7 @@
 package com.example.a61979.mootcourt.domain;
 
+import java.util.List;
+
 import cn.bmob.v3.BmobObject;
 
 /**
@@ -13,6 +15,15 @@ public class BComment extends BmobObject {
     private  String content;
     private  BUser author;
     private BPost post;
+    private List<BReply> replylist;
+
+    public List<BReply> getReplylist() {
+        return replylist;
+    }
+
+    public void setReplylist(List<BReply> replylist) {
+        this.replylist = replylist;
+    }
 
     public String getContent() {
         return content;

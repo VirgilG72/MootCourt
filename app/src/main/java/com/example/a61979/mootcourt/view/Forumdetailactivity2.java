@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.adapter.CommentExpandAdapter;
 import com.example.a61979.mootcourt.domain.BComment;
+import com.example.a61979.mootcourt.domain.BPost;
 import com.example.a61979.mootcourt.domain.BUser;
 import com.example.a61979.mootcourt.domain.forumbean.CommentBean;
 import com.example.a61979.mootcourt.domain.forumbean.CommentDetailBean;
@@ -29,6 +30,7 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -37,6 +39,7 @@ import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
+import cn.bmob.v3.listener.SaveListener;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Forumdetailactivity2 extends AppCompatActivity {
@@ -109,6 +112,7 @@ public class Forumdetailactivity2 extends AppCompatActivity {
     private TextView detailstory;
     private forumBean forumdata;
     private BUser MyUser;
+    private BPost MyPost;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,6 +123,7 @@ public class Forumdetailactivity2 extends AppCompatActivity {
     }
 
     private void initView() {
+        commentsList=new ArrayList<CommentDetailBean>();
         detailuserLogo = (CircleImageView)findViewById(R.id.detail_page_userLogo);
         detailuserName = (TextView)findViewById(R.id.detail_page_userName);
         detailtitle = (TextView)findViewById(R.id.detail_page_title);
@@ -145,6 +150,7 @@ public class Forumdetailactivity2 extends AppCompatActivity {
             @Override
             public void done(List<BComment> object, BmobException e) {
                 if (e==null){
+                  //  MyPost=object.get(0)
                     for (int i = 0; i < object.size(); i++) {
                         CommentDetailBean m= new CommentDetailBean(object.get(i).getAuthor().getUsername(),object.get(i).getContent(),
                                 object.get(i).getCreatedAt());
@@ -153,6 +159,7 @@ public class Forumdetailactivity2 extends AppCompatActivity {
                         commentsList.add(m);
 
                     }
+                    initExpandableListView(commentsList);
                     Toast.makeText(Forumdetailactivity2.this,"Comment详情查询成功："+ object.size(),Toast.LENGTH_SHORT).show();
                 }
                 else{
@@ -164,7 +171,7 @@ public class Forumdetailactivity2 extends AppCompatActivity {
 //        bmobQuery2.include("author,comment");
        // bmobQuery2.addWhereEqualTo("comment",forumdata.getObjectId());
         //commentsList = generateTestData();
-        initExpandableListView(commentsList);
+
     }
 
     private void initdetailpager() {
@@ -283,9 +290,21 @@ public class Forumdetailactivity2 extends AppCompatActivity {
 
                     //commentOnWork(commentContent);
                     dialog.dismiss();
-                    CommentDetailBean detailBean = new CommentDetailBean("小明", commentContent,"刚刚");
-                    adapter.addTheCommentData(detailBean);
-                    Toast.makeText(Forumdetailactivity2.this,"评论成功",Toast.LENGTH_SHORT).show();
+                    BPost bPost = new BPost();
+                    bPost.setObjectId(forumdata.getObjectId());
+                    BComment bComment = new BComment();
+                    bComment.setContent(commentContent);
+                    bComment.setAuthor(MyUser);
+                    bComment.setPost(bPost);
+                    bComment.save(new SaveListener<String>() {
+                        @Override
+                        public void done(String s, BmobException e) {
+                            CommentDetailBean detailBean = new CommentDetailBean(MyUser.getUsername(), commentContent,"刚刚");
+                            adapter.addTheCommentData(detailBean);
+                            Toast.makeText(Forumdetailactivity2.this,"评论成功",Toast.LENGTH_SHORT).show();
+                        }
+                    });
+
 
                 }else {
                     Toast.makeText(Forumdetailactivity2.this,"评论内容不能为空",Toast.LENGTH_SHORT).show();

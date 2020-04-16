@@ -46,8 +46,8 @@ public class SplashActivity extends AppCompatActivity {
        }
 
        private void gohome() {
-         Intent intent = new Intent(activity, Loginactivity2.class);
-      //   Intent intent = new Intent(activity, MainActivity.class);
+        Intent intent = new Intent(activity, Loginactivity2.class);
+      //  Intent intent = new Intent(activity, MainActivity.class);
                activity.startActivity(intent);
          activity.finish();
 

@@ -16,12 +16,12 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.a61979.mootcourt.ForumDetailActivity;
 import com.example.a61979.mootcourt.R;
 import com.example.a61979.mootcourt.base.BasePager;
 import com.example.a61979.mootcourt.domain.BPost;
 import com.example.a61979.mootcourt.domain.BUser;
 import com.example.a61979.mootcourt.domain.forumbean.forumBean;
+import com.example.a61979.mootcourt.view.Forumdetailactivity2;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -198,8 +198,8 @@ public class Horizon extends BasePager {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-            //Intent intent = new Intent(context, Forumdetailactivity2.class);
-            Intent intent = new Intent(context, ForumDetailActivity.class);
+            Intent intent = new Intent(context, Forumdetailactivity2.class);
+//            Intent intent = new Intent(context, ForumDetailActivity.class);
             Bundle bundle = new Bundle();
             bundle.putSerializable("forum", forumdatas.get(position));
             intent.putExtras(bundle);

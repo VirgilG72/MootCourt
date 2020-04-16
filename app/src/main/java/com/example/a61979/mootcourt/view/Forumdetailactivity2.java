@@ -41,6 +41,7 @@ import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.SaveListener;
+import cn.bmob.v3.listener.UpdateListener;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class Forumdetailactivity2 extends AppCompatActivity {
@@ -173,7 +174,7 @@ public class Forumdetailactivity2 extends AppCompatActivity {
                     for (int i = 0; i < object.size(); i++) {
                         CommentDetailBean m= new CommentDetailBean(object.get(i).getAuthor().getUsername(),object.get(i).getContent(),
                                 object.get(i).getCreatedAt());
-                        m.setId(i);
+                        m.setId(object.get(i).getObjectId());
                         List<ReplyDetailBean> replylistapp=new ArrayList<ReplyDetailBean>();
                         if (object.get(i).getReplylist()!=null){
                             List<BReply> replylist= object.get(i).getReplylist();
@@ -381,9 +382,18 @@ public class Forumdetailactivity2 extends AppCompatActivity {
                 if(!TextUtils.isEmpty(replyContent)){
 
                     dialog.dismiss();
-                    ReplyDetailBean detailBean = new ReplyDetailBean("小红",replyContent);
-                    adapter.addTheReplyData(detailBean, position);
-                    expandableListView.expandGroup(position);
+                    BComment bComment = new BComment();
+                    bComment.setObjectId(commentsList.get(position).getId());
+                    bComment.add("replylist",new BReply(replyContent,MyUser));
+                    bComment.update(new UpdateListener() {
+                        @Override
+                        public void done(BmobException e) {
+                            ReplyDetailBean detailBean = new ReplyDetailBean(MyUser.getUsername(),replyContent);
+                            adapter.addTheReplyData(detailBean, position);
+                            expandableListView.expandGroup(position);
+                        }
+                    });
+
                     Toast.makeText(Forumdetailactivity2.this,"回复成功",Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(Forumdetailactivity2.this,"回复内容不能为空",Toast.LENGTH_SHORT).show();
